@@ -20,17 +20,17 @@ Za vir podatkov bom uporabil spletno stran Kaggle (https://www.kaggle.com/unsdsn
 -	`Mesto na lestvici` - meritev
 -	`Rezultat stopnje sreče` - meritev: Rezultat, podan na lestvici od 1 – 10
 -	`BDP` - spremenljivka: V kolikšni meri BDP določene države vpliva na izračun stopnje sreče ljudi Družina – spremenljivka: V kolikšni meri pomen družine vpliva na izračun stopnje sreče ljudi
--	`Pričakovana življenjska doba` – spremenljivka: V kolikšni meri pričakovana življenjska doba vpliva na izračun stopnje sreče ljudi 
--	`Svoboda` – spremenljivka: V kolikšni meri svoboda odločanja vpliva na izračun stopnje sreče ljudi
--	`Korupcija` – spremenljivka: V kolikšni meri korupcija (oziroma njena odsotnost) vpliva na izračun stopnje sreče ljudi 
--	`Radodarnost` – spremenljivka: V kolikšni meri radodarnost ljudi vpliva na izračun stopnje sreče
--	`Dystopia + residual` – spremenljivka: V kolikšni meri rezultat države »Dystopia« in ocena napake prejšnjih meritev vpliva na izračun stopnje sreče ljudi
+-	`Pričakovana življenjska doba` - spremenljivka: V kolikšni meri pričakovana življenjska doba vpliva na izračun stopnje sreče ljudi 
+-	`Svoboda` - spremenljivka: V kolikšni meri svoboda odločanja vpliva na izračun stopnje sreče ljudi
+-	`Korupcija` - spremenljivka: V kolikšni meri korupcija (oziroma njena odsotnost) vpliva na izračun stopnje sreče ljudi 
+-	`Radodarnost` - spremenljivka: V kolikšni meri radodarnost ljudi vpliva na izračun stopnje sreče
+-	`Dystopia + residual` - spremenljivka: V kolikšni meri rezultat države »Dystopia« in ocena napake prejšnjih meritev vpliva na izračun stopnje sreče ljudi
 
 `Tabela 2`: Število ljudi po državah
--	`Država` – meritev: Država, ki jo preučujemo
--	`Št. ljudi (2016)` – spremenljivka: Število ljudi, ki živi v državi (merjeno 1. julija 2016)
--	`Št. ljudi (2017)` – spremenljivka: Število ljudi, ki živi v državi (merjeno 1. julija 2017)
--	`Razlika med letoma` – spremenljivka: Razlika med številom ljudi, ki živi v državi med letoma 2016 in 2017 (izraženo v procentih)
+-	`Država` - meritev: Država, ki jo preučujemo
+-	`Št. ljudi (2016)` - spremenljivka: Število ljudi, ki živi v državi (merjeno 1. julija 2016)
+-	`Št. ljudi (2017)` - spremenljivka: Število ljudi, ki živi v državi (merjeno 1. julija 2017)
+-	`Razlika med letoma` - spremenljivka: Razlika med številom ljudi, ki živi v državi med letoma 2016 in 2017 (izraženo v procentih)
 
 
 ## Program
