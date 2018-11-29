@@ -19,7 +19,8 @@ Za vir podatkov bom uporabil spletno stran Kaggle (https://www.kaggle.com/unsdsn
 -	`Regija` - parameter: regija sveta, v katero jo uvrščamo
 -	`Mesto na lestvici` - meritev
 -	`Rezultat stopnje sreče` - meritev: Rezultat, podan na lestvici od 1 – 10
--	`BDP` - spremenljivka: V kolikšni meri BDP določene države vpliva na izračun stopnje sreče ljudi Družina – spremenljivka: V kolikšni meri pomen družine vpliva na izračun stopnje sreče ljudi
+-	`BDP` - spremenljivka: V kolikšni meri BDP določene države vpliva na izračun stopnje sreče ljudi 
+- `Družina` – spremenljivka: V kolikšni meri pomen družine vpliva na izračun stopnje sreče ljudi
 -	`Pričakovana življenjska doba` - spremenljivka: V kolikšni meri pričakovana življenjska doba vpliva na izračun stopnje sreče ljudi 
 -	`Svoboda` - spremenljivka: V kolikšni meri svoboda odločanja vpliva na izračun stopnje sreče ljudi
 -	`Korupcija` - spremenljivka: V kolikšni meri korupcija (oziroma njena odsotnost) vpliva na izračun stopnje sreče ljudi 
