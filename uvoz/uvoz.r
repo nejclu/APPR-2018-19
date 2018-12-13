@@ -4,10 +4,14 @@ sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
 # Funkcija, ki uvozi občine iz Wikipedije
 uvozi.obcine <- function() {
-  link <- "http://sl.wikipedia.org/wiki/Seznam_ob%C4%8Din_v_Sloveniji"
+  link <- "https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)"
   stran <- html_session(link) %>% read_html()
-  tabela <- stran %>% html_nodes(xpath="//table[@class='wikitable sortable']") %>%
-    .[[1]] %>% html_table(dec=",")
+  tabela <- stran %>% html_nodes(xpath="//table[@class='wikitable sortable plainrowheaders']") %>%
+    .[[1]] %>% html_table() %>% transmute(drzava=`Country or area` %>% strapplyc("^([^[]*)") %>% unlist(),
+                                          prebivalstvo=`Population(1 July 2017)[3]` %>%
+                                            parse_number(locale=locale(grouping_mark=",")))
+  
+  
   for (i in 1:ncol(tabela)) {
     if (is.character(tabela[[i]])) {
       Encoding(tabela[[i]]) <- "UTF-8"
