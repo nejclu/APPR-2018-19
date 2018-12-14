@@ -1,13 +1,17 @@
 # 2. faza: Uvoz podatkov
 
-sl <- locale("sl", decimal_mark = ",", grouping_mark = ".")
+sl <- locale("sl", decimal_mark=",", grouping_mark=".")
 
 # Funkcija, ki uvozi občine iz Wikipedije
 uvozi.obcine <- function() {
-  link <- "http://sl.wikipedia.org/wiki/Seznam_ob%C4%8Din_v_Sloveniji"
+  link <- "https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)"
   stran <- html_session(link) %>% read_html()
-  tabela <- stran %>% html_nodes(xpath="//table[@class='wikitable sortable']") %>%
-    .[[1]] %>% html_table(dec = ",")
+  tabela <- stran %>% html_nodes(xpath="//table[@class='wikitable sortable plainrowheaders']") %>%
+    .[[1]] %>% html_table() %>% transmute(drzava=`Country or area` %>% strapplyc("^([^[]*)") %>% unlist(),
+                                          prebivalstvo=`Population(1 July 2017)[3]` %>%
+                                            parse_number(locale=locale(grouping_mark=",")))
+  
+  
   for (i in 1:ncol(tabela)) {
     if (is.character(tabela[[i]])) {
       Encoding(tabela[[i]]) <- "UTF-8"
@@ -19,7 +23,7 @@ uvozi.obcine <- function() {
   tabela$obcina[tabela$obcina == "Kanal ob Soči"] <- "Kanal"
   tabela$obcina[tabela$obcina == "Loški potok"] <- "Loški Potok"
   for (col in c("povrsina", "prebivalci", "gostota", "naselja", "ustanovitev")) {
-    tabela[[col]] <- parse_number(tabela[[col]], na = "-", locale = sl)
+    tabela[[col]] <- parse_number(tabela[[col]], na="-", locale=sl)
   }
   for (col in c("obcina", "pokrajina", "regija")) {
     tabela[[col]] <- factor(tabela[[col]])
@@ -29,15 +33,15 @@ uvozi.obcine <- function() {
 
 # Funkcija, ki uvozi podatke iz datoteke druzine.csv
 uvozi.druzine <- function(obcine) {
-  data <- read_csv2("podatki/druzine.csv", col_names = c("obcina", 1:4),
-                    locale = locale(encoding = "Windows-1250"))
+  data <- read_csv2("podatki/druzine.csv", col_names=c("obcina", 1:4),
+                    locale=locale(encoding="Windows-1250"))
   data$obcina <- data$obcina %>% strapplyc("^([^/]*)") %>% unlist() %>%
-    strapplyc("([^ ]+)") %>% sapply(paste, collapse = " ") %>% unlist()
+    strapplyc("([^ ]+)") %>% sapply(paste, collapse=" ") %>% unlist()
   data$obcina[data$obcina == "Sveti Jurij"] <- "Sveti Jurij ob Ščavnici"
-  data <- data %>% melt(id.vars = "obcina", variable.name = "velikost.druzine",
-                        value.name = "stevilo.druzin")
+  data <- data %>% melt(id.vars="obcina", variable.name="velikost.druzine",
+                        value.name="stevilo.druzin")
   data$velikost.druzine <- parse_number(data$velikost.druzine)
-  data$obcina <- factor(data$obcina, levels = obcine)
+  data$obcina <- factor(data$obcina, levels=obcine)
   return(data)
 }
 
