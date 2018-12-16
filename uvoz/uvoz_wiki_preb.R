@@ -13,7 +13,7 @@ tabela_preb <- stran %>% html_nodes(xpath="//table[@class='wikitable sortable pl
 
 
 #Preimenovanje drugega stolpca
-names(tabela_preb)[names(tabela_preb)=="prebivalstvo"] <- "Population-2016"
+names(tabela_preb)[names(tabela_preb)=="prebivalstvo"] <- "Population(2016)"
 
 #Odstrani prvo vrstico (podatek za svet)
 tabela_preb <- tabela_preb[-1,]
@@ -29,3 +29,6 @@ tabela_prir <- tabela_prir[-1,]
 
 #Tabeli s podatki o prebivalstvu dodamo stolpec o prirastu
 tabela_preb$Change <- tabela_prir$Change
+
+#Preimenovan tretji stolpec
+names(tabela_preb)[names(tabela_preb)=="Change"] <- "Change(2016/2017)"
