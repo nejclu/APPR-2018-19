@@ -1,55 +1,83 @@
-# 2. faza: Uvoz podatkov
+library(rvest)
+library(gsubfn)
+library(readr)
+library(dplyr)
 
-sl <- locale("sl", decimal_mark=",", grouping_mark=".")
+#Tabela s številom prebivalstva
+link <- "https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)"
+stran <- html_session(link) %>% read_html()
+tabela_preb <- stran %>% html_nodes(xpath="//table[@class='wikitable sortable plainrowheaders']") %>%
+  .[[1]] %>% html_table() %>% transmute(Country=`Country or area` %>% strapplyc("^([^[]*)") %>% unlist(),
+                                        prebivalstvo=`Population(1 July 2017)[3]` %>%
+                                          parse_number(locale=locale(grouping_mark=",")))
 
-# Funkcija, ki uvozi občine iz Wikipedije
-uvozi.obcine <- function() {
-  link <- "http://sl.wikipedia.org/wiki/Seznam_ob%C4%8Din_v_Sloveniji"
-  stran <- html_session(link) %>% read_html()
-  tabela <- stran %>% html_nodes(xpath="//table[@class='wikitable sortable']") %>%
-    .[[1]] %>% html_table(dec=",")
-  
-  for (i in 1:ncol(tabela)) {
-    if (is.character(tabela[[i]])) {
-      Encoding(tabela[[i]]) <- "UTF-8"
-    }
-  }
-  colnames(tabela) <- c("obcina", "povrsina", "prebivalci", "gostota", "naselja",
-                        "ustanovitev", "pokrajina", "regija", "odcepitev")
-  tabela$obcina <- gsub("Slovenskih", "Slov.", tabela$obcina)
-  tabela$obcina[tabela$obcina == "Kanal ob Soči"] <- "Kanal"
-  tabela$obcina[tabela$obcina == "Loški potok"] <- "Loški Potok"
-  for (col in c("povrsina", "prebivalci", "gostota", "naselja", "ustanovitev")) {
-    tabela[[col]] <- parse_number(tabela[[col]], na="-", locale=sl)
-  }
-  for (col in c("obcina", "pokrajina", "regija")) {
-    tabela[[col]] <- factor(tabela[[col]])
-  }
-  return(tabela)
-}
 
-# Funkcija, ki uvozi podatke iz datoteke druzine.csv
-uvozi.druzine <- function(obcine) {
-  data <- read_csv2("podatki/druzine.csv", col_names=c("obcina", 1:4),
-                    locale=locale(encoding="Windows-1250"))
-  data$obcina <- data$obcina %>% strapplyc("^([^/]*)") %>% unlist() %>%
-    strapplyc("([^ ]+)") %>% sapply(paste, collapse=" ") %>% unlist()
-  data$obcina[data$obcina == "Sveti Jurij"] <- "Sveti Jurij ob Ščavnici"
-  data <- data %>% melt(id.vars="obcina", variable.name="velikost.druzine",
-                        value.name="stevilo.druzin")
-  data$velikost.druzine <- parse_number(data$velikost.druzine)
-  data$obcina <- factor(data$obcina, levels=obcine)
-  return(data)
-}
+#Preimenovanje drugega stolpca
+names(tabela_preb)[names(tabela_preb)=="prebivalstvo"] <- "Population(2016)"
 
-# Zapišimo podatke v razpredelnico obcine
-obcine <- uvozi.obcine()
+#Odstrani prvo vrstico (podatek za svet)
+tabela_preb <- tabela_preb[-1,]
 
-# Zapišimo podatke v razpredelnico druzine.
-druzine <- uvozi.druzine(levels(obcine$obcina))
+#Tabela z naravnim prirastom
+tabela_prir <- stran %>% html_nodes(xpath="//table[@class='wikitable sortable plainrowheaders']") %>%
+  .[[1]] %>% html_table() %>% transmute(Country=`Country or area` %>% strapplyc("^([^[]*)") %>% unlist(),
+                                        Change=`Change` %>%
+                                          parse_number(locale=locale(grouping_mark=",")))
 
-# Če bi imeli več funkcij za uvoz in nekaterih npr. še ne bi
-# potrebovali v 3. fazi, bi bilo smiselno funkcije dati v svojo
-# datoteko, tukaj pa bi klicali tiste, ki jih potrebujemo v
-# 2. fazi. Seveda bi morali ustrezno datoteko uvoziti v prihodnjih
-# fazah.
+#Odstrani prvo vrstico (podatek za svet)
+tabela_prir <- tabela_prir[-1,]
+
+#Tabeli s podatki o prebivalstvu dodamo stolpec o prirastu
+tabela_preb$Change <- tabela_prir$Change
+
+#Preimenovan tretji stolpec
+names(tabela_preb)[names(tabela_preb)=="Change"] <- "Change(2016/2017)"
+
+#Tabela shranjena v mapi "podatki"
+setwd("E:/APPR-2018-19/podatki")
+
+library(readr)
+
+###2015###
+tabela_2015 <- read_csv("2015_changed.csv", locale=locale(encoding="Windows-1250"))
+
+#Zbriše stolpce, ki jih ne potrebujemo
+tabela_2015$`Standard Error` <- NULL
+tabela_2015$Region <- NULL
+
+#Doda stolpec za leto
+tabela_2015$Year <- 2015
+
+#Spremeni vrstni red stolpcev (leto damo na drugo mesto)
+tabela_2015 <- tabela_2015[,c(1,11,2,3,4,5,6,7,8,9,10)]
+
+#Uredi rank države
+tabela_2015$`Happiness Rank` <- 1:148
+
+###2016###
+tabela_2016 <- read_csv("2016_changed.csv", locale=locale(encoding="Windows-1250"))
+
+tabela_2016$`Lower Confidence Interval` <- NULL
+tabela_2016$`Upper Confidence Interval` <- NULL
+tabela_2016$Region <- NULL
+
+tabela_2016$Year <- 2016
+tabela_2016 <- tabela_2016[,c(1,11,2,3,4,5,6,7,8,9,10)]
+tabela_2016$`Happiness Rank` <- 1:148
+
+###2017###
+tabela_2017 <- read_csv("2017_changed.csv", locale=locale(encoding="Windows-1250"))
+
+tabela_2017$`Whisker high` <- NULL
+tabela_2017$`Whisker low` <- NULL
+
+tabela_2017$Year <- 2017
+tabela_2017 <- tabela_2017[,c(1,11,2,3,4,5,6,7,8,9,10)]
+tabela_2017$`Happiness Rank` <- 1:148
+
+###Združi vse tri tabele##
+tabela_skupna <- rbind(tabela_2015, tabela_2016, tabela_2017)
+
+#Odstrani stolpec "Happiness score", ker se ga da dobiti kot vsoto ostalih stolpcev
+tabela_skupna$`Happiness Score` <- NULL
+

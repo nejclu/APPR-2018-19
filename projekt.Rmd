@@ -1,5 +1,5 @@
 ---
-title: "Poročilo pri predmetu Analiza podatkov s programom R"
+title: "Analiza stopnje sreče ljudi v državah po svetu"
 author: "Nejc Lukežič"
 output:
   html_document: default
@@ -24,13 +24,8 @@ source("lib/libraries.r", encoding="UTF-8")
 source("lib/rstudio.r", encoding="UTF-8")
 ```
 
-# Izbira teme
+V projektu bom analiziral stopnjo sreče ljudi po posameznih državah v svetu med letoma 2015 in 2017.Za vsako izmed 148 držav je podano število na lestvici od 1 do 10, ki predstavlja mero sreče ljudi v državi, ta pa je seštevek sedmih komponent – šestih glavnih (BDP države, pričakovana življenjska doba, svoboda, radodarnost, korupcija, pomen družine) in dodatne komponente, ki je seštevek rezultata izmišljene države z najmanj srečnimi državljani (»Dystopia«) in ocene napake pri končnem rezultatu vsake države, ki jo da prvih 6 spremenljivk. Pri tem bom skušal ugotoviti kateri izmed faktorjev so najpomembnejši za srečnejše življenje, koliko se stopnja sreče ljudi po državah spreminja tekom treh let (2015 – 2017) in če je katera izmed držav doživela velik skok ali padec v stopnji sreče v tem obdobju. Podatke bom primerjal tudi po celinah. Kot dodatni spremenljivki sem si izbral število in prirast prebivalcev določene države, zanimalo pa me bo ali obstaja kakšna korelacija med stopnjo sreče ljudi in številom ljudi, ki živi v določeni državi oziroma njegovim prirastom.
 
-Za vzorec bomo prikazali nekaj podatkov o slovenskih občinah.
-
-![](slike/grb.png)
-
-***
 
 # Obdelava, uvoz in čiščenje podatkov
 
@@ -38,73 +33,66 @@ Za vzorec bomo prikazali nekaj podatkov o slovenskih občinah.
 source("uvoz/uvoz.r", encoding="UTF-8")
 ```
 
-Uvozili smo podatke o občinah v obliki CSV s statističnega urada ter v obliki HTML
-z Wikipedije. Podatke imamo v dveh razpredelnicah v obliki *tidy data*.
+Podatke o stopnji sreče ljudi sem uvozil v obliki CSV s spletne strani Kaggle, podatke o številu prebivalcev in prirastu držav pa v obliki HTML z Wikipedije. Podatke imam v dveh razpredelnicah v obliki *tidy data*.
 
-1. `druzine` - podatki o družinah za vsako občino
-  - `obcina` - spremenljivka: ime občine (neurejen faktor),
-  - `velikost.druzine` - spremenljivka: število otrok v družini (število: 1, 2, 3 ali 4, kjer zadnja vrednost pomeni 4 ali več),
-  - `stevilo.druzin` - meritev: število družin z ustreznim številom otrok v ustrezni občini (število).
+1. `Stopnja sreče ljudi` - podatki o stopnji sreče ljudi za
+  - `Država (Country)` - spremenljivka: ime države
+  - `Leto (Year)` - spremenljivka: leto, katerega so bile opravljene meritve
+  - `Mesto na lestvici (Happiness Rank)` - meritev: Od 1 do 148
+  - `BDP (Economy-GDP per capita)` - meritev: v kolikšni meri BDP določene države vpliva na izračun stopnje sreče ljudi
+  - `Družina (Family)` - meritev: v kolikšni meri pomen družine vpliva na izračun stopnje sreče ljudi
+  - `Pričakovana življenjska doba (Health - life expectancy)` - meritev: v kolikšni meri pričakovana življenjska doba vpliva na izračun stopnje sreče ljudi
+  - `Svoboda (Freedom)` - meritev: v kolikšni meri svoboda odločanja vpliva na izračun stopnje sreče ljudi
+  - `Korupcija (Trust - Government corruption)` - meritev: v kolikšni meri korupcija (oziroma njena odsotnost) vpliva na izračun stopnje sreče ljudi
+  - `Radodarnost (Generosity)` - meritev: v kolikšni meri radodarnost ljudi vpliva na izračun stopnje sreče
+  - `Dystopia + residual` - meritev: v kolikšni meri rezultat države »Dystopia« in ocena napake prejšnjih meritev vpliva na izračun stopnje sreče ljudi
+  
+2. `Prebivalstvo` - podatki o prebivalstvu po državah
+  - `Država (Country)` - spremenljivka: ime države,
+  - `Prebivalstvo (Population)` - spremenljivka: Število ljudi v določeni državi (izmerjeno leta 2016)
+  - `Prirast (Change)` - spremenljivka: razlika med številom ljudi, ki živi v državi med letoma 2016 in 2017 (izraženo v procentih)
 
-2. `obcine` - podatki o občinah
-  - `obcina` - spremenljivka: ime občine (neurejen faktor),
-  - `povrsina` - meritev: površina občine v km$^2$ (število),
-  - `prebivalci` - meritev: prebivalstvo občine (število),
-  - `gostota` - meritev: število prebivalcev na km$^2$ (število),
-  - `naselja` - meritev: število naselij v občini (število),
-  - `ustanovitev` - meritev: leto ustanovitve občine (število),
-  - `pokrajina` - meritev: pokrajina, ki ji občina pripada (neurejen faktor),
-  - `regija` - meritev: regija, ki ji občina pripada (neurejen faktor),
-  - `odcepitev` - meritev: podatki o občinah, od katerih se je občina odcepila (besedilo).
 
-**Opomba**: da bi razpredelnica `obcine` res bila v obliki *tidy data*, bi morali odstraniti stolpec `gostota` (saj je izpeljan iz stolpcev `povrsina` in `prebivalci`), podatke o pokrajinah pa bi morali premakniti v drugo razpredelnico, saj nekatere občine pripadajo dvema pokrajinama. Podobno bi morali narediti tudi s stolpcem `odcepitev`.
-
-Spodnji graf prikazuje porazdelitev števila naselij v občinah.
-
-```{r histogram, echo=FALSE, message=FALSE, fig.align='center', fig.cap='Histogram števila naselij v občinah'}
-ggplot(obcine, aes(x=naselja)) + geom_histogram() +
-  ggtitle("Pogostost števila naselij") + xlab("Število naselij") + ylab("Število občin")
-```
 
 ***
 
-# Analiza in vizualizacija podatkov
+<!-- # Analiza in vizualizacija podatkov -->
 
-```{r vizualizacija, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
-source("vizualizacija/vizualizacija.r", encoding="UTF-8")
-```
+<!-- ```{r vizualizacija, echo=FALSE, message=FALSE, warning=FALSE, results='hide'} -->
+<!-- source("vizualizacija/vizualizacija.r", encoding="UTF-8") -->
+<!-- ``` -->
 
-Spodnji zemljevid prikazuje povprečno velikost družine za vsako občino.
+<!-- Spodnji zemljevid prikazuje povprečno velikost družine za vsako občino. -->
 
-```{r zemljevid, echo=FALSE, fig.align='center', fig.cap='Zemljevid povprečnega števila otrok v družini'}
-ggplot() + geom_polygon(data=left_join(zemljevid, povprecja, by=c("OB_UIME"="obcina")),
-                        aes(x=long, y=lat, group=group, fill=povprecje)) +
-  ggtitle("Povprečno število otrok v družini") + xlab("") + ylab("") +
-  guides(fill=guide_colorbar(title="Povprečje"))
-```
+<!-- ```{r zemljevid, echo=FALSE, fig.align='center', fig.cap='Zemljevid povprečnega števila otrok v družini'} -->
+<!-- ggplot() + geom_polygon(data=left_join(zemljevid, povprecja, by=c("OB_UIME"="obcina")), -->
+<!--                         aes(x=long, y=lat, group=group, fill=povprecje)) + -->
+<!--   ggtitle("Povprečno število otrok v družini") + xlab("") + ylab("") + -->
+<!--   guides(fill=guide_colorbar(title="Povprečje")) -->
+<!-- ``` -->
 
-***
+<!-- *** -->
 
-# Napredna analiza podatkov
+<!-- # Napredna analiza podatkov -->
 
-```{r analiza, echo=FALSE, message=FALSE}
-source("analiza/analiza.r", encoding="UTF-8")
-```
+<!-- ```{r analiza, echo=FALSE, message=FALSE} -->
+<!-- source("analiza/analiza.r", encoding="UTF-8") -->
+<!-- ``` -->
 
-Spodnji graf prikazuje povezavo med številom naselij in površino občine.
+<!-- Spodnji graf prikazuje povezavo med številom naselij in površino občine. -->
 
-```{r graf, echo=FALSE, fig.align='center', fig.cap='Povezava med številom naselij in površino občine'}
-ggplot(inner_join(obcine, data.frame(obcina=names(skupine),
-                                     skupina=factor(skupine)), by="obcina")
-, aes(x=povrsina, y=naselja, color=skupina, size=prebivalci/1000)) + geom_point() +
-  ggtitle("Število naselij glede na površino občine") +
-  xlab(expression("Površina (km"^2 * ")")) + ylab("Št. naselij") +
-  guides(color=guide_legend(title="Skupina"),
-         size=guide_legend(title="Prebivalci (* 1000)"))
-```
+<!-- ```{r graf, echo=FALSE, fig.align='center', fig.cap='Povezava med številom naselij in površino občine'} -->
+<!-- ggplot(inner_join(obcine, data.frame(obcina=names(skupine), -->
+<!--                                      skupina=factor(skupine)), by="obcina") -->
+<!-- , aes(x=povrsina, y=naselja, color=skupina, size=prebivalci/1000)) + geom_point() + -->
+<!--   ggtitle("Število naselij glede na površino občine") + -->
+<!--   xlab(expression("Površina (km"^2 * ")")) + ylab("Št. naselij") + -->
+<!--   guides(color=guide_legend(title="Skupina"), -->
+<!--          size=guide_legend(title="Prebivalci (* 1000)")) -->
+<!-- ``` -->
 
-***
+<!-- *** -->
 
-```{r shiny, echo=FALSE}
-shinyAppDir("shiny", options=list(width="100%", height=600))
-```
+<!-- ```{r shiny, echo=FALSE} -->
+<!-- shinyAppDir("shiny", options=list(width="100%", height=600)) -->
+<!-- ``` -->
