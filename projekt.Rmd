@@ -36,21 +36,21 @@ source("uvoz/uvoz.r", encoding="UTF-8")
 Podatke o stopnji sreče ljudi sem uvozil v obliki CSV s spletne strani Kaggle, podatke o številu prebivalcev in prirastu držav pa v obliki HTML z Wikipedije. Podatke imam v dveh razpredelnicah v obliki *tidy data*.
 
 1. `Stopnja sreče ljudi` - podatki o stopnji sreče ljudi za
-  - `Država (Country)` - spremenljivka: ime države
-  - `Leto (Year)` - spremenljivka: leto, katerega so bile opravljene meritve
-  - `Mesto na lestvici (Happiness Rank)` - meritev: Od 1 do 148
-  - `BDP (Economy-GDP per capita)` - meritev: v kolikšni meri BDP določene države vpliva na izračun stopnje sreče ljudi
-  - `Družina (Family)` - meritev: v kolikšni meri pomen družine vpliva na izračun stopnje sreče ljudi
-  - `Pričakovana življenjska doba (Health - life expectancy)` - meritev: v kolikšni meri pričakovana življenjska doba vpliva na izračun stopnje sreče ljudi
-  - `Svoboda (Freedom)` - meritev: v kolikšni meri svoboda odločanja vpliva na izračun stopnje sreče ljudi
-  - `Korupcija (Trust - Government corruption)` - meritev: v kolikšni meri korupcija (oziroma njena odsotnost) vpliva na izračun stopnje sreče ljudi
-  - `Radodarnost (Generosity)` - meritev: v kolikšni meri radodarnost ljudi vpliva na izračun stopnje sreče
-  - `Dystopia + residual` - meritev: v kolikšni meri rezultat države »Dystopia« in ocena napake prejšnjih meritev vpliva na izračun stopnje sreče ljudi
+  - `Država (Country)` - spremenljivka: ime države (besedilo)
+  - `Leto (Year)` - spremenljivka: leto, katerega so bile opravljene meritve (celo število)
+  - `Mesto na lestvici (Happiness Rank)` - meritev: Od 1 do 148 (celo število)
+  - `BDP (Economy-GDP per capita)` - meritev: v kolikšni meri BDP določene države vpliva na izračun stopnje sreče ljudi (celo število)
+  - `Družina (Family)` - meritev: v kolikšni meri pomen družine vpliva na izračun stopnje sreče ljudi (število)
+  - `Pričakovana življenjska doba (Health - life expectancy)` - meritev: v kolikšni meri pričakovana življenjska doba vpliva na izračun stopnje sreče ljudi (število)
+  - `Svoboda (Freedom)` - meritev: v kolikšni meri svoboda odločanja vpliva na izračun stopnje sreče ljudi (število)
+  - `Korupcija (Trust - Government corruption)` - meritev: v kolikšni meri korupcija (oziroma njena odsotnost) vpliva na izračun stopnje sreče ljudi (število)
+  - `Radodarnost (Generosity)` - meritev: v kolikšni meri radodarnost ljudi vpliva na izračun stopnje sreče (število)
+  - `Dystopia + residual` - meritev: v kolikšni meri rezultat države »Dystopia« in ocena napake prejšnjih meritev vpliva na izračun stopnje sreče ljudi (število)
   
 2. `Prebivalstvo` - podatki o prebivalstvu po državah
-  - `Država (Country)` - spremenljivka: ime države,
-  - `Prebivalstvo (Population)` - spremenljivka: Število ljudi v določeni državi (izmerjeno leta 2016)
-  - `Prirast (Change)` - spremenljivka: razlika med številom ljudi, ki živi v državi med letoma 2016 in 2017 (izraženo v procentih)
+  - `Država (Country)` - spremenljivka: ime države (besedilo)
+  - `Prebivalstvo (Population)` - spremenljivka: Število ljudi v določeni državi (izmerjeno leta 2016) (celo število)
+  - `Prirast (Change)` - spremenljivka: razlika med številom ljudi, ki živi v državi med letoma 2016 in 2017 (izraženo v procentih) (število)
 
 
 
