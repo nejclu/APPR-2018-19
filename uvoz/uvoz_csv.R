@@ -43,3 +43,5 @@ tabela_2017$`Happiness Rank` <- 1:148
 ###Združi vse tri tabele##
 tabela_skupna <- rbind(tabela_2015, tabela_2016, tabela_2017)
 
+#Odstrani stolpec "Happiness score", ker se ga da dobiti kot vsoto ostalih stolpcev
+tabela_skupna$`Happiness Score` <- NULL
