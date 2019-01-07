@@ -1,16 +1,16 @@
 # 3. faza: Vizualizacija podatkov
 
 #graf1 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja
-graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, 
-                                 color=Continent)) + geom_point() + theme_bw() +
-  theme(axis.title = element_text(size = (9)), panel.background=element_rect(fill="#CCFFE5"))
+graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent)) + geom_point() + theme_bw() + 
+  ggtitle("Stopnja sreče po kontinentih") + theme(axis.title = element_text(size = (9)), 
+  panel.background=element_rect(fill="#CCFFE5"), plot.title = element_text(size = (14)))
 
 print(graf1)
 
 #graf2 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja - "violin plot"
 graf2 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score)) +
-  geom_violin(aes(fill=Continent)) + theme_bw() +
-  theme(axis.title = element_text(size = (9)), panel.background=element_rect(fill="#CCFFE5"))
+  geom_violin(aes(fill=Continent)) + theme_bw() + ggtitle("Stopnja sreče po kontinentih") +
+  theme(axis.title = element_text(size = (9)), panel.background=element_rect(fill="#CCFFE5"), plot.title = element_text(size = (14)))
 
 print(graf2)
 
