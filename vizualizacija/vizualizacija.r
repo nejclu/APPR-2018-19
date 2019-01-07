@@ -23,6 +23,22 @@ library(corrplot)
 data3 = cor(tabela_2017[c(5:12)])
 corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki")
 
+#Za naslednji graf bomo potrebovali ujemanje imen držav v tabeli "tabela_2017" in "tabela_preb", saj bomo dodajali stolpce iz ene tabele v drugo.
+#Ročno je potrebno spremeniti imena petih držav (Problem: Kosovo in Severni Ciper - podatka bom izpustil)
+
+tabela_preb[56,1] <- "Taiwan Province of China"
+tabela_preb[147,1] <- "Macedonia"
+tabela_preb[121,1] <- "Palestinian Territories"
+tabela_preb[17,1] <- "Congo (Kinshasa)"
+tabela_preb[119,1] <- "Congo (Brazzaville)"
+
+#Dodamo stolpec "Population" k tabeli "tabela_2017"
+tabela_2017$"Population(2016)" <- tabela_preb$`Population(2016)`[match(tabela_2017$Country, tabela_preb$Country)]
+
+#Dodan stolpec za prirast prebivalstva k tabeli "tabela_2017"
+tabela_2017$"Change(2016/2017)" <- tabela_preb$`Change(2016/2017)`[match(tabela_2017$Country, tabela_preb$Country)]
+
+
 # Uvozimo zemljevid.
 zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
                              pot.zemljevida="OB", encoding="Windows-1250")
