@@ -45,9 +45,6 @@ tabela_2017 <- tabela_2017[-c(60,77),]
 data4 = cor(tabela_2017[c(5,13)])
 corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva")
 
-data5 = cor(tabela_2017[c(5,14)])
-corrplot(data5, method = "number")
-
 # Uvozimo zemljevid.
 zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
                              pot.zemljevida="OB", encoding="Windows-1250")
