@@ -1,5 +1,9 @@
 # 3. faza: Vizualizacija podatkov
 
+#Uvoz knjižnic
+library(ggplot2)
+library(dplyr)
+
 #graf1 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja
 graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent)) + geom_point() + theme_bw() + 
   ggtitle("Stopnja sreče po kontinentih") + theme(axis.title = element_text(size = (9)), 
