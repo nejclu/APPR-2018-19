@@ -14,6 +14,11 @@ graf2 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score)) +
 
 print(graf2)
 
+#graf3 prikazuje stopnjo korelacije med stopnjo sreče in posameznimi dejavniki
+library(corrplot)
+data3 = cor(tabela_2017[c(5:12)])
+corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki")
+
 # Uvozimo zemljevid.
 zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
                              pot.zemljevida="OB", encoding="Windows-1250")
