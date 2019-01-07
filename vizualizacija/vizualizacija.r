@@ -1,5 +1,13 @@
 # 3. faza: Vizualizacija podatkov
 
+#graf1 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja
+graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, 
+                                 color=Continent)) + geom_point() + theme_bw() +
+  theme(axis.title = element_text(family = "Helvetica", size = (8)), panel.background=element_rect(fill="#CCFFE5"))
+
+print(graf1)
+
+
 # Uvozimo zemljevid.
 zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
                              pot.zemljevida="OB", encoding="Windows-1250")
