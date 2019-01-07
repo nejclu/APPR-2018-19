@@ -3,6 +3,7 @@
 #Uvoz knjižnic
 library(ggplot2)
 library(dplyr)
+library(corrplot)
 
 #graf1 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja
 graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent)) + geom_point() + theme_bw() + 
@@ -19,7 +20,6 @@ graf2 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score)) +
 print(graf2)
 
 #graf3 prikazuje stopnjo korelacije med stopnjo sreče in posameznimi dejavniki
-library(corrplot)
 data3 = cor(tabela_2017[c(5:12)])
 corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki")
 
@@ -38,6 +38,15 @@ tabela_2017$"Population(2016)" <- tabela_preb$`Population(2016)`[match(tabela_20
 #Dodan stolpec za prirast prebivalstva k tabeli "tabela_2017"
 tabela_2017$"Change(2016/2017)" <- tabela_preb$`Change(2016/2017)`[match(tabela_2017$Country, tabela_preb$Country)]
 
+#Iz tabele odstranimo 2 državi, za katere nimamo podatkov
+tabela_2017 <- tabela_2017[-c(60,77),]
+
+#Izrišemo graf korelacije med stopnjo sreče in številom prebivalstva
+data4 = cor(tabela_2017[c(5,13)])
+corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva")
+
+data5 = cor(tabela_2017[c(5,14)])
+corrplot(data5, method = "number")
 
 # Uvozimo zemljevid.
 zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
