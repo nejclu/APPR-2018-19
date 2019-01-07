@@ -39,10 +39,10 @@ tabela_2017$"Population(2016)" <- tabela_preb$`Population(2016)`[match(tabela_20
 tabela_2017$"Change(2016/2017)" <- tabela_preb$`Change(2016/2017)`[match(tabela_2017$Country, tabela_preb$Country)]
 
 #Iz tabele odstranimo 2 državi, za katere nimamo podatkov
-tabela_2017 <- tabela_2017[-c(60,77),]
+tabela_2017_sprem <- tabela_2017[-c(60,77),]
 
 #Izrišemo graf korelacije med stopnjo sreče in številom prebivalstva
-data4 = cor(tabela_2017[c(5,13)])
+data4 = cor(tabela_2017_sprem[c(5,13)])
 corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva")
 
 # Uvozimo zemljevid.
