@@ -4,6 +4,8 @@
 library(ggplot2)
 library(dplyr)
 library(corrplot)
+library(tidyr)
+library(data.table)
 
 #graf1 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja
 graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent)) + geom_point() + theme_bw() + 
@@ -44,6 +46,53 @@ tabela_2017_sprem <- tabela_2017[-c(60,77),]
 #Izrišemo graf korelacije med stopnjo sreče in številom prebivalstva
 data4 = cor(tabela_2017_sprem[c(5,13)])
 corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva")
+
+#Za naslednjo vizualizacijo nas bo zanimalo pri katerih državah je bilo gibanje stopnje sreče tekom treh let (2015 - 2017) največje, kje pa najmanjše
+#Uredimo tabele za vsa tri leta po abecedi
+tabela_2015_abc <- tabela_2015[order(tabela_2015$Country),]
+tabela_2016_abc <- tabela_2016[order(tabela_2016$Country),]
+tabela_2017_abc <- tabela_2017[order(tabela_2017$Country),]
+
+#V tabelo s podatki za leto 2017 bomo dodali stolpec, ki predstavlja absolutno vrednost spremembe v letih 2015 - 2017
+tabela_2017_abc$Happiness.Change <- abs(tabela_2015_abc$Happiness.Score - tabela_2016_abc$Happiness.Score) + abs(tabela_2016_abc$Happiness.Score - tabela_2017_abc$Happiness.Score)
+
+#Naredimo tabelo s podatki relevantnimi za to vizualizacijo
+hap_change <- tabela_2017_abc
+hap_change[2:14] <- list(NULL)
+hap_change$Happiness.Score.2015 <- tabela_2015_abc$Happiness.Score
+hap_change$Happiness.Score.2016 <- tabela_2016_abc$Happiness.Score
+hap_change$Happiness.Score.2017 <- tabela_2017_abc$Happiness.Score
+
+#Razvrstimo države naraščajoe glede na velikost spremembe stopnje sreče
+hap_change <- hap_change[order(hap_change$Happiness.Change),]
+
+#Izberemo samo 3 države z največjim gibanjem in 3 z najmanjšim
+hap_change_tb <- hap_change[c(1,2,3,146,147,148),]
+# p1 <- ggplot(hap_change_tb) + geom_point(aes(x=Happiness.Score.2015, y=Country)) + geom_point(aes(x=Happiness.Score.2016, y=Country)) + geom_point(aes(x=Happiness.Score.2017, y=Country)) + geom_line(aes(x, y=Country))
+# print(p1)
+
+hap_change_tb$Happiness.Change <- NULL
+hap_change_tbt <- as.data.frame(t(hap_change_tb[,-1]))
+colnames(hap_change_tbt) <- hap_change_tb$Country
+colnames(hap_change_tbt)[3] <- "Trinidad.and.Tobago"
+
+# setDT(hap_change_tbt, keep.rownames = TRUE)[]
+# graf6 <- ggplot(data=hap_change_tbt, aes(x=rn, y=Burundi, group=1)) + geom_line() + geom_point()
+# graf6 <- graf6 + geom_point(data=hap_change_tbt, aes(x=rn, y=Trinidad.and.Tobago, group=1), color="#ffff1a") + geom_line(data=hap_change_tbt, aes(x=rn, y=Trinidad.and.Tobago, group=1), color="#ffff1a")
+# graf6 <- graf6 + geom_point(data=hap_change_tbt, aes(x=rn, y=Denmark, group=1), color="#e60000") + geom_line(data=hap_change_tbt, aes(x=rn, y=Denmark, group=1), color="#e60000")
+# graf6 <- graf6 + geom_point(data=hap_change_tbt, aes(x=rn, y=Liberia, group=1), color="#1aff1a") + geom_line(data=hap_change_tbt, aes(x=rn, y=Liberia, group=1), color="#1aff1a")
+# graf6 <- graf6 + geom_point(data=hap_change_tbt, aes(x=rn, y=Algeria, group=1), color="#004d99") + geom_line(data=hap_change_tbt, aes(x=rn, y=Algeria, group=1), color="#004d99")
+# graf6 <- graf6 + geom_point(data=hap_change_tbt, aes(x=rn, y=Venezuela, group=1), color="#ff8c1a") + geom_line(data=hap_change_tbt, aes(x=rn, y=Venezuela, group=1), color="#ff8c1a")
+# graf6 <- graf6 + xlab("Leto meritve") + ylab("Stopnja sreče") + ggtitle("Sprememba vrednosti stopnje sreče")
+# 
+# print(graf6)
+data_tidy <- gather(hap_change_tbt, Country, Vrednost)
+data_tidy1 <- data_tidy[-c(1,2,3),]
+data_tidy1$Leto <- c("2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017")
+data_tidy1$Vrednost <- as.numeric(data_tidy1$Vrednost)
+
+ggplot(data_tidy1, aes(Leto, Vrednost)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country))
+#Kako se naredi da bojo na y osi vrednosti enakomerno naraščale??
 
 # Uvozimo zemljevid.
 zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
