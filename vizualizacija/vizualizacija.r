@@ -92,7 +92,12 @@ data_tidy1$Leto <- c("2015", "2016", "2017","2015", "2016", "2017","2015", "2016
 data_tidy1$Vrednost <- as.numeric(data_tidy1$Vrednost)
 
 ggplot(data_tidy1, aes(Leto, Vrednost)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country))
-#Kako se naredi da bojo na y osi vrednosti enakomerno naraščale??
+
+# #ZEMLJEVID
+# setwd("E:/APPR-2018-19/vizualizacija")
+# source("https://raw.githubusercontent.com/jaanos/APPR-2018-19/master/lib/uvozi.zemljevid.r")
+# zemljevid <- uvozi.zemljevid(url, "Europe", pot.zemljevida="EU", encoding="Windows-1250") %>% fortify()
+
 
 # Uvozimo zemljevid.
 zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
