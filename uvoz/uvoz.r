@@ -33,13 +33,9 @@ tabela_preb$Change <- tabela_prir$Change
 #Preimenovan tretji stolpec
 names(tabela_preb)[names(tabela_preb)=="Change"] <- "Change(2016/2017)"
 
-#Tabela shranjena v mapi "podatki"
-setwd("E:/APPR-2018-19/podatki")
-
-library(readr)
 
 ###2015###
-tabela_2015 <- read_csv("2015_changed.csv", locale=locale(encoding="Windows-1250"))
+tabela_2015 <- read_csv("podatki/2015_changed.csv", locale=locale(encoding="Windows-1250"))
 
 #Zbriše stolpce, ki jih ne potrebujemo
 tabela_2015$`Standard Error` <- NULL
@@ -63,7 +59,7 @@ names(tabela_2015)[names(tabela_2015)=="Trust (Government Corruption)"] <- "Trus
 names(tabela_2015)[names(tabela_2015)=="Dystopia Residual"] <- "Dystopia.Residual"
 
 ###2016###
-tabela_2016 <- read_csv("2016_changed.csv", locale=locale(encoding="Windows-1250"))
+tabela_2016 <- read_csv("podatki/2016_changed.csv", locale=locale(encoding="Windows-1250"))
 
 tabela_2016$`Lower Confidence Interval` <- NULL
 tabela_2016$`Upper Confidence Interval` <- NULL
@@ -82,7 +78,7 @@ names(tabela_2016)[names(tabela_2016)=="Trust (Government Corruption)"] <- "Trus
 names(tabela_2016)[names(tabela_2016)=="Dystopia Residual"] <- "Dystopia.Residual"
 
 ###2017###
-tabela_2017 <- read_csv("2017_changed.csv", locale=locale(encoding="Windows-1250"))
+tabela_2017 <- read_csv("podatki/2017_changed.csv", locale=locale(encoding="Windows-1250"))
 
 tabela_2017$`Whisker high` <- NULL
 tabela_2017$`Whisker low` <- NULL
