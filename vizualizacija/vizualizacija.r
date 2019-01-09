@@ -93,10 +93,19 @@ data_tidy1$Vrednost <- as.numeric(data_tidy1$Vrednost)
 
 ggplot(data_tidy1, aes(Leto, Vrednost)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country))
 
+
 # #ZEMLJEVID
-# setwd("E:/APPR-2018-19/vizualizacija")
-# source("https://raw.githubusercontent.com/jaanos/APPR-2018-19/master/lib/uvozi.zemljevid.r")
-# zemljevid <- uvozi.zemljevid(url, "Europe", pot.zemljevida="EU", encoding="Windows-1250") %>% fortify()
+#Uvozi potrebne knjižnice
+source("https://raw.githubusercontent.com/jaanos/APPR-2018-19/master/lib/uvozi.zemljevid.r")
+
+zemljevid <- uvozi.zemljevid("http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/cultural/ne_50m_admin_0_countries.zip",
+                             "ne_50m_admin_0_countries", mapa = "zemljevidi", pot.zemljevida = "", encoding = "UTF-8") %>% 
+  fortify() %>% filter(CONTINENT == "Europe" | SOVEREIGNT %in% c("Turkey", "Cyprus"), 
+         long < 45 & long > -45 & lat > 30 & lat < 75)
+
+
+ggplot() + geom_polygon(data=zemljevid, aes(x=long, y=lat, group=group, fill=id)) +
+  guides(fill=FALSE)
 
 
 # Uvozimo zemljevid.
