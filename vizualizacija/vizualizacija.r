@@ -72,9 +72,14 @@ hap_change_tb <- hap_change[c(1,2,3,146,147,148),]
 # print(p1)
 
 hap_change_tb$Happiness.Change <- NULL
-hap_change_tbt <- as.data.frame(t(hap_change_tb[,-1]))
-colnames(hap_change_tbt) <- hap_change_tb$Country
-colnames(hap_change_tbt)[3] <- "Trinidad.and.Tobago"
+hap_change_tb <- melt(hap_change_tb, id.vars = "Country", measure.vars = colnames(hap_change_tb)[-1])
+hap_change_tb$variable <- as.integer(gsub("\\D", "", hap_change_tb$variable))
+
+ggplot(hap_change_tb, aes(variable, value)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country))
+
+#hap_change_tbt <- as.data.frame(t(hap_change_tb[,-1]))
+#colnames(hap_change_tbt) <- hap_change_tb$Country
+#colnames(hap_change_tbt)[3] <- "Trinidad.and.Tobago"
 
 # setDT(hap_change_tbt, keep.rownames = TRUE)[]
 # graf6 <- ggplot(data=hap_change_tbt, aes(x=rn, y=Burundi, group=1)) + geom_line() + geom_point()
@@ -86,12 +91,12 @@ colnames(hap_change_tbt)[3] <- "Trinidad.and.Tobago"
 # graf6 <- graf6 + xlab("Leto meritve") + ylab("Stopnja sreče") + ggtitle("Sprememba vrednosti stopnje sreče")
 # 
 # print(graf6)
-data_tidy <- gather(hap_change_tbt, Country, Vrednost)
+#data_tidy <- gather(hap_change_tbt, Country, Vrednost)
 #data_tidy1 <- data_tidy[-c(1,2,3),]
-data_tidy$Leto <- c("2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017")
-data_tidy$Vrednost <- as.numeric(data_tidy$Vrednost)
+#data_tidy$Leto <- c("2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017")
+#data_tidy$Vrednost <- as.numeric(data_tidy$Vrednost)
 
-ggplot(data_tidy, aes(Leto, Vrednost)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country))
+#ggplot(data_tidy, aes(Leto, Vrednost)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country))
 
 
 # #ZEMLJEVID
