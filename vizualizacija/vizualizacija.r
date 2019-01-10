@@ -87,11 +87,11 @@ colnames(hap_change_tbt)[3] <- "Trinidad.and.Tobago"
 # 
 # print(graf6)
 data_tidy <- gather(hap_change_tbt, Country, Vrednost)
-data_tidy1 <- data_tidy[-c(1,2,3),]
-data_tidy1$Leto <- c("2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017")
-data_tidy1$Vrednost <- as.numeric(data_tidy1$Vrednost)
+#data_tidy1 <- data_tidy[-c(1,2,3),]
+data_tidy$Leto <- c("2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017")
+data_tidy$Vrednost <- as.numeric(data_tidy$Vrednost)
 
-ggplot(data_tidy1, aes(Leto, Vrednost)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country))
+ggplot(data_tidy, aes(Leto, Vrednost)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country))
 
 
 # #ZEMLJEVID
