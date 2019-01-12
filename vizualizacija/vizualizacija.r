@@ -6,6 +6,7 @@ library(dplyr)
 library(corrplot)
 library(tidyr)
 library(data.table)
+library(reshape2)
 
 #graf1 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja
 graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent)) + geom_point() + theme_bw() + 
@@ -94,6 +95,23 @@ zemljevid <- uvozi.zemljevid("http://www.naturalearthdata.com/http//www.naturale
 ggplot() + geom_polygon(data=zemljevid, aes(x=long, y=lat, group=group, fill=id)) +
   guides(fill=FALSE)
 
+#Tabela, v kateri so samo evropske države in njihova vrednost stonje sreče
+tabela_evropske <- tabela_2017_sprem[tabela_2017_sprem[, 2] == "Europe",]
+tabela_evropske[6:14] <- NULL
+tabela_evropske[2:4] <- NULL
+
+drzave <- unique(zemljevid$NAME)
+drzave <- as.data.frame(drzave, stringsAsFactors=FALSE)
+names(drzave) <- "Country"
+tabela_evropske[14,1] <- "Czechia"
+tabela_evropske[36,1] <- "Bosnia and Herz."
+
+ujemanje <- left_join(drzave, tabela_evropske, by="Country")
+
+ggplot() + geom_polygon(data=left_join(zemljevid, ujemanje, by=c("NAME"="Country")),
+                        aes(x=long, y=lat, group=group, fill=Happiness.Score)) +
+  ggtitle("Stopnja sreče po državah v Evropi") + xlab("") + ylab("") +
+  guides(fill=guide_colorbar(title="Stopnja sreče"))
 
 # Uvozimo zemljevid.
 zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
