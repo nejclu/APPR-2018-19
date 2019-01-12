@@ -68,36 +68,18 @@ hap_change <- hap_change[order(hap_change$Happiness.Change),]
 
 #Izberemo samo 3 države z največjim gibanjem in 3 z najmanjšim
 hap_change_tb <- hap_change[c(1,2,3,146,147,148),]
-# p1 <- ggplot(hap_change_tb) + geom_point(aes(x=Happiness.Score.2015, y=Country)) + geom_point(aes(x=Happiness.Score.2016, y=Country)) + geom_point(aes(x=Happiness.Score.2017, y=Country)) + geom_line(aes(x, y=Country))
-# print(p1)
 
 hap_change_tb$Happiness.Change <- NULL
 hap_change_tb <- melt(hap_change_tb, id.vars = "Country", measure.vars = colnames(hap_change_tb)[-1])
 hap_change_tb$variable <- as.integer(gsub("\\D", "", hap_change_tb$variable))
 
-ggplot(hap_change_tb, aes(variable, value)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country))
+#Preimenujemo stolpce
+names(hap_change_tb)[2] <- "Year"
+names(hap_change_tb)[3] <- "Change"
 
-#hap_change_tbt <- as.data.frame(t(hap_change_tb[,-1]))
-#colnames(hap_change_tbt) <- hap_change_tb$Country
-#colnames(hap_change_tbt)[3] <- "Trinidad.and.Tobago"
-
-# setDT(hap_change_tbt, keep.rownames = TRUE)[]
-# graf6 <- ggplot(data=hap_change_tbt, aes(x=rn, y=Burundi, group=1)) + geom_line() + geom_point()
-# graf6 <- graf6 + geom_point(data=hap_change_tbt, aes(x=rn, y=Trinidad.and.Tobago, group=1), color="#ffff1a") + geom_line(data=hap_change_tbt, aes(x=rn, y=Trinidad.and.Tobago, group=1), color="#ffff1a")
-# graf6 <- graf6 + geom_point(data=hap_change_tbt, aes(x=rn, y=Denmark, group=1), color="#e60000") + geom_line(data=hap_change_tbt, aes(x=rn, y=Denmark, group=1), color="#e60000")
-# graf6 <- graf6 + geom_point(data=hap_change_tbt, aes(x=rn, y=Liberia, group=1), color="#1aff1a") + geom_line(data=hap_change_tbt, aes(x=rn, y=Liberia, group=1), color="#1aff1a")
-# graf6 <- graf6 + geom_point(data=hap_change_tbt, aes(x=rn, y=Algeria, group=1), color="#004d99") + geom_line(data=hap_change_tbt, aes(x=rn, y=Algeria, group=1), color="#004d99")
-# graf6 <- graf6 + geom_point(data=hap_change_tbt, aes(x=rn, y=Venezuela, group=1), color="#ff8c1a") + geom_line(data=hap_change_tbt, aes(x=rn, y=Venezuela, group=1), color="#ff8c1a")
-# graf6 <- graf6 + xlab("Leto meritve") + ylab("Stopnja sreče") + ggtitle("Sprememba vrednosti stopnje sreče")
-# 
-# print(graf6)
-#data_tidy <- gather(hap_change_tbt, Country, Vrednost)
-#data_tidy1 <- data_tidy[-c(1,2,3),]
-#data_tidy$Leto <- c("2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017","2015", "2016", "2017")
-#data_tidy$Vrednost <- as.numeric(data_tidy$Vrednost)
-
-#ggplot(data_tidy, aes(Leto, Vrednost)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country))
-
+graf3 <- ggplot(hap_change_tb, aes(Year, Change)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country), size = 2)
+graf3 <- graf3 + ggtitle("Sprememba stopnje sreče v letih 2015 - 2017 (3 max & 3 min)") + theme(plot.title = element_text(size = (14)), panel.background=element_rect(fill="#FFFF99"))
+print(graf3)
 
 # #ZEMLJEVID
 #Uvozi potrebne knjižnice
