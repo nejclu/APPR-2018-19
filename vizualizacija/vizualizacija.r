@@ -110,7 +110,7 @@ ujemanje <- left_join(drzave, tabela_evropske, by="Country")
 
 ggplot() + geom_polygon(data=left_join(zemljevid, ujemanje, by=c("NAME"="Country")),
                         aes(x=long, y=lat, group=group, fill=Happiness.Score)) +
-  ggtitle("Stopnja sreče po državah v Evropi") + xlab("") + ylab("") +
+  ggtitle("Stopnja sreče po evropskih državah") + xlab("") + ylab("") +
   guides(fill=guide_colorbar(title="Stopnja sreče"))
 
 # Uvozimo zemljevid.
