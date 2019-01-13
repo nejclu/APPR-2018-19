@@ -54,7 +54,7 @@ tabela_2015_abc <- tabela_2015[order(tabela_2015$Country),]
 tabela_2016_abc <- tabela_2016[order(tabela_2016$Country),]
 tabela_2017_abc <- tabela_2017[order(tabela_2017$Country),]
 
-#V tabelo s podatki za leto 2017 bomo dodali stolpec, ki predstavlja absolutno vrednost spremembe v letih 2015 - 2017
+#V tabelo s podatki za leto 2017 bomo dodali stolpec, ki predstavlja absolutno vrednost spremembe stopnje sreče v letih 2015 - 2017
 tabela_2017_abc$Happiness.Change <- abs(tabela_2015_abc$Happiness.Score - tabela_2016_abc$Happiness.Score) + abs(tabela_2016_abc$Happiness.Score - tabela_2017_abc$Happiness.Score)
 
 #Naredimo tabelo s podatki relevantnimi za to vizualizacijo
@@ -108,10 +108,17 @@ tabela_evropske[36,1] <- "Bosnia and Herz."
 
 ujemanje <- left_join(drzave, tabela_evropske, by="Country")
 
-ggplot() + geom_polygon(data=left_join(zemljevid, ujemanje, by=c("NAME"="Country")),
+zem <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanje, by=c("NAME"="Country")),
                         aes(x=long, y=lat, group=group, fill=Happiness.Score)) +
-  ggtitle("Stopnja sreče po evropskih državah") + xlab("") + ylab("") +
+  ggtitle("Stopnja sreče po evropskih državah (2017)") + xlab("") + ylab("") +
   guides(fill=guide_colorbar(title="Stopnja sreče"))
+
+#Dodane oznake za državi z najvišjo in najnižjo vrednostjo + vrednost za Slovenijo
+zem <- zem + geom_point(aes(x=30, y=50)) + geom_text(aes(x=30, y=49), label = "4.096")
+zem <- zem + geom_point(aes(x=9, y=62)) + geom_text(aes(x=9, y=61), label = "7.537")
+zem <- zem + geom_point(aes(x=14.4, y=46)) + geom_text(aes(x=14, y=45), label = "5.758")
+print(zem)
+
 
 # Uvozimo zemljevid.
 zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
