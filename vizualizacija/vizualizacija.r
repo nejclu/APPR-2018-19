@@ -7,6 +7,7 @@ library(corrplot)
 library(tidyr)
 library(data.table)
 library(reshape2)
+library(corrplot)
 
 #graf1 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja
 graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent)) + geom_point(show.legend = FALSE) + theme_bw() + 
