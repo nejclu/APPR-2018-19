@@ -46,11 +46,11 @@ Podatke o stopnji sreče ljudi sem uvozil v obliki CSV s spletne strani Kaggle, 
   - `Radodarnost (Generosity)` - meritev: v kolikšni meri radodarnost ljudi vpliva na izračun stopnje sreče (število)
   - `Dystopia + residual` - meritev: v kolikšni meri rezultat države »Dystopia« in ocena napake prejšnjih meritev vpliva na izračun stopnje sreče ljudi (število)
   
+  
 2. `Prebivalstvo` - podatki o prebivalstvu po državah
   - `Država (Country)` - spremenljivka: ime države (besedilo)
   - `Prebivalstvo (Population)` - spremenljivka: Število ljudi v določeni državi (izmerjeno leta 2016) (celo število)
   - `Prirast (Change)` - spremenljivka: razlika med številom ljudi, ki živi v državi med letoma 2016 in 2017 (izraženo v procentih) (število)
-
 
 
 ***
