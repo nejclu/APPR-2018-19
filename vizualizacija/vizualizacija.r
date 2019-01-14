@@ -13,18 +13,16 @@ graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent
   ggtitle("Stopnja sreče po kontinentih") + theme(axis.title = element_text(size = (9)), 
   panel.background=element_rect(fill="#CCFFE5"), plot.title = element_text(size = (14)))
 
-print(graf1)
 
 #graf2 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja - "violin plot"
 graf2 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score)) +
   geom_violin(aes(fill=Continent)) + theme_bw() + ggtitle("Stopnja sreče po kontinentih") +
   theme(axis.title = element_text(size = (9)), panel.background=element_rect(fill="#CCFFE5"), plot.title = element_text(size = (14)))
 
-print(graf2)
 
 #graf3 prikazuje stopnjo korelacije med stopnjo sreče in posameznimi dejavniki
 data3 = cor(tabela_2017[c(5:12)])
-corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki")
+#corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki")
 
 #Za naslednji graf bomo potrebovali ujemanje imen držav v tabeli "tabela_2017" in "tabela_preb", saj bomo dodajali stolpce iz ene tabele v drugo.
 #Ročno je potrebno spremeniti imena petih držav (Problem: Kosovo in Severni Ciper - podatka bom izpustil)
@@ -46,7 +44,7 @@ tabela_2017_sprem <- tabela_2017[-c(60,77),]
 
 #Izrišemo graf korelacije med stopnjo sreče in številom prebivalstva
 data4 = cor(tabela_2017_sprem[c(5,13)])
-corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva")
+#corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva")
 
 #Za naslednjo vizualizacijo nas bo zanimalo pri katerih državah je bilo gibanje stopnje sreče tekom treh let (2015 - 2017) največje, kje pa najmanjše
 #Uredimo tabele za vsa tri leta po abecedi
@@ -80,7 +78,6 @@ names(hap_change_tb)[3] <- "Change"
 
 graf3 <- ggplot(hap_change_tb, aes(Year, Change)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country), size = 2)
 graf3 <- graf3 + ggtitle("Sprememba stopnje sreče v letih 2015 - 2017 (3 max & 3 min)") + theme(plot.title = element_text(size = (14)), panel.background=element_rect(fill="#FFFF99"))
-print(graf3)
 
 # #ZEMLJEVID
 #Uvozi potrebne knjižnice
@@ -117,17 +114,15 @@ zem <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanje, by=c("NAME"="
 zem <- zem + geom_point(aes(x=30, y=50)) + geom_text(aes(x=30, y=49), label = "4.096")
 zem <- zem + geom_point(aes(x=9, y=62)) + geom_text(aes(x=9, y=61), label = "7.537")
 zem <- zem + geom_point(aes(x=14.4, y=46)) + geom_text(aes(x=14, y=45), label = "5.758")
-print(zem)
-
 
 # Uvozimo zemljevid.
-zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
-                             pot.zemljevida="OB", encoding="Windows-1250")
-levels(zemljevid$OB_UIME) <- levels(zemljevid$OB_UIME) %>%
-  { gsub("Slovenskih", "Slov.", .) } %>% { gsub("-", " - ", .) }
-zemljevid$OB_UIME <- factor(zemljevid$OB_UIME, levels=levels(obcine$obcina))
-zemljevid <- fortify(zemljevid)
+# zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
+#                              pot.zemljevida="OB", encoding="Windows-1250")
+# levels(zemljevid$OB_UIME) <- levels(zemljevid$OB_UIME) %>%
+#   { gsub("Slovenskih", "Slov.", .) } %>% { gsub("-", " - ", .) }
+# zemljevid$OB_UIME <- factor(zemljevid$OB_UIME, levels=levels(obcine$obcina))
+# zemljevid <- fortify(zemljevid)
 
 # Izračunamo povprečno velikost družine
-povprecja <- druzine %>% group_by(obcina) %>%
-  summarise(povprecje=sum(velikost.druzine * stevilo.druzin) / sum(stevilo.druzin))
+# povprecja <- druzine %>% group_by(obcina) %>%
+#   summarise(povprecje=sum(velikost.druzine * stevilo.druzin) / sum(stevilo.druzin))

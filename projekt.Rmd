@@ -7,7 +7,6 @@ output:
     includes:
       in_header: lib/styles.sty
     latex_engine: xelatex
-runtime: shiny
 ---
 
 ```{r setup, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
@@ -56,43 +55,36 @@ Podatke o stopnji sreče ljudi sem uvozil v obliki CSV s spletne strani Kaggle, 
 
 ***
 
-<!-- # Analiza in vizualizacija podatkov -->
+# Analiza in vizualizacija podatkov
 
-<!-- ```{r vizualizacija, echo=FALSE, message=FALSE, warning=FALSE, results='hide'} -->
-<!-- source("vizualizacija/vizualizacija.r", encoding="UTF-8") -->
-<!-- ``` -->
+```{r vizualizacija, echo=FALSE, message=FALSE, warning=FALSE, results='hide'}
+source("vizualizacija/vizualizacija.r", encoding="UTF-8")
+```
 
-<!-- Spodnji zemljevid prikazuje povprečno velikost družine za vsako občino. -->
+Prva dva grafa sta si med seboj zelo podobna. Na 2 načina je predstavljena stopnja sreče po državah, ki so razdeljene po celinah.
 
-<!-- ```{r zemljevid, echo=FALSE, fig.align='center', fig.cap='Zemljevid povprečnega števila otrok v družini'} -->
-<!-- ggplot() + geom_polygon(data=left_join(zemljevid, povprecja, by=c("OB_UIME"="obcina")), -->
-<!--                         aes(x=long, y=lat, group=group, fill=povprecje)) + -->
-<!--   ggtitle("Povprečno število otrok v družini") + xlab("") + ylab("") + -->
-<!--   guides(fill=guide_colorbar(title="Povprečje")) -->
-<!-- ``` -->
+```{r graf1, echo=FALSE, message=FALSE, warning=FALSE}
+print(graf1)
+```
 
-<!-- *** -->
+```{r graf2, echo=FALSE, message=FALSE, warning=FALSE}
+print(graf2)
+```
 
-<!-- # Napredna analiza podatkov -->
+Pri tretjem grafu sem iskal kolikšna je korelacija med stopnjo sreče v državi in posameznimi dejavniki. Iz grafa vidimo, da gospodarsko stanje države, pričakovana življenjska doba in družina igrajo največjo vlogo pri stopnji sreče prebivalcev posamezne države.
 
-<!-- ```{r analiza, echo=FALSE, message=FALSE} -->
-<!-- source("analiza/analiza.r", encoding="UTF-8") -->
-<!-- ``` -->
+```{r data3, echo=FALSE, message=FALSE, warning=FALSE}
+corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki")
+```
 
-<!-- Spodnji graf prikazuje povezavo med številom naselij in površino občine. -->
+Z naslednjim grafom sem hotel ugotoviti ali obstaja kakšna povezava med stopnjo sreče in številom prebivalcev države. Iz grafa vidimo, da obstaja šibko obratno soodvisje teh dveh vrednosti. Prebivalci države so srečnejši, če v njej živi manj ljudi.
+```{r data4, echo=FALSE, message=FALSE, warning=FALSE}
+corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva")
+```
 
-<!-- ```{r graf, echo=FALSE, fig.align='center', fig.cap='Povezava med številom naselij in površino občine'} -->
-<!-- ggplot(inner_join(obcine, data.frame(obcina=names(skupine), -->
-<!--                                      skupina=factor(skupine)), by="obcina") -->
-<!-- , aes(x=povrsina, y=naselja, color=skupina, size=prebivalci/1000)) + geom_point() + -->
-<!--   ggtitle("Število naselij glede na površino občine") + -->
-<!--   xlab(expression("Površina (km"^2 * ")")) + ylab("Št. naselij") + -->
-<!--   guides(color=guide_legend(title="Skupina"), -->
-<!--          size=guide_legend(title="Prebivalci (* 1000)")) -->
-<!-- ``` -->
+Ker nimam zbranih podatkov za vse države sveta, sem se odločil z zemljevidom predstaviti stopnjo sreče samo v državah po Evropi. Manjkajo podatki nekaterih zelo majhnih držav (Monako, Vatikan, Lihtenštajn, San Marino, Andora) in (bolj al manj priznanega) Kosova.
+Svetlejši odtenki modre predstavljajo višjo vrednost stopnje sreče. Praviloma so prebivalci severnejših držav srečnejši, kar je pričakovano, saj so te države tudi gospodarsko najuspešnejše v Evropi, pri tretjem grafu pa smo ugotovili, da gospodarska razvitost močno vpliva na stopnjo sreče prebivalcev.
+```{r zem, echo=FALSE, message=FALSE, warning=FALSE}
+print(zem)
+```
 
-<!-- *** -->
-
-<!-- ```{r shiny, echo=FALSE} -->
-<!-- shinyAppDir("shiny", options=list(width="100%", height=600)) -->
-<!-- ``` -->
