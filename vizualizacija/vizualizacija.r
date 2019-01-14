@@ -9,16 +9,15 @@ library(data.table)
 library(reshape2)
 
 #graf1 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja
-graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent)) + geom_point() + theme_bw() + 
-  ggtitle("Stopnja sreče po kontinentih") + theme(axis.title = element_text(size = (9)), 
-  panel.background=element_rect(fill="#CCFFE5"), plot.title = element_text(size = (14)))
-
+graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent)) + geom_point(show.legend = FALSE) + theme_bw() + 
+  ggtitle("Stopnja sreče po kontinentih") + theme(axis.title = element_text(size = (9)), plot.title = element_text(size = (14)))
+graf1 <- graf1 + xlab("Kontinent") + ylab("Stopnja sreče")
 
 #graf2 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja - "violin plot"
 graf2 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score)) +
-  geom_violin(aes(fill=Continent)) + theme_bw() + ggtitle("Stopnja sreče po kontinentih") +
-  theme(axis.title = element_text(size = (9)), panel.background=element_rect(fill="#CCFFE5"), plot.title = element_text(size = (14)))
-
+  geom_violin(aes(fill=Continent), show.legend = FALSE) + theme_bw()
+graf2 <- graf2 + ggtitle("Stopnja sreče po kontinentih") + theme(axis.title = element_text(size = (9)), plot.title = element_text(size = (14))) + 
+  xlab("Kontinent") + ylab("Stopnja sreče")
 
 #graf3 prikazuje stopnjo korelacije med stopnjo sreče in posameznimi dejavniki
 data3 = cor(tabela_2017[c(5:12)])
@@ -76,8 +75,9 @@ hap_change_tb$variable <- as.integer(gsub("\\D", "", hap_change_tb$variable))
 names(hap_change_tb)[2] <- "Year"
 names(hap_change_tb)[3] <- "Change"
 
-graf3 <- ggplot(hap_change_tb, aes(Year, Change)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country), size = 2)
-graf3 <- graf3 + ggtitle("Sprememba stopnje sreče v letih 2015 - 2017 (3 max & 3 min)") + theme(plot.title = element_text(size = (14)), panel.background=element_rect(fill="#FFFF99"))
+graf3 <- ggplot(hap_change_tb, aes(Year, Change)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country), size = 2) + scale_color_discrete(name = "Države")
+graf3 <- graf3 + ggtitle("Sprememba stopnje sreče v letih 2015 - 2017 (3 max & 3 min)") + theme(plot.title = element_text(size = (14))) +
+  xlab("Leto") + ylab("Sprememba")
 
 # #ZEMLJEVID
 #Uvozi potrebne knjižnice

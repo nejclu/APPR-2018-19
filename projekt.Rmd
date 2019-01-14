@@ -2,11 +2,11 @@
 title: "Analiza stopnje sreče ljudi v državah po svetu"
 author: "Nejc Lukežič"
 output:
+  html_document: default
   pdf_document:
     includes:
       in_header: lib/styles.sty
     latex_engine: xelatex
-  html_document: default
 ---
 
 ```{r setup, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
@@ -80,6 +80,12 @@ corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dej
 Z naslednjim grafom sem hotel ugotoviti ali obstaja kakšna povezava med stopnjo sreče in številom prebivalcev države. Iz grafa vidimo, da obstaja šibko obratno soodvisje teh dveh vrednosti. Prebivalci države so srečnejši, če v njej živi manj ljudi.
 ```{r data4, echo=FALSE, message=FALSE, warning=FALSE}
 corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva")
+```
+
+V spodnjem grafu so prikazane 3 države, v katerih se je med leti 2015 - 2017 stopnja sreče najbolj spreminjala in 3, kjer se je najmanj. Največje spremembe so bile pri Venezueli, Alžiriji in Liberiji, najmanjše pa na Danskem, v Trinidadu in Tobagu ter Burundiju.
+
+```{r graf3, echo=FALSE, message=FALSE, warning=FALSE}
+print(graf3)
 ```
 
 Ker nimam zbranih podatkov za vse države sveta, sem se odločil z zemljevidom predstaviti stopnjo sreče samo v državah po Evropi. Manjkajo podatki nekaterih zelo majhnih držav (Monako, Vatikan, Lihtenštajn, San Marino, Andora) in (bolj al manj priznanega) Kosova.
