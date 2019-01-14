@@ -8,7 +8,6 @@ output:
       in_header: lib/styles.sty
     latex_engine: xelatex
 ---
-
 ```{r setup, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
 # Če želimo nastaviti pisave v PDF-ju, odkomentiramo
 # in sledimo navodilom v programu.
@@ -18,7 +17,7 @@ output:
 source("lib/libraries.r", encoding="UTF-8")
 ```
 
-```{r rstudio, echo=FALSE, results='asis'}
+```{r rstudio, echo=FALSE, results='asis', warning=FALSE}
 # Izris povezave do RStudia na Binderju
 source("lib/rstudio.r", encoding="UTF-8")
 ```
@@ -28,7 +27,7 @@ V projektu bom analiziral stopnjo sreče ljudi po posameznih državah v svetu me
 
 # Obdelava, uvoz in čiščenje podatkov
 
-```{r uvoz, echo=FALSE, message=FALSE}
+```{r uvoz, echo=FALSE, message=FALSE, warning=FALSE}
 source("uvoz/uvoz.r", encoding="UTF-8")
 ```
 
@@ -77,7 +76,7 @@ Pri tretjem grafu sem iskal kolikšna je korelacija med stopnjo sreče v državi
 corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki")
 ```
 
-Z naslednjim grafom sem hotel ugotoviti ali obstaja kakšna povezava med stopnjo sreče in številom prebivalcev države. Iz grafa vidimo, da obstaja šibko obratno soodvisje teh dveh vrednosti. Prebivalci države so srečnejši, če v njej živi manj ljudi.
+Z naslednjim grafom sem hotel ugotoviti ali obstaja kakšna povezava med stopnjo sreče in številom prebivalcev države. Iz grafa vidimo, da obstaja šibko obratno soodvisje teh dveh vrednosti. Prebivalci države so srečnejši, če v njej živi manj ljudi. Podobno sm naredil tudi s podatkom za prirast prebivalstva. Tu je obratna soodvisnost izrazitejša kot prej, torej obstaja povezava med nižjim prirastom prebivalstva in višjo stopnjo sreče ljudi.
 ```{r data4, echo=FALSE, message=FALSE, warning=FALSE}
 corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva")
 ```

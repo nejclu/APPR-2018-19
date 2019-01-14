@@ -43,7 +43,7 @@ tabela_2017_sprem <- tabela_2017[-c(60,77),]
 
 #Izrišemo graf korelacije med stopnjo sreče in številom prebivalstva ter prirastom ljudi
 data4 = cor(tabela_2017_sprem[c(5,13,14)])
-corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva ter prirastom ljudi")
+#corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva ter prirastom ljudi")
 
 
 #Za naslednjo vizualizacijo nas bo zanimalo pri katerih državah je bilo gibanje stopnje sreče tekom treh let (2015 - 2017) največje, kje pa najmanjše
