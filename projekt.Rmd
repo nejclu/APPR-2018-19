@@ -2,11 +2,11 @@
 title: "Analiza stopnje sreče ljudi v državah po svetu"
 author: "Nejc Lukežič"
 output:
-  html_document: default
   pdf_document:
     includes:
       in_header: lib/styles.sty
     latex_engine: xelatex
+  html_document: default
 ---
 
 ```{r setup, echo=FALSE, results='hide', message=FALSE, warning=FALSE}
