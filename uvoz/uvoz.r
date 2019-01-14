@@ -21,7 +21,7 @@ tabela_preb <- tabela_preb[-1,]
 #Tabela z naravnim prirastom
 tabela_prir <- stran %>% html_nodes(xpath="//table[@class='wikitable sortable plainrowheaders']") %>%
   .[[1]] %>% html_table() %>% transmute(Country=`Country or area` %>% strapplyc("^([^[]*)") %>% unlist(),
-                                        Change=`Change` %>%
+                                        Change=gsub("\u2212", "-", Change) %>%
                                           parse_number(locale=locale(grouping_mark=",")))
 
 #Odstrani prvo vrstico (podatek za svet)
