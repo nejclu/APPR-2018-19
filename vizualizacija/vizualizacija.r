@@ -117,6 +117,60 @@ zem <- zem + geom_point(aes(x=30, y=50)) + geom_text(aes(x=30, y=49), label = "4
 zem <- zem + geom_point(aes(x=9, y=62)) + geom_text(aes(x=9, y=61), label = "7.537")
 zem <- zem + geom_point(aes(x=14.4, y=46)) + geom_text(aes(x=14, y=45), label = "5.758")
 
+#Tabela s podatki za Evropo za leto 2017
+tabela_evropa <- tabela_2017_sprem[tabela_2017_sprem[, 2] == "Europe",]
+tabela_evropa[14,1] <- "Czechia"
+tabela_evropa[36,1] <- "Bosnia and Herz."
+
+tabela_evropa$Economy.Procent <- with(tabela_evropa, Economy / Happiness.Score *100)
+tabela_evropa$Family.Procent <- with(tabela_evropa, Family / Happiness.Score *100)
+tabela_evropa$Life.Expectancy.Procent <- with(tabela_evropa, Life.Expectancy / Happiness.Score *100)
+tabela_evropa$Freedom.Procent <- with(tabela_evropa, Freedom / Happiness.Score *100)
+tabela_evropa$Generosity.Procent <- with(tabela_evropa, Generosity / Happiness.Score *100)
+tabela_evropa$Trust.Procent <- with(tabela_evropa, Trust / Happiness.Score *100)
+tabela_evropa$Dystopia.Residual.Procent <- with(tabela_evropa, Dystopia.Residual / Happiness.Score *100)
+
+tabela_evropa[2:3] <- NULL
+
+ujemanjes1 <- left_join(drzave, tabela_evropa, by="Country")
+
+#Zemljevid, ki prikazuje kolikšen pomen ima gospodarstvo na stopnjo sreče evropskih držav
+zems1 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
+                                 aes(x=long, y=lat, group=group, fill=Economy.Procent)) +
+  ggtitle("Vpliv gospodarstva(BDP) na stopnjo sreče (2017)") + xlab("") + ylab("") +
+  guides(fill=guide_colorbar(title="Pomen gospodarstva (v %)"))
+print(zems1)
+
+zems2 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
+                                 aes(x=long, y=lat, group=group, fill=Family.Procent)) +
+  ggtitle("Vpliv družine na stopnjo sreče (2017)") + xlab("") + ylab("") +
+  guides(fill=guide_colorbar(title="Pomen družine (v %)"))
+print(zems2)
+
+zems3 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
+                                 aes(x=long, y=lat, group=group, fill=Life.Expectancy.Procent)) +
+  ggtitle("Vpliv pričakovane življenjske dobe na stopnjo sreče (2017)") + xlab("") + ylab("") +
+  guides(fill=guide_colorbar(title="Vpliv pričakovane življenjske dobe (v %)"))
+print(zems3)
+
+zems4 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
+                                 aes(x=long, y=lat, group=group, fill=Freedom.Procent)) +
+  ggtitle("Vpliv svobode na stopnjo sreče (2017)") + xlab("") + ylab("") +
+  guides(fill=guide_colorbar(title="Vpliv svobode (v %)"))
+print(zems4)
+
+zems5 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
+                                 aes(x=long, y=lat, group=group, fill=Generosity.Procent)) +
+  ggtitle("Vpliv radodarnosti na stopnjo sreče (2017)") + xlab("") + ylab("") +
+  guides(fill=guide_colorbar(title="Vpliv radodarnosti (v %)"))
+print(zems5)
+
+zems6 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
+                                 aes(x=long, y=lat, group=group, fill=Trust.Procent)) +
+  ggtitle("Vpliv (odsotnosti) korupcije na stopnjo sreče (2017)") + xlab("") + ylab("") +
+  guides(fill=guide_colorbar(title="Vpliv (odsotnosti) korupcije (v %)"))
+print(zems6)
+
 # Uvozimo zemljevid.
 # zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
 #                              pot.zemljevida="OB", encoding="Windows-1250")
