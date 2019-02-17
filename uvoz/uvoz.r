@@ -136,3 +136,13 @@ tabela_2017$Continent[which(is.na(tabela_2017$Continent))] <- "Africa"
 
 #Premik stolpca "Continent" na drugo mesto v tabeli
 tabela_2017 <- tabela_2017[,c(1,12,2,3,4,5,6,7,8,9,10,11)]
+
+#Ne vem še če bomo potrebovali - tabela s podatki samo za Evropo (2017)
+tabela_evropa <- subset(tabela_2017, Continent == "Europe", select = c("Country","Happiness.Rank","Happiness.Score","Economy","Family","Life.Expectancy","Freedom","Generosity","Trust","Dystopia.Residual"))
+tabela_evropa$Economy.Procent <- with(tabela_evropa, Economy / Happiness.Score *100)
+tabela_evropa$Family.Procent <- with(tabela_evropa, Family / Happiness.Score *100)
+tabela_evropa$Life.Expectancy.Procent <- with(tabela_evropa, Life.Expectancy / Happiness.Score *100)
+tabela_evropa$Freedom.Procent <- with(tabela_evropa, Freedom / Happiness.Score *100)
+tabela_evropa$Generosity.Procent <- with(tabela_evropa, Generosity / Happiness.Score *100)
+tabela_evropa$Trust.Procent <- with(tabela_evropa, Trust / Happiness.Score *100)
+tabela_evropa$Dystopia.Residual.Procent <- with(tabela_evropa, Dystopia.Residual / Happiness.Score *100)
