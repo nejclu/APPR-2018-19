@@ -113,9 +113,9 @@ zem <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanje, by=c("NAME"="
   guides(fill=guide_colorbar(title="Stopnja sreče"))
 
 #Dodane oznake za državi z najvišjo in najnižjo vrednostjo + vrednost za Slovenijo
-zem <- zem + geom_point(aes(x=30, y=50)) + geom_text(aes(x=30, y=49), label = "4.096")
-zem <- zem + geom_point(aes(x=9, y=62)) + geom_text(aes(x=9, y=61), label = "7.537")
-zem <- zem + geom_point(aes(x=14.4, y=46)) + geom_text(aes(x=14, y=45), label = "5.758")
+zem1 <- zem + geom_point(aes(x=30, y=50)) + geom_text(aes(x=30, y=49), label = "4.096")
+zem1 <- zem1 + geom_point(aes(x=9, y=62)) + geom_text(aes(x=9, y=61), label = "7.537")
+zem1 <- zem1 + geom_point(aes(x=14.4, y=46)) + geom_text(aes(x=14, y=45), label = "5.758")
 
 #Tabela s podatki za Evropo za leto 2017
 tabela_evropa <- tabela_2017_sprem[tabela_2017_sprem[, 2] == "Europe",]
@@ -138,13 +138,13 @@ ujemanjes1 <- left_join(drzave, tabela_evropa, by="Country")
 zems1 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
                                  aes(x=long, y=lat, group=group, fill=Economy.Procent)) +
   ggtitle("Vpliv gospodarstva(BDP) na stopnjo sreče (2017)") + xlab("") + ylab("") +
-  guides(fill=guide_colorbar(title="Pomen gospodarstva\n(v %)"))
+  guides(fill=guide_colorbar(title="Vpliv gospodarstva\n(v %)"))
 #print(zems1)
 
 zems2 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
                                  aes(x=long, y=lat, group=group, fill=Family.Procent)) +
   ggtitle("Vpliv družine na stopnjo sreče (2017)") + xlab("") + ylab("") +
-  guides(fill=guide_colorbar(title="Pomen družine (v %)"))
+  guides(fill=guide_colorbar(title="Vpliv družine (v %)"))
 #print(zems2)
 
 zems3 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
