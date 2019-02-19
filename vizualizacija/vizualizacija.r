@@ -138,38 +138,38 @@ ujemanjes1 <- left_join(drzave, tabela_evropa, by="Country")
 zems1 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
                                  aes(x=long, y=lat, group=group, fill=Economy.Procent)) +
   ggtitle("Vpliv gospodarstva(BDP) na stopnjo sreče (2017)") + xlab("") + ylab("") +
-  guides(fill=guide_colorbar(title="Pomen gospodarstva (v %)"))
-print(zems1)
+  guides(fill=guide_colorbar(title="Pomen gospodarstva\n(v %)"))
+#print(zems1)
 
 zems2 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
                                  aes(x=long, y=lat, group=group, fill=Family.Procent)) +
   ggtitle("Vpliv družine na stopnjo sreče (2017)") + xlab("") + ylab("") +
   guides(fill=guide_colorbar(title="Pomen družine (v %)"))
-print(zems2)
+#print(zems2)
 
 zems3 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
                                  aes(x=long, y=lat, group=group, fill=Life.Expectancy.Procent)) +
   ggtitle("Vpliv pričakovane življenjske dobe na stopnjo sreče (2017)") + xlab("") + ylab("") +
-  guides(fill=guide_colorbar(title="Vpliv pričakovane življenjske dobe (v %)"))
-print(zems3)
+  guides(fill=guide_colorbar(title="Vpliv pričakovane\nživljenjske dobe (v %)"))
+#print(zems3)
 
 zems4 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
                                  aes(x=long, y=lat, group=group, fill=Freedom.Procent)) +
   ggtitle("Vpliv svobode na stopnjo sreče (2017)") + xlab("") + ylab("") +
   guides(fill=guide_colorbar(title="Vpliv svobode (v %)"))
-print(zems4)
+#print(zems4)
 
 zems5 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
                                  aes(x=long, y=lat, group=group, fill=Generosity.Procent)) +
   ggtitle("Vpliv radodarnosti na stopnjo sreče (2017)") + xlab("") + ylab("") +
-  guides(fill=guide_colorbar(title="Vpliv radodarnosti (v %)"))
-print(zems5)
+  guides(fill=guide_colorbar(title="Vpliv radodarnosti\n(v %)"))
+#print(zems5)
 
 zems6 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAME"="Country")),
                                  aes(x=long, y=lat, group=group, fill=Trust.Procent)) +
   ggtitle("Vpliv (odsotnosti) korupcije na stopnjo sreče (2017)") + xlab("") + ylab("") +
-  guides(fill=guide_colorbar(title="Vpliv (odsotnosti) korupcije (v %)"))
-print(zems6)
+  guides(fill=guide_colorbar(title="Vpliv (odsotnosti)\nkorupcije (v %)"))
+#print(zems6)
 
 # Uvozimo zemljevid.
 # zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
