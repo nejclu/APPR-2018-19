@@ -90,6 +90,6 @@ print(graf3)
 Ker nimam zbranih podatkov za vse države sveta, sem se odločil z zemljevidom predstaviti stopnjo sreče samo v državah po Evropi. Manjkajo podatki nekaterih zelo majhnih držav (Monako, Vatikan, Lihtenštajn, San Marino, Andora) in (bolj al manj priznanega) Kosova.
 Svetlejši odtenki modre predstavljajo višjo vrednost stopnje sreče. Praviloma so prebivalci severnejših držav srečnejši, kar je pričakovano, saj so te države tudi gospodarsko najuspešnejše v Evropi, pri tretjem grafu pa smo ugotovili, da gospodarska razvitost močno vpliva na stopnjo sreče prebivalcev.
 ```{r zem, echo=FALSE, message=FALSE, warning=FALSE}
-print(zem)
+print(zem1)
 ```
 
