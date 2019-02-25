@@ -2,7 +2,7 @@ library(shiny)
 
 fluidPage(
   
-  titlePanel("Sreča-3leta"),
+  titlePanel("Stopnja sreče v Evropi"),
   
   tabPanel("Graf",
            sidebarPanel(
