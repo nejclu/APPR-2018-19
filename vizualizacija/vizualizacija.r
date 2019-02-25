@@ -171,6 +171,9 @@ zems6 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAM
   guides(fill=guide_colorbar(title="Vpliv (odsotnosti)\nkorupcije (v %)"))
 #print(zems6)
 
+tabela_shiny <- tabela_skupna[,c(1,2,3)]
+tabela_shiny$Year <- as.integer(tabela_shiny$Year)
+
 # Uvozimo zemljevid.
 # zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
 #                              pot.zemljevida="OB", encoding="Windows-1250")
