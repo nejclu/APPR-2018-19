@@ -7,7 +7,6 @@ library(corrplot)
 library(tidyr)
 library(data.table)
 library(reshape2)
-library(corrplot)
 
 #graf1 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja
 graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent)) + geom_point(show.legend = FALSE) + theme_bw() + 
@@ -77,7 +76,7 @@ hap_change_tb$variable <- as.integer(gsub("\\D", "", hap_change_tb$variable))
 names(hap_change_tb)[2] <- "Year"
 names(hap_change_tb)[3] <- "Change"
 
-graf3 <- ggplot(hap_change_tb, aes(Year, Change)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country), size = 2) + scale_color_discrete(name = "Države")
+graf3 <- ggplot(hap_change_tb, aes(x=factor(Year), y=Change)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country), size = 2) + scale_color_discrete(name = "Države")
 graf3 <- graf3 + ggtitle("Sprememba stopnje sreče v letih 2015 - 2017 (3 max & 3 min)") + theme(plot.title = element_text(size = (14))) +
   xlab("Leto") + ylab("Sprememba")
 
