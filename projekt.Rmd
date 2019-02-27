@@ -73,12 +73,12 @@ print(graf2)
 Pri tretjem grafu sem iskal kolikšna je korelacija med stopnjo sreče v državi in posameznimi dejavniki. Iz grafa vidimo, da gospodarsko stanje države, pričakovana življenjska doba in družina igrajo največjo vlogo pri stopnji sreče prebivalcev posamezne države.
 
 ```{r data3, echo=FALSE, message=FALSE, warning=FALSE}
-corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki")
+corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki", mar = c(0,0,1,0))
 ```
 
 Z naslednjim grafom sem hotel ugotoviti ali obstaja kakšna povezava med stopnjo sreče in številom prebivalcev države. Iz grafa vidimo, da obstaja šibko obratno soodvisje teh dveh vrednosti. Prebivalci države so srečnejši, če v njej živi manj ljudi. Podobno sm naredil tudi s podatkom za prirast prebivalstva. Tu je obratna soodvisnost izrazitejša kot prej, torej obstaja povezava med nižjim prirastom prebivalstva in višjo stopnjo sreče ljudi.
 ```{r data4, echo=FALSE, message=FALSE, warning=FALSE}
-corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva")
+corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva", mar = c(0,0,1,0))
 ```
 
 V spodnjem grafu so prikazane 3 države, v katerih se je med leti 2015 - 2017 stopnja sreče najbolj spreminjala in 3, kjer se je najmanj. Največje spremembe so bile pri Venezueli, Alžiriji in Liberiji, najmanjše pa na Danskem, v Trinidadu in Tobagu ter Burundiju.
