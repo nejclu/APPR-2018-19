@@ -94,6 +94,6 @@ Svetlejši odtenki modre predstavljajo višjo vrednost stopnje sreče. Praviloma
 print(zem1)
 ```
 
-```{r shiny, echo = FALSE,message=FALSE, warning=FALSE}
+```{r shiny, echo = FALSE, message=FALSE, warning=FALSE}
 shinyAppDir("shiny2")
 ```
