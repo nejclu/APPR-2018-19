@@ -45,7 +45,6 @@ tabela_2017_sprem <- tabela_2017[-c(60,77),]
 data4 = cor(tabela_2017_sprem[c(5,13,14)])
 #corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva ter prirastom ljudi")
 
-
 #Za naslednjo vizualizacijo nas bo zanimalo pri katerih državah je bilo gibanje stopnje sreče tekom treh let (2015 - 2017) največje, kje pa najmanjše
 #Uredimo tabele za vsa tri leta po abecedi
 tabela_2015_abc <- tabela_2015[order(tabela_2015$Country),]
@@ -88,7 +87,6 @@ zemljevid <- uvozi.zemljevid("http://www.naturalearthdata.com/http//www.naturale
                              "ne_50m_admin_0_countries", mapa = "zemljevidi", pot.zemljevida = "", encoding = "UTF-8") %>% 
   fortify() %>% filter(CONTINENT == "Europe" | SOVEREIGNT %in% c("Turkey", "Cyprus"), 
          long < 45 & long > -45 & lat > 30 & lat < 75)
-
 
 ggplot() + geom_polygon(data=zemljevid, aes(x=long, y=lat, group=group, fill=id)) +
   guides(fill=FALSE)
@@ -150,6 +148,7 @@ tabela_evropa$center_trust <- k6$centers[k6$cluster, ]
 
 tabela_evropa$Dystopia.Residual.Procent <- with(tabela_evropa, Dystopia.Residual / Happiness.Score *100)
 
+#Zbrišemo stolpca s podatki o letu in kontinentu
 tabela_evropa[2:3] <- NULL
 
 ujemanjes1 <- left_join(drzave, tabela_evropa, by="Country")
@@ -191,11 +190,15 @@ zems6 <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanjes1, by=c("NAM
   guides(fill=guide_colorbar(title="Vpliv (odsotnosti)\nkorupcije [%]"))
 #print(zems6)
 
+#Potrebujemo samo podatke  iz prvih treh stolpec tabele "tabela_skupna"
 tabela_shiny <- tabela_skupna[,c(1,2,3)]
 tabela_shiny$Year <- as.integer(tabela_shiny$Year)
+
+#Prevodi iz angleščine v slovenščino
 names(tabela_shiny)[1]<-"Država"
 names(tabela_shiny)[2]<-"Leto"
 names(tabela_shiny)[3]<-"Mesto[/148]"
+
 
 # Uvozimo zemljevid.
 # zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
