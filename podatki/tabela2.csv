@@ -1,0 +1,467 @@
+"","Country","Spremenljivka","Vrednost"
+"1","China","Population(2016)",1409517397
+"2","India","Population(2016)",1339180127
+"3","United States","Population(2016)",324459463
+"4","Indonesia","Population(2016)",263991379
+"5","Brazil","Population(2016)",209288278
+"6","Pakistan","Population(2016)",197015955
+"7","Nigeria","Population(2016)",190886311
+"8","Bangladesh","Population(2016)",164669751
+"9","Russia","Population(2016)",143989754
+"10","Mexico","Population(2016)",129163276
+"11","Japan","Population(2016)",127484450
+"12","Ethiopia","Population(2016)",104957438
+"13","Philippines","Population(2016)",104918090
+"14","Egypt","Population(2016)",97553151
+"15","Vietnam","Population(2016)",95540800
+"16","Germany","Population(2016)",82114224
+"17","Democratic Republic of the Congo","Population(2016)",81339988
+"18","Iran","Population(2016)",81162788
+"19","Turkey","Population(2016)",80745020
+"20","Thailand","Population(2016)",69037513
+"21","United Kingdom","Population(2016)",66181585
+"22","France","Population(2016)",64979548
+"23","Italy","Population(2016)",59359900
+"24","Tanzania","Population(2016)",57310019
+"25","South Africa","Population(2016)",56717156
+"26","Myanmar","Population(2016)",53370609
+"27","South Korea","Population(2016)",50982212
+"28","Colombia","Population(2016)",49065615
+"29","Kenya","Population(2016)",49699862
+"30","Spain","Population(2016)",46354321
+"31","Argentina","Population(2016)",44271041
+"32","Ukraine","Population(2016)",44222947
+"33","Uganda","Population(2016)",42862958
+"34","Algeria","Population(2016)",41318142
+"35","Sudan","Population(2016)",40533330
+"36","Iraq","Population(2016)",38274618
+"37","Poland","Population(2016)",38170712
+"38","Canada","Population(2016)",36624199
+"39","Morocco","Population(2016)",35739580
+"40","Afghanistan","Population(2016)",35530081
+"41","Saudi Arabia","Population(2016)",32938213
+"42","Peru","Population(2016)",32165485
+"43","Venezuela","Population(2016)",31977065
+"44","Uzbekistan","Population(2016)",31910641
+"45","Malaysia","Population(2016)",31624264
+"46","Angola","Population(2016)",29784193
+"47","Mozambique","Population(2016)",29668834
+"48","Nepal","Population(2016)",29304998
+"49","Ghana","Population(2016)",28833629
+"50","Yemen","Population(2016)",28250420
+"51","Madagascar","Population(2016)",25570895
+"52","North Korea","Population(2016)",25490965
+"53","Australia","Population(2016)",24450561
+"54","Ivory Coast","Population(2016)",24294750
+"55","Cameroon","Population(2016)",24053727
+"56","Taiwan","Population(2016)",23626456
+"57","Niger","Population(2016)",21477348
+"58","Sri Lanka","Population(2016)",20876917
+"59","Romania","Population(2016)",19679306
+"60","Burkina Faso","Population(2016)",19193382
+"61","Malawi","Population(2016)",18622104
+"62","Mali","Population(2016)",18541980
+"63","Syria","Population(2016)",18269868
+"64","Kazakhstan","Population(2016)",18204499
+"65","Chile","Population(2016)",18054726
+"66","Zambia","Population(2016)",17094130
+"67","Netherlands","Population(2016)",17035938
+"68","Guatemala","Population(2016)",16913503
+"69","Ecuador","Population(2016)",16624858
+"70","Zimbabwe","Population(2016)",16529904
+"71","Cambodia","Population(2016)",16005373
+"72","Senegal","Population(2016)",15850567
+"73","Chad","Population(2016)",14899994
+"74","Somalia","Population(2016)",14742523
+"75","Guinea","Population(2016)",12717176
+"76","South Sudan","Population(2016)",12575714
+"77","Rwanda","Population(2016)",12208407
+"78","Tunisia","Population(2016)",11532127
+"79","Cuba","Population(2016)",11484636
+"80","Belgium","Population(2016)",11429336
+"81","Benin","Population(2016)",11175692
+"82","Greece","Population(2016)",11159773
+"83","Bolivia","Population(2016)",11051600
+"84","Haiti","Population(2016)",10981229
+"85","Burundi","Population(2016)",10864245
+"86","Dominican Republic","Population(2016)",10766998
+"87","Czech Republic","Population(2016)",10618303
+"88","Portugal","Population(2016)",10329506
+"89","Sweden","Population(2016)",9910701
+"90","Azerbaijan","Population(2016)",9827589
+"91","Hungary","Population(2016)",9721559
+"92","Jordan","Population(2016)",9702353
+"93","Belarus","Population(2016)",9468338
+"94","United Arab Emirates","Population(2016)",9400145
+"95","Honduras","Population(2016)",9265067
+"96","Tajikistan","Population(2016)",8921343
+"97","Serbia","Population(2016)",8790574
+"98","Austria","Population(2016)",8735453
+"99","Switzerland","Population(2016)",8476005
+"100","Israel","Population(2016)",8321570
+"101","Papua New Guinea","Population(2016)",8251162
+"102","Togo","Population(2016)",7797694
+"103","Sierra Leone","Population(2016)",7557212
+"104","Hong Kong","Population(2016)",7364883
+"105","Bulgaria","Population(2016)",7084571
+"106","Laos","Population(2016)",6858160
+"107","Paraguay","Population(2016)",6811297
+"108","El Salvador","Population(2016)",6377853
+"109","Libya","Population(2016)",6374616
+"110","Nicaragua","Population(2016)",6217581
+"111","Lebanon","Population(2016)",6082357
+"112","Kyrgyzstan","Population(2016)",6045117
+"113","Turkmenistan","Population(2016)",5758075
+"114","Denmark","Population(2016)",5733551
+"115","Singapore","Population(2016)",5708844
+"116","Finland","Population(2016)",5523231
+"117","Slovakia","Population(2016)",5447662
+"118","Norway","Population(2016)",5305383
+"119","Congo","Population(2016)",5260750
+"120","Eritrea","Population(2016)",5068831
+"121","Palestine","Population(2016)",4920724
+"122","Costa Rica","Population(2016)",4905769
+"123","Ireland","Population(2016)",4761657
+"124","Liberia","Population(2016)",4731906
+"125","New Zealand","Population(2016)",4705818
+"126","Central African Republic","Population(2016)",4659080
+"127","Oman","Population(2016)",4636262
+"128","Mauritania","Population(2016)",4420184
+"129","Croatia","Population(2016)",4189353
+"130","Kuwait","Population(2016)",4136528
+"131","Panama","Population(2016)",4098587
+"132","Moldova","Population(2016)",4051212
+"133","Georgia","Population(2016)",3912061
+"134","Puerto Rico","Population(2016)",3663131
+"135","Bosnia and Herzegovina","Population(2016)",3507017
+"136","Uruguay","Population(2016)",3456750
+"137","Mongolia","Population(2016)",3075647
+"138","Armenia","Population(2016)",2930450
+"139","Albania","Population(2016)",2930187
+"140","Jamaica","Population(2016)",2890299
+"141","Lithuania","Population(2016)",2890297
+"142","Qatar","Population(2016)",2639211
+"143","Namibia","Population(2016)",2533794
+"144","Botswana","Population(2016)",2291661
+"145","Lesotho","Population(2016)",2233339
+"146","The Gambia","Population(2016)",2100568
+"147","North Macedonia","Population(2016)",2083160
+"148","Slovenia","Population(2016)",2079976
+"149","Gabon","Population(2016)",2025137
+"150","Latvia","Population(2016)",1949670
+"151","Guinea-Bissau","Population(2016)",1861283
+"152","Bahrain","Population(2016)",1492584
+"153","Trinidad and Tobago","Population(2016)",1369125
+"154","Eswatini (Swaziland)","Population(2016)",1367254
+"155","Estonia","Population(2016)",1309632
+"156","East Timor","Population(2016)",1296311
+"157","Equatorial Guinea","Population(2016)",1267689
+"158","Mauritius","Population(2016)",1265138
+"159","Cyprus","Population(2016)",1179551
+"160","Djibouti","Population(2016)",956985
+"161","Fiji","Population(2016)",905502
+"162","Réunion","Population(2016)",876562
+"163","Comoros","Population(2016)",813912
+"164","Bhutan","Population(2016)",807610
+"165","Guyana","Population(2016)",777859
+"166","Montenegro","Population(2016)",628960
+"167","Macau","Population(2016)",622567
+"168","Solomon Islands","Population(2016)",611343
+"169","Luxembourg","Population(2016)",583455
+"170","Suriname","Population(2016)",563402
+"171","Western Sahara","Population(2016)",552628
+"172","Cape Verde","Population(2016)",546388
+"173","Guadeloupe","Population(2016)",449568
+"174","Maldives","Population(2016)",436330
+"175","Malta","Population(2016)",430835
+"176","Brunei","Population(2016)",428697
+"177","Bahamas","Population(2016)",395361
+"178","Martinique","Population(2016)",384896
+"179","Belize","Population(2016)",374681
+"180","Iceland","Population(2016)",335025
+"181","Barbados","Population(2016)",285719
+"182","French Polynesia","Population(2016)",283007
+"183","French Guiana","Population(2016)",282731
+"184","New Caledonia","Population(2016)",276255
+"185","Vanuatu","Population(2016)",276244
+"186","Mayotte","Population(2016)",253045
+"187","Sao Tome and Principe","Population(2016)",204327
+"188","Samoa","Population(2016)",196440
+"189","Saint Lucia","Population(2016)",178844
+"190","Guernsey and  Jersey","Population(2016)",165314
+"191","Guam","Population(2016)",164229
+"192","Curaçao","Population(2016)",160539
+"193","Kiribati","Population(2016)",116398
+"194","Saint Vincent and the Grenadines","Population(2016)",109897
+"195","Tonga","Population(2016)",108020
+"196","Grenada","Population(2016)",107825
+"197","Federated States of Micronesia","Population(2016)",105544
+"198","Aruba","Population(2016)",105264
+"199","United States Virgin Islands","Population(2016)",104901
+"200","Antigua and Barbuda","Population(2016)",102012
+"201","Seychelles","Population(2016)",94737
+"202","Isle of Man","Population(2016)",84287
+"203","Andorra","Population(2016)",76965
+"204","Dominica","Population(2016)",73925
+"205","Cayman Islands","Population(2016)",61559
+"206","Bermuda","Population(2016)",61349
+"207","Greenland","Population(2016)",56480
+"208","American Samoa","Population(2016)",55641
+"209","Saint Kitts and Nevis","Population(2016)",55345
+"210","Northern Mariana Islands","Population(2016)",55144
+"211","Marshall Islands","Population(2016)",53127
+"212","Faroe Islands","Population(2016)",49290
+"213","Sint Maarten","Population(2016)",40120
+"214","Monaco","Population(2016)",38695
+"215","Liechtenstein","Population(2016)",37922
+"216","Turks and Caicos Islands","Population(2016)",35446
+"217","Gibraltar","Population(2016)",34571
+"218","San Marino","Population(2016)",33400
+"219","British Virgin Islands","Population(2016)",31196
+"220","Caribbean Netherlands","Population(2016)",25398
+"221","Palau","Population(2016)",21729
+"222","Cook Islands","Population(2016)",17380
+"223","Anguilla","Population(2016)",14909
+"224","Wallis and Futuna","Population(2016)",11773
+"225","Nauru","Population(2016)",11359
+"226","Tuvalu","Population(2016)",11192
+"227","Saint Pierre and Miquelon","Population(2016)",6320
+"228","Montserrat","Population(2016)",5177
+"229","Saint Helena, Ascension and Tristan da Cunha","Population(2016)",4049
+"230","Falkland Islands","Population(2016)",2910
+"231","Niue","Population(2016)",1618
+"232","Tokelau","Population(2016)",1300
+"233","Vatican City","Population(2016)",792
+"234","China","Change(2016/2017)",0.4
+"235","India","Change(2016/2017)",1.1
+"236","United States","Change(2016/2017)",0.7
+"237","Indonesia","Change(2016/2017)",1.1
+"238","Brazil","Change(2016/2017)",0.8
+"239","Pakistan","Change(2016/2017)",2
+"240","Nigeria","Change(2016/2017)",2.6
+"241","Bangladesh","Change(2016/2017)",1.1
+"242","Russia","Change(2016/2017)",-2
+"243","Mexico","Change(2016/2017)",1.3
+"244","Japan","Change(2016/2017)",-0.2
+"245","Ethiopia","Change(2016/2017)",2.5
+"246","Philippines","Change(2016/2017)",1.5
+"247","Egypt","Change(2016/2017)",1.9
+"248","Vietnam","Change(2016/2017)",1
+"249","Germany","Change(2016/2017)",0.2
+"250","Democratic Republic of the Congo","Change(2016/2017)",3.3
+"251","Iran","Change(2016/2017)",1.1
+"252","Turkey","Change(2016/2017)",1.6
+"253","Thailand","Change(2016/2017)",0.3
+"254","United Kingdom","Change(2016/2017)",0.6
+"255","France","Change(2016/2017)",0.4
+"256","Italy","Change(2016/2017)",-0.1
+"257","Tanzania","Change(2016/2017)",3.1
+"258","South Africa","Change(2016/2017)",1.3
+"259","Myanmar","Change(2016/2017)",0.9
+"260","South Korea","Change(2016/2017)",0.4
+"261","Colombia","Change(2016/2017)",0.8
+"262","Kenya","Change(2016/2017)",2.6
+"263","Spain","Change(2016/2017)",0
+"264","Argentina","Change(2016/2017)",1
+"265","Ukraine","Change(2016/2017)",-0.5
+"266","Uganda","Change(2016/2017)",3.3
+"267","Algeria","Change(2016/2017)",1.8
+"268","Sudan","Change(2016/2017)",2.4
+"269","Iraq","Change(2016/2017)",2.9
+"270","Poland","Change(2016/2017)",-0.1
+"271","Canada","Change(2016/2017)",0.9
+"272","Morocco","Change(2016/2017)",1.3
+"273","Afghanistan","Change(2016/2017)",2.5
+"274","Saudi Arabia","Change(2016/2017)",2.1
+"275","Peru","Change(2016/2017)",1.2
+"276","Venezuela","Change(2016/2017)",1.3
+"277","Uzbekistan","Change(2016/2017)",1.5
+"278","Malaysia","Change(2016/2017)",1.4
+"279","Angola","Change(2016/2017)",3.4
+"280","Mozambique","Change(2016/2017)",2.9
+"281","Nepal","Change(2016/2017)",1.1
+"282","Ghana","Change(2016/2017)",2.2
+"283","Yemen","Change(2016/2017)",2.4
+"284","Madagascar","Change(2016/2017)",2.7
+"285","North Korea","Change(2016/2017)",0.5
+"286","Australia","Change(2016/2017)",1.3
+"287","Ivory Coast","Change(2016/2017)",2.5
+"288","Cameroon","Change(2016/2017)",2.6
+"289","Taiwan","Change(2016/2017)",0.3
+"290","Niger","Change(2016/2017)",3.9
+"291","Sri Lanka","Change(2016/2017)",0.4
+"292","Romania","Change(2016/2017)",-0.5
+"293","Burkina Faso","Change(2016/2017)",2.9
+"294","Malawi","Change(2016/2017)",2.9
+"295","Mali","Change(2016/2017)",3
+"296","Syria","Change(2016/2017)",-0.9
+"297","Kazakhstan","Change(2016/2017)",1.2
+"298","Chile","Change(2016/2017)",0.8
+"299","Zambia","Change(2016/2017)",3
+"300","Netherlands","Change(2016/2017)",0.3
+"301","Guatemala","Change(2016/2017)",2
+"302","Ecuador","Change(2016/2017)",1.5
+"303","Zimbabwe","Change(2016/2017)",2.4
+"304","Cambodia","Change(2016/2017)",1.5
+"305","Senegal","Change(2016/2017)",2.8
+"306","Chad","Change(2016/2017)",3.1
+"307","Somalia","Change(2016/2017)",3
+"308","Guinea","Change(2016/2017)",2.6
+"309","South Sudan","Change(2016/2017)",2.8
+"310","Rwanda","Change(2016/2017)",2.4
+"311","Tunisia","Change(2016/2017)",1.1
+"312","Cuba","Change(2016/2017)",0.1
+"313","Belgium","Change(2016/2017)",0.6
+"314","Benin","Change(2016/2017)",2.8
+"315","Greece","Change(2016/2017)",-0.2
+"316","Bolivia","Change(2016/2017)",1.5
+"317","Haiti","Change(2016/2017)",1.2
+"318","Burundi","Change(2016/2017)",3.2
+"319","Dominican Republic","Change(2016/2017)",1.1
+"320","Czech Republic","Change(2016/2017)",0.1
+"321","Portugal","Change(2016/2017)",-0.4
+"322","Sweden","Change(2016/2017)",0.7
+"323","Azerbaijan","Change(2016/2017)",1.1
+"324","Hungary","Change(2016/2017)",-0.3
+"325","Jordan","Change(2016/2017)",2.6
+"326","Belarus","Change(2016/2017)",-0.1
+"327","United Arab Emirates","Change(2016/2017)",1.4
+"328","Honduras","Change(2016/2017)",1.7
+"329","Tajikistan","Change(2016/2017)",2.1
+"330","Serbia","Change(2016/2017)",-0.3
+"331","Austria","Change(2016/2017)",0.3
+"332","Switzerland","Change(2016/2017)",0.9
+"333","Israel","Change(2016/2017)",1.6
+"334","Papua New Guinea","Change(2016/2017)",2.1
+"335","Togo","Change(2016/2017)",2.5
+"336","Sierra Leone","Change(2016/2017)",2.2
+"337","Hong Kong","Change(2016/2017)",0.8
+"338","Bulgaria","Change(2016/2017)",-0.7
+"339","Laos","Change(2016/2017)",1.5
+"340","Paraguay","Change(2016/2017)",1.3
+"341","El Salvador","Change(2016/2017)",0.5
+"342","Libya","Change(2016/2017)",1.3
+"343","Nicaragua","Change(2016/2017)",1.1
+"344","Lebanon","Change(2016/2017)",1.3
+"345","Kyrgyzstan","Change(2016/2017)",1.5
+"346","Turkmenistan","Change(2016/2017)",1.7
+"347","Denmark","Change(2016/2017)",0.4
+"348","Singapore","Change(2016/2017)",1.5
+"349","Finland","Change(2016/2017)",0.4
+"350","Slovakia","Change(2016/2017)",0.1
+"351","Norway","Change(2016/2017)",1
+"352","Congo","Change(2016/2017)",2.6
+"353","Eritrea","Change(2016/2017)",2.3
+"354","Palestine","Change(2016/2017)",2.7
+"355","Costa Rica","Change(2016/2017)",1
+"356","Ireland","Change(2016/2017)",0.8
+"357","Liberia","Change(2016/2017)",2.6
+"358","New Zealand","Change(2016/2017)",1
+"359","Central African Republic","Change(2016/2017)",1.4
+"360","Oman","Change(2016/2017)",4.8
+"361","Mauritania","Change(2016/2017)",2.8
+"362","Croatia","Change(2016/2017)",-0.6
+"363","Kuwait","Change(2016/2017)",2.1
+"364","Panama","Change(2016/2017)",1.6
+"365","Moldova","Change(2016/2017)",-0.2
+"366","Georgia","Change(2016/2017)",-0.3
+"367","Puerto Rico","Change(2016/2017)",-0.1
+"368","Bosnia and Herzegovina","Change(2016/2017)",-0.3
+"369","Uruguay","Change(2016/2017)",0.4
+"370","Mongolia","Change(2016/2017)",1.6
+"371","Armenia","Change(2016/2017)",0.2
+"372","Albania","Change(2016/2017)",0.1
+"373","Jamaica","Change(2016/2017)",0.3
+"374","Lithuania","Change(2016/2017)",-0.6
+"375","Qatar","Change(2016/2017)",2.7
+"376","Namibia","Change(2016/2017)",2.2
+"377","Botswana","Change(2016/2017)",1.8
+"378","Lesotho","Change(2016/2017)",1.3
+"379","The Gambia","Change(2016/2017)",3
+"380","North Macedonia","Change(2016/2017)",0.1
+"381","Slovenia","Change(2016/2017)",0.1
+"382","Gabon","Change(2016/2017)",2.3
+"383","Latvia","Change(2016/2017)",-1.1
+"384","Guinea-Bissau","Change(2016/2017)",2.5
+"385","Bahrain","Change(2016/2017)",4.7
+"386","Trinidad and Tobago","Change(2016/2017)",0.3
+"387","Eswatini (Swaziland)","Change(2016/2017)",1.8
+"388","Estonia","Change(2016/2017)",-0.2
+"389","East Timor","Change(2016/2017)",2.2
+"390","Equatorial Guinea","Change(2016/2017)",3.8
+"391","Mauritius","Change(2016/2017)",0.2
+"392","Cyprus","Change(2016/2017)",0.8
+"393","Djibouti","Change(2016/2017)",1.6
+"394","Fiji","Change(2016/2017)",0.8
+"395","Réunion","Change(2016/2017)",0.8
+"396","Comoros","Change(2016/2017)",2.3
+"397","Bhutan","Change(2016/2017)",1.2
+"398","Guyana","Change(2016/2017)",0.6
+"399","Montenegro","Change(2016/2017)",0.1
+"400","Macau","Change(2016/2017)",1.7
+"401","Solomon Islands","Change(2016/2017)",2
+"402","Luxembourg","Change(2016/2017)",1.3
+"403","Suriname","Change(2016/2017)",0.9
+"404","Western Sahara","Change(2016/2017)",2.6
+"405","Cape Verde","Change(2016/2017)",1.3
+"406","Guadeloupe","Change(2016/2017)",-0.1
+"407","Maldives","Change(2016/2017)",2
+"408","Malta","Change(2016/2017)",0.3
+"409","Brunei","Change(2016/2017)",1.3
+"410","Bahamas","Change(2016/2017)",1.1
+"411","Martinique","Change(2016/2017)",-0.1
+"412","Belize","Change(2016/2017)",2.1
+"413","Iceland","Change(2016/2017)",0.8
+"414","Barbados","Change(2016/2017)",0.3
+"415","French Polynesia","Change(2016/2017)",1
+"416","French Guiana","Change(2016/2017)",2.5
+"417","New Caledonia","Change(2016/2017)",1.3
+"418","Vanuatu","Change(2016/2017)",2.2
+"419","Mayotte","Change(2016/2017)",2.7
+"420","Sao Tome and Principe","Change(2016/2017)",2.2
+"421","Samoa","Change(2016/2017)",0.7
+"422","Saint Lucia","Change(2016/2017)",0.5
+"423","Guernsey and  Jersey","Change(2016/2017)",0.5
+"424","Guam","Change(2016/2017)",0.8
+"425","Curaçao","Change(2016/2017)",0.7
+"426","Kiribati","Change(2016/2017)",1.8
+"427","Saint Vincent and the Grenadines","Change(2016/2017)",0.2
+"428","Tonga","Change(2016/2017)",0.8
+"429","Grenada","Change(2016/2017)",0.5
+"430","Federated States of Micronesia","Change(2016/2017)",0.6
+"431","Aruba","Change(2016/2017)",0.4
+"432","United States Virgin Islands","Change(2016/2017)",0
+"433","Antigua and Barbuda","Change(2016/2017)",1
+"434","Seychelles","Change(2016/2017)",0.5
+"435","Isle of Man","Change(2016/2017)",0.7
+"436","Andorra","Change(2016/2017)",-0.4
+"437","Dominica","Change(2016/2017)",0.5
+"438","Cayman Islands","Change(2016/2017)",1.3
+"439","Bermuda","Change(2016/2017)",-0.5
+"440","Greenland","Change(2016/2017)",0.1
+"441","American Samoa","Change(2016/2017)",0.1
+"442","Saint Kitts and Nevis","Change(2016/2017)",1
+"443","Northern Mariana Islands","Change(2016/2017)",0.2
+"444","Marshall Islands","Change(2016/2017)",0.1
+"445","Faroe Islands","Change(2016/2017)",0.4
+"446","Sint Maarten","Change(2016/2017)",1.5
+"447","Monaco","Change(2016/2017)",0.5
+"448","Liechtenstein","Change(2016/2017)",0.7
+"449","Turks and Caicos Islands","Change(2016/2017)",1.6
+"450","Gibraltar","Change(2016/2017)",0.5
+"451","San Marino","Change(2016/2017)",0.6
+"452","British Virgin Islands","Change(2016/2017)",1.7
+"453","Caribbean Netherlands","Change(2016/2017)",1.5
+"454","Palau","Change(2016/2017)",1.1
+"455","Cook Islands","Change(2016/2017)",0
+"456","Anguilla","Change(2016/2017)",1
+"457","Wallis and Futuna","Change(2016/2017)",-1.1
+"458","Nauru","Change(2016/2017)",0.1
+"459","Tuvalu","Change(2016/2017)",0.9
+"460","Saint Pierre and Miquelon","Change(2016/2017)",0.2
+"461","Montserrat","Change(2016/2017)",0.5
+"462","Saint Helena, Ascension and Tristan da Cunha","Change(2016/2017)",0.3
+"463","Falkland Islands","Change(2016/2017)",0
+"464","Niue","Change(2016/2017)",-0.4
+"465","Tokelau","Change(2016/2017)",1.4
+"466","Vatican City","Change(2016/2017)",-1.1
