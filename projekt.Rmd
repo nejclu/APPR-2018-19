@@ -61,23 +61,20 @@ Podatke o stopnji sreče ljudi sem uvozil v obliki CSV s spletne strani Kaggle, 
 source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
 
-Prva dva grafa sta si med seboj zelo podobna. Na 2 načina je predstavljena stopnja sreče po državah, ki so razdeljene po celinah.
-
-```{r graf1, echo=FALSE, message=FALSE, warning=FALSE}
-print(graf1)
-```
+Prvi graf predstavlja stopnjo sreče po državah, ki so razdeljene po celinah.
 
 ```{r graf2, echo=FALSE, message=FALSE, warning=FALSE}
 print(graf2)
 ```
 
-Pri tretjem grafu sem iskal kolikšna je korelacija med stopnjo sreče v državi in posameznimi dejavniki. Iz grafa vidimo, da gospodarsko stanje države, pričakovana življenjska doba in družina igrajo največjo vlogo pri stopnji sreče prebivalcev posamezne države.
+Pri drugem grafu sem iskal kolikšna je korelacija med stopnjo sreče v državi in posameznimi dejavniki. Iz grafa vidimo, da gospodarsko stanje države, pričakovana življenjska doba in družina igrajo največjo vlogo pri stopnji sreče prebivalcev posamezne države.
 
 ```{r data3, echo=FALSE, message=FALSE, warning=FALSE}
 corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki", mar = c(0,0,1,0))
 ```
 
 Z naslednjim grafom sem hotel ugotoviti ali obstaja kakšna povezava med stopnjo sreče in številom prebivalcev države. Iz grafa vidimo, da obstaja šibko obratno soodvisje teh dveh vrednosti. Prebivalci države so srečnejši, če v njej živi manj ljudi. Podobno sm naredil tudi s podatkom za prirast prebivalstva. Tu je obratna soodvisnost izrazitejša kot prej, torej obstaja povezava med nižjim prirastom prebivalstva in višjo stopnjo sreče ljudi.
+
 ```{r data4, echo=FALSE, message=FALSE, warning=FALSE}
 corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva", mar = c(0,0,1,0))
 ```
