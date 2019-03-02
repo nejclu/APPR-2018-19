@@ -11,7 +11,6 @@ tabela_preb <- stran %>% html_nodes(xpath="//table[@class='wikitable sortable pl
                                         prebivalstvo=`Population(1 July 2017)[3]` %>%
                                           parse_number(locale=locale(grouping_mark=",")))
 
-
 #Preimenovanje drugega stolpca
 names(tabela_preb)[names(tabela_preb)=="prebivalstvo"] <- "Population(2016)"
 
