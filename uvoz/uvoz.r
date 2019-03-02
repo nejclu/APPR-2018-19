@@ -8,13 +8,13 @@ link <- "https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_N
 stran <- html_session(link) %>% read_html()
 tabela_preb <- stran %>% html_nodes(xpath="//table[@class='wikitable sortable plainrowheaders']") %>%
   .[[1]] %>% html_table() %>% transmute(Country=`Country or area` %>% strapplyc("^([^[]*)") %>% unlist(),
-                                        prebivalstvo=`Population(1 July 2017)[3]` %>%
+                                        Population=`Population(1 July 2017)[3]` %>%
                                           parse_number(locale=locale(grouping_mark=",")))
 
 #Preimenovanje drugega stolpca
-names(tabela_preb)[names(tabela_preb)=="prebivalstvo"] <- "Population(2016)"
+names(tabela_preb)[names(tabela_preb)=="Population"] <- "Population(2016)"
 
-#Odstrani prvo vrstico (podatek za svet)
+#Odstrani prvo vrstico (podatek za svet), ker je ne potrebujemo
 tabela_preb <- tabela_preb[-1,]
 
 #Tabela z naravnim prirastom
@@ -46,7 +46,7 @@ tabela_2015$Year <- 2015
 #Spremeni vrstni red stolpcev (leto damo na drugo mesto)
 tabela_2015 <- tabela_2015[,c(1,11,2,3,4,5,6,7,8,9,10)]
 
-#Uredi rank države
+#Uredi rank države (Nekaj manjkajočih držav je bilo odstranjenih iz datoteke že pred uvozom)
 tabela_2015$`Happiness Rank` <- 1:148
 
 #Preimenujemo stolpce v katerih so presledki
