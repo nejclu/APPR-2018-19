@@ -95,5 +95,5 @@ print(zem1)
 ```
 
 ```{r shiny, echo = FALSE, message=FALSE, warning=FALSE}
-shinyAppDir("shiny2")
+shinyAppDir("shiny2", options=list(width="100%", height=900))
 ```
