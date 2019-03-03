@@ -9,9 +9,9 @@ function(input, output) {
 #Če pr geom_line nism dodal aes(group=Country), ni telo povezat točk (po tem ko sm dau x=factor(Year)    
     tabela_shiny_sub <- reactive({
       a <- tabela_shiny[tabela_shiny$Država == as.character(input$drzava),]
-      return(a)
+      return(a[,2:3])
     })
-    
+#pri a-ju ni potrebno da vrnemo 1. stolpec, ker je ime države razvidna že iz zgornje izbire    
     output$table1 <- renderTable(tabela_shiny_sub())
     
   })
