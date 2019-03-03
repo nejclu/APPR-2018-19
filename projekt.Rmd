@@ -61,19 +61,20 @@ Podatke o stopnji sreče ljudi sem uvozil v obliki CSV s spletne strani Kaggle, 
 source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
 
-Prvi graf predstavlja stopnjo sreče po državah, ki so razdeljene po celinah.
+Prvi graf predstavlja stopnjo sreče po državah, ki so razdeljene po celinah. Vidimo, da so ljudje v Afriki večinoma manj srečni od ostalih. Prebivalci nekaterih evropskih držav so najsrečnejši ljudje na svetu, ne velja pa to za celotno celino, saj je veliko evropskih držav postavljenih precej nižje. Najmanjše nihanje v rezultati med državami posameznega kontinenta je v Južni Ameriki, pri ostalih pa so dosežki precej razpršeni.
 
 ```{r graf2, echo=FALSE, message=FALSE, warning=FALSE}
 print(graf2)
 ```
 
-Pri drugem grafu sem iskal kolikšna je korelacija med stopnjo sreče v državi in posameznimi dejavniki. Iz grafa vidimo, da gospodarsko stanje države, pričakovana življenjska doba in družina igrajo največjo vlogo pri stopnji sreče prebivalcev posamezne države.
+Pri drugem grafu sem iskal kolikšna je korelacija med stopnjo sreče v državi in posameznimi dejavniki. Iz grafa vidimo, da je stopnja sreče najbolj povezana z gospodarstvom, pričakovano življenjsko dobo in družino, najmanj pa z radodarnostjo. Višji pomen prvih treh dejavnikov praviloma pomeni višjo stopnjo, višji pomen radodarnosti pa v splošnem nima takega vpliva.
+
 
 ```{r data3, echo=FALSE, message=FALSE, warning=FALSE}
 corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki", mar = c(0,0,1,0))
 ```
 
-Z naslednjim grafom sem hotel ugotoviti ali obstaja kakšna povezava med stopnjo sreče in številom prebivalcev države. Iz grafa vidimo, da obstaja šibko obratno soodvisje teh dveh vrednosti. Prebivalci države so srečnejši, če v njej živi manj ljudi. Podobno sm naredil tudi s podatkom za prirast prebivalstva. Tu je obratna soodvisnost izrazitejša kot prej, torej obstaja povezava med nižjim prirastom prebivalstva in višjo stopnjo sreče ljudi.
+Z naslednjim grafom sem hotel ugotoviti ali obstaja kakšna povezava med stopnjo sreče in številom prebivalcev države. Iz grafa vidimo, da obstaja šibko (zanemarljivo) obratno soodvisje teh dveh vrednosti. Prebivalci države so srečnejši, če v njej živi manj ljudi. Podobno sm naredil tudi s podatkom za prirast prebivalstva. Tu je obratna soodvisnost izrazitejša kot prej, torej obstaja povezava med nižjim prirastom prebivalstva in višjo stopnjo sreče ljudi.
 
 ```{r data4, echo=FALSE, message=FALSE, warning=FALSE}
 corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva", mar = c(0,0,1,0))
@@ -86,7 +87,9 @@ print(graf3)
 ```
 
 Ker nimam zbranih podatkov za vse države sveta, sem se odločil z zemljevidom predstaviti stopnjo sreče samo v državah po Evropi. Manjkajo podatki nekaterih zelo majhnih držav (Monako, Vatikan, Lihtenštajn, San Marino, Andora) in (bolj al manj priznanega) Kosova.
-Svetlejši odtenki modre predstavljajo višjo vrednost stopnje sreče. Praviloma so prebivalci severnejših držav srečnejši, kar je pričakovano, saj so te države tudi gospodarsko najuspešnejše v Evropi, pri tretjem grafu pa smo ugotovili, da gospodarska razvitost močno vpliva na stopnjo sreče prebivalcev.
+Temnejši odtenki zelene predstavljajo višjo vrednost stopnje sreče. Praviloma so prebivalci severnejših držav srečnejši, kar je pričakovano, saj so te države tudi gospodarsko najuspešnejše v Evropi, pri drugem grafu pa smo ugotovili, da gospodarska razvitost močno vpliva na stopnjo sreče prebivalcev.
+Dodane so tudi oznake za stopnjo sreče v državi z najmanj srečnimi prebivalci v Evropi (Moldavija), najbolj srečnimi Evropejci (Norveška) ter v Sloveniji.
+
 ```{r zem, echo=FALSE, message=FALSE, warning=FALSE}
 print(zem1)
 ```
