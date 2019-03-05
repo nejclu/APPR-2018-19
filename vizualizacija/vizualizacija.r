@@ -77,7 +77,8 @@ names(hap_change_tb)[3] <- "Change"
 
 graf3 <- ggplot(hap_change_tb, aes(x=factor(Year), y=Change)) + geom_line(aes(group = Country), colour = "Black") + 
   geom_point(aes(colour = Country), size = 3) + ggtitle("Sprememba stopnje sreče v letih 2015 - 2017 (3 max & 3 min)") + 
-  theme(plot.title = element_text(size = (14))) + xlab("Leto") + ylab("Stopnja sreče [1-10]")
+  theme(plot.title = element_text(size = (14))) +
+  xlab("Leto") + ylab("Stopnja sreče [1-10]")
 
 # #ZEMLJEVID
 #Uvozi potrebne knjižnice
