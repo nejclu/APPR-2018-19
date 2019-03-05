@@ -17,10 +17,21 @@ graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent
 #samo za 2 državi - graf se ne izriše.
 graf2 <- ggplot(tabela_2017[!(tabela_2017$Continent=="Australia"),], aes(x=Continent, y=Happiness.Score)) + geom_violin(aes(fill=Continent), show.legend = FALSE) +
   theme_bw() + theme(axis.title = element_text(size = (9)), plot.title = element_text(size = (14))) + 
-  ggtitle("Stopnja sreče po kontinentih") + xlab("Kontinent") + ylab("Stopnja sreče")
+  ggtitle("Stopnja sreče po kontinentih") + xlab("Kontinent") + ylab("Stopnja sreče [1-10]")
 
 #graf3 prikazuje stopnjo korelacije med stopnjo sreče in posameznimi dejavniki
-data3 = cor(tabela_2017[c(5:12)])
+#Prevod v slovenščino
+tabela_2017_slo <- tabela_2017
+names(tabela_2017_slo)[5] <- "Stopnja.sreče"
+names(tabela_2017_slo)[6] <- "BDP.države"
+names(tabela_2017_slo)[7] <- "Družina"
+names(tabela_2017_slo)[8] <- "Pričak.življ.doba"
+names(tabela_2017_slo)[9] <- "Svoboda"
+names(tabela_2017_slo)[10] <- "Radodarnost"
+names(tabela_2017_slo)[11] <- "(Odsotnost).korupcije"
+names(tabela_2017_slo)[12] <- "Dystopia/Ostanek"
+
+data3 = cor(tabela_2017_slo[c(5:12)])
 #corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki")
 
 #Za naslednji graf bomo potrebovali ujemanje imen držav v tabeli "tabela_2017" in "tabela_preb", saj bomo dodajali stolpce iz ene tabele v drugo.
