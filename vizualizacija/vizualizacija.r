@@ -113,7 +113,7 @@ ujemanje <- left_join(drzave, tabela_evropske, by="Country")
 
 zem <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanje, by=c("NAME"="Country")), aes(x=long, y=lat, group=group, fill=center)) +
   ggtitle("Stopnja sreče po evropskih državah (2017)") + xlab("") + ylab("") + scale_fill_gradient(low='#66FF66', high='#006600') +
-  guides(fill=guide_colorbar(title="Stopnja sreče [1-10]"))
+  guides(fill=guide_colorbar(title="Stopnja sreče [1-10]")) + theme(plot.title = element_text(size=14))
 
 #Dodane oznake za državi z najvišjo in najnižjo vrednostjo + vrednost za Slovenijo
 zem1 <- zem + geom_point(aes(x=30, y=50)) + geom_text(aes(x=30, y=49), label = "4.096")
