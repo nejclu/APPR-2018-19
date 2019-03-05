@@ -26,11 +26,11 @@ data3 = cor(tabela_2017[c(5:12)])
 #Za naslednji graf bomo potrebovali ujemanje imen držav v tabeli "tabela_2017" in "tabela_preb", saj bomo dodajali stolpce iz ene tabele v drugo.
 #Ročno je potrebno spremeniti imena petih držav (Problem: Kosovo in Severni Ciper - podatka bom izpustil)
 
-tabela_preb[56,1] <- "Taiwan Province of China"
-tabela_preb[147,1] <- "Macedonia"
-tabela_preb[121,1] <- "Palestinian Territories"
-tabela_preb[17,1] <- "Congo (Kinshasa)"
-tabela_preb[119,1] <- "Congo (Brazzaville)"
+tabela_preb[56,1] <- "Taiwan Province of China" #Prej "Taiwan"
+tabela_preb[147,1] <- "Macedonia" #Prej "North Macedonia"
+tabela_preb[121,1] <- "Palestinian Territories" #Prej "Palestine"
+tabela_preb[17,1] <- "Congo (Kinshasa)" #Prej "Democratic Republic of the Congo"
+tabela_preb[119,1] <- "Congo (Brazzaville)" #Prej "Congo"
 
 #Dodamo stolpec "Population" k tabeli "tabela_2017"
 tabela_2017$"Population(2016)" <- tabela_preb$`Population(2016)`[match(tabela_2017$Country, tabela_preb$Country)]
@@ -38,7 +38,7 @@ tabela_2017$"Population(2016)" <- tabela_preb$`Population(2016)`[match(tabela_20
 #Dodan stolpec za prirast prebivalstva k tabeli "tabela_2017"
 tabela_2017$"Change(2016/2017)" <- tabela_preb$`Change(2016/2017)`[match(tabela_2017$Country, tabela_preb$Country)]
 
-#Iz tabele odstranimo 2 državi, za katere nimamo podatkov
+#Iz tabele odstranimo 2 državi, za katere nimamo podatkov (Severni Ciper in Kosovo)
 tabela_2017_sprem <- tabela_2017[-c(60,77),]
 
 #Izrišemo graf korelacije med stopnjo sreče in številom prebivalstva ter prirastom ljudi
@@ -75,9 +75,9 @@ hap_change_tb$variable <- as.integer(gsub("\\D", "", hap_change_tb$variable))
 names(hap_change_tb)[2] <- "Year"
 names(hap_change_tb)[3] <- "Change"
 
-graf3 <- ggplot(hap_change_tb, aes(x=factor(Year), y=Change)) + geom_line(aes(group = Country), colour = "Black") + geom_point(aes(colour = Country), size = 2) + scale_color_discrete(name = "Države")
-graf3 <- graf3 + ggtitle("Sprememba stopnje sreče v letih 2015 - 2017 (3 max & 3 min)") + theme(plot.title = element_text(size = (14))) +
-  xlab("Leto") + ylab("Sprememba")
+graf3 <- ggplot(hap_change_tb, aes(x=factor(Year), y=Change)) + geom_line(aes(group = Country), colour = "Black") + 
+  geom_point(aes(colour = Country), size = 3) + ggtitle("Sprememba stopnje sreče v letih 2015 - 2017 (3 max & 3 min)") + 
+  theme(plot.title = element_text(size = (14))) + xlab("Leto") + ylab("Stopnja sreče [1-10]")
 
 # #ZEMLJEVID
 #Uvozi potrebne knjižnice
