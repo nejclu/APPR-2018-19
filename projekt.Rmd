@@ -80,7 +80,7 @@ Z naslednjim grafom sem hotel ugotoviti ali obstaja kakšna povezava med stopnjo
 corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva", mar = c(0,0,1,0))
 ```
 
-V spodnjem grafu so prikazane 3 države, v katerih se je med leti 2015 - 2017 stopnja sreče najbolj spreminjala in 3, kjer se je najmanj. Največje spremembe so bile pri Venezueli, Alžiriji in Liberiji, najmanjše pa na Danskem, v Trinidadu in Tobagu ter Burundiju.
+V spodnjem grafu so prikazane tri države, v katerih se je med leti 2015 - 2017 stopnja sreče najbolj spreminjala in tri, kjer se je najmanj. Največje spremembe so bile pri Venezueli, Alžiriji in Liberiji, najmanjše pa na Danskem, v Trinidadu in Tobagu ter Burundiju.
 
 ```{r graf3, echo=FALSE, message=FALSE, warning=FALSE}
 print(graf3)
