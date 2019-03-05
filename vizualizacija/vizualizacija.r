@@ -122,6 +122,7 @@ tabela_evropa <- tabela_2017_sprem[tabela_2017_sprem[, 2] == "Europe",]
 tabela_evropa[14,1] <- "Czechia"
 tabela_evropa[36,1] <- "Bosnia and Herz."
 
+#Dodamo stolpce s procentualnimi deleži posameznih dejavnikov
 tabela_evropa$Economy.Procent <- with(tabela_evropa, Economy / Happiness.Score *100)
 k1 <- kmeans(tabela_evropa[,"Economy.Procent"], 6)
 tabela_evropa$center_economy <- k1$centers[k1$cluster, ]
@@ -146,7 +147,7 @@ tabela_evropa$Trust.Procent <- with(tabela_evropa, Trust / Happiness.Score *100)
 k6 <- kmeans(tabela_evropa[,"Trust.Procent"], 6)
 tabela_evropa$center_trust <- k6$centers[k6$cluster, ]
 
-tabela_evropa$Dystopia.Residual.Procent <- with(tabela_evropa, Dystopia.Residual / Happiness.Score *100)
+#tabela_evropa$Dystopia.Residual.Procent <- with(tabela_evropa, Dystopia.Residual / Happiness.Score *100)
 
 #Zbrišemo stolpca s podatki o letu in kontinentu
 tabela_evropa[2:3] <- NULL
