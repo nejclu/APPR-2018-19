@@ -108,8 +108,7 @@ tabela_evropske$center <- k$centers[k$cluster, ]
 
 ujemanje <- left_join(drzave, tabela_evropske, by="Country")
 
-zem <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanje, by=c("NAME"="Country")),
-                        aes(x=long, y=lat, group=group, fill=center)) +
+zem <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanje, by=c("NAME"="Country")), aes(x=long, y=lat, group=group, fill=center)) +
   ggtitle("Stopnja sreče po evropskih državah (2017)") + xlab("") + ylab("") + scale_fill_gradient(low='#66FF66', high='#006600') +
   guides(fill=guide_colorbar(title="Stopnja sreče [1-10]"))
 
