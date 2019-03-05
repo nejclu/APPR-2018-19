@@ -97,9 +97,12 @@ tabela_evropske <- tabela_2017_sprem[tabela_2017_sprem[, 2] == "Europe",]
 tabela_evropske[6:14] <- NULL
 tabela_evropske[2:4] <- NULL
 
-drzave <- unique(zemljevid$NAME)
+drzave <- unique(as.character(zemljevid$NAME))
 drzave <- as.data.frame(drzave, stringsAsFactors=FALSE)
 names(drzave) <- "Country"
+
+#Spremenimo tips tolpca v tabeli "zemljevid" (factor->character)
+zemljevid$NAME <- as.character(zemljevid$NAME)
 tabela_evropske[14,1] <- "Czechia"
 tabela_evropske[36,1] <- "Bosnia and Herz."
 
@@ -162,17 +165,4 @@ tabela_shiny$Year <- as.integer(tabela_shiny$Year)
 #Prevodi iz angleščine v slovenščino
 names(tabela_shiny)[1]<-"Država"
 names(tabela_shiny)[2]<-"Leto"
-names(tabela_shiny)[3]<-"Mesto [/148]"
-
-
-# Uvozimo zemljevid.
-# zemljevid <- uvozi.zemljevid("http://baza.fmf.uni-lj.si/OB.zip", "OB",
-#                              pot.zemljevida="OB", encoding="Windows-1250")
-# levels(zemljevid$OB_UIME) <- levels(zemljevid$OB_UIME) %>%
-#   { gsub("Slovenskih", "Slov.", .) } %>% { gsub("-", " - ", .) }
-# zemljevid$OB_UIME <- factor(zemljevid$OB_UIME, levels=levels(obcine$obcina))
-# zemljevid <- fortify(zemljevid)
-
-# Izračunamo povprečno velikost družine
-# povprecja <- druzine %>% group_by(obcina) %>%
-#   summarise(povprecje=sum(velikost.druzine * stevilo.druzin) / sum(stevilo.druzin))
+names(tabela_shiny)[3]<-"Razvrstitev [od 148]"
