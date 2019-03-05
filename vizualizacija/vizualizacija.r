@@ -28,7 +28,7 @@ names(tabela_2017_slo)[7] <- "Družina"
 names(tabela_2017_slo)[8] <- "Pričak.življ.doba"
 names(tabela_2017_slo)[9] <- "Svoboda"
 names(tabela_2017_slo)[10] <- "Radodarnost"
-names(tabela_2017_slo)[11] <- "(Odsotnost).korupcije"
+names(tabela_2017_slo)[11] <- "Odsotnost.korupcije"
 names(tabela_2017_slo)[12] <- "Dystopia/Ostanek"
 
 data3 = cor(tabela_2017_slo[c(5:12)])
