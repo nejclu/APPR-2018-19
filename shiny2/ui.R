@@ -14,7 +14,7 @@ fluidPage(
   tabPanel("Zemljevid",
            sidebarPanel(
              selectInput("dejavniki",label="Izberi dejavnik",
-                         choice=c("Splošno","Gospodarstvo","Družina","Pričakovana življenjska doba","Svoboda",
+                         choice=c("Splošno","Gospodarstvo (BDP)","Družina","Pričakovana življenjska doba","Svoboda",
                                   "Radodarnost","(Odsotnost) korupcije"))
            ),
            mainPanel(plotOutput("dejavniki_zem")
