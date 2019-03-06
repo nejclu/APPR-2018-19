@@ -83,11 +83,12 @@ hap_change_tb <- melt(hap_change_tb, id.vars = "Country", measure.vars = colname
 hap_change_tb$variable <- as.integer(gsub("\\D", "", hap_change_tb$variable))
 
 #Preimenujemo stolpce
-names(hap_change_tb)[2] <- "Year"
-names(hap_change_tb)[3] <- "Change"
+names(hap_change_tb)[1] <- "Drzava"
+names(hap_change_tb)[2] <- "Leto"
+names(hap_change_tb)[3] <- "Sprememba"
 
-graf3 <- ggplot(hap_change_tb, aes(x=factor(Year), y=Change)) + geom_line(aes(group = Country), colour = "Black") + 
-  geom_point(aes(colour = Country), size = 3) + ggtitle("Sprememba stopnje sreče v letih 2015 - 2017 (3 max & 3 min)") + 
+graf3 <- ggplot(hap_change_tb, aes(x=factor(Leto), y=Sprememba)) + geom_line(aes(group = Drzava), colour = "Black") + 
+  geom_point(aes(colour = Drzava), size = 3) + ggtitle("Sprememba stopnje sreče v letih 2015 - 2017 (3 max & 3 min)") + 
   theme(plot.title = element_text(size = (14))) + xlab("Leto") + ylab("Stopnja sreče [1-10]")
 
 # #ZEMLJEVID
