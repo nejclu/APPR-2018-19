@@ -16,7 +16,7 @@ graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent
 #graf2 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja - "violin plot". Avstralija je izločena iz grafa, ker imamo podatke
 #samo za 2 državi - graf se ne izriše.
 graf2 <- ggplot(tabela_2017[!(tabela_2017$Continent=="Australia"),], aes(x=Continent, y=Happiness.Score)) + geom_violin(aes(fill=Continent), show.legend = FALSE) +
-  theme_bw() + theme(axis.title = element_text(size = (9)), plot.title = element_text(size = (14))) + 
+  theme_bw() + theme(axis.title = element_text(size = (9)), plot.title = element_text(size = (14))) + theme(plot.title = element_text(hjust = 0.5)) +
   ggtitle("Stopnja sreče po kontinentih") + xlab("Kontinent") + ylab("Stopnja sreče [1-10]")
 
 #graf3 prikazuje stopnjo korelacije med stopnjo sreče in posameznimi dejavniki
@@ -88,8 +88,7 @@ names(hap_change_tb)[3] <- "Change"
 
 graf3 <- ggplot(hap_change_tb, aes(x=factor(Year), y=Change)) + geom_line(aes(group = Country), colour = "Black") + 
   geom_point(aes(colour = Country), size = 3) + ggtitle("Sprememba stopnje sreče v letih 2015 - 2017 (3 max & 3 min)") + 
-  theme(plot.title = element_text(size = (14))) +
-  xlab("Leto") + ylab("Stopnja sreče [1-10]")
+  theme(plot.title = element_text(size = (14))) + xlab("Leto") + ylab("Stopnja sreče [1-10]")
 
 # #ZEMLJEVID
 #Uvozi potrebne knjižnice
