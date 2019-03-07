@@ -116,7 +116,7 @@ source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 
 Prvi graf predstavlja stopnjo sreče po državah, ki so razdeljene po celinah. Vidimo, da so ljudje v Afriki večinoma manj srečni od ostalih. Prebivalci nekaterih evropskih držav so najsrečnejši ljudje na svetu, ne velja pa to za celotno celino, saj je veliko evropskih držav postavljenih precej nižje. Najmanjše nihanje v rezultati med državami posameznega kontinenta je v Južni Ameriki, pri ostalih pa so dosežki precej razpršeni.
 
-```{r graf2, echo=FALSE, message=FALSE, warning=FALSE}
+```{r graf2, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 print(graf2)
 ```
 
@@ -135,7 +135,7 @@ corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in št
 
 V spodnjem grafu so prikazane tri države, v katerih se je med leti 2015 - 2017 stopnja sreče najbolj spreminjala in tri, kjer se je najmanj. Največje spremembe so bile pri Venezueli, Alžiriji in Liberiji, najmanjše pa na Danskem, v Trinidadu in Tobagu ter Burundiju.
 
-```{r graf3, echo=FALSE, message=FALSE, warning=FALSE}
+```{r graf3, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 print(graf3)
 ```
 
@@ -143,7 +143,7 @@ Ker nimam zbranih podatkov za vse države sveta, sem se odločil z zemljevidom p
 Temnejši odtenki zelene predstavljajo višjo vrednost stopnje sreče. Praviloma so prebivalci severnejših držav srečnejši, kar je pričakovano, saj so te države tudi gospodarsko najuspešnejše v Evropi, pri drugem grafu pa smo ugotovili, da gospodarska razvitost močno vpliva na stopnjo sreče prebivalcev.
 Dodane so tudi oznake za stopnjo sreče v državi z najmanj srečnimi prebivalci v Evropi (Moldavija), najbolj srečnimi Evropejci (Norveška) ter v Sloveniji.
 
-```{r zem, echo=FALSE, message=FALSE, warning=FALSE}
+```{r zem, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 print(zem1)
 ```
 
