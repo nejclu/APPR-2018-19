@@ -19,7 +19,13 @@ names(tidy_trust)[names(tidy_trust)=="Trust"] <- "(Odsotnost).korupcije"
 names(tidy_generosity)[names(tidy_generosity)=="Generosity"] <- "Radodarnost"
 names(tidy_residual)[names(tidy_residual)=="Dystopia.Residual"] <- "Dystopia.Preostanek"
 
-tabela2_tidy <- melt(tabela_preb, id.vars = "Country", measure.vars = names(tabela_preb)[-1], variable.name = "Spremenljivka", value.name = "Vrednost")
+tidy_preb <- tabela_preb[-3]
+tidy_prir <- tabela_preb[-2]
+
+names(tidy_preb)[names(tidy_preb)=="Country"] <- "Država"
+names(tidy_preb)[names(tidy_preb)=="Population(2016)"] <- "Število.prebivalcev(2016)"
+names(tidy_prir)[names(tidy_prir)=="Country"] <- "Država"
+names(tidy_prir)[names(tidy_prir)=="Change(2016/2017)"] <- "Prirast(2016/2017)"
 
 write.csv(tidy_economy, file = "tidy_economy.csv")
 write.csv(tidy_family, file = "tidy_family.csv")
@@ -28,4 +34,5 @@ write.csv(tidy_trust, file = "tidy_trust.csv")
 write.csv(tidy_generosity, file = "tidy_generosity.csv")
 write.csv(tidy_residual, file = "tidy_residual")
 write.csv(tidy_residual, file = "tidy_residual.csv")
-write.csv(tabela2_tidy, file = "tabela2.csv")
+write.csv(tidy_preb, file = "tidy_preb.csv")
+write.csv(tidy_prir, file = "tidy_prir.csv")

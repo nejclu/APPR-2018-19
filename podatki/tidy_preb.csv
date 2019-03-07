@@ -1,0 +1,234 @@
+"","Država","Število.prebivalcev(2016)"
+"2","China",1409517397
+"3","India",1339180127
+"4","United States",324459463
+"5","Indonesia",263991379
+"6","Brazil",209288278
+"7","Pakistan",197015955
+"8","Nigeria",190886311
+"9","Bangladesh",164669751
+"10","Russia",143989754
+"11","Mexico",129163276
+"12","Japan",127484450
+"13","Ethiopia",104957438
+"14","Philippines",104918090
+"15","Egypt",97553151
+"16","Vietnam",95540800
+"17","Germany",82114224
+"18","Congo (Kinshasa)",81339988
+"19","Iran",81162788
+"20","Turkey",80745020
+"21","Thailand",69037513
+"22","United Kingdom",66181585
+"23","France",64979548
+"24","Italy",59359900
+"25","Tanzania",57310019
+"26","South Africa",56717156
+"27","Myanmar",53370609
+"28","South Korea",50982212
+"29","Colombia",49065615
+"30","Kenya",49699862
+"31","Spain",46354321
+"32","Argentina",44271041
+"33","Ukraine",44222947
+"34","Uganda",42862958
+"35","Algeria",41318142
+"36","Sudan",40533330
+"37","Iraq",38274618
+"38","Poland",38170712
+"39","Canada",36624199
+"40","Morocco",35739580
+"41","Afghanistan",35530081
+"42","Saudi Arabia",32938213
+"43","Peru",32165485
+"44","Venezuela",31977065
+"45","Uzbekistan",31910641
+"46","Malaysia",31624264
+"47","Angola",29784193
+"48","Mozambique",29668834
+"49","Nepal",29304998
+"50","Ghana",28833629
+"51","Yemen",28250420
+"52","Madagascar",25570895
+"53","North Korea",25490965
+"54","Australia",24450561
+"55","Ivory Coast",24294750
+"56","Cameroon",24053727
+"57","Taiwan Province of China",23626456
+"58","Niger",21477348
+"59","Sri Lanka",20876917
+"60","Romania",19679306
+"61","Burkina Faso",19193382
+"62","Malawi",18622104
+"63","Mali",18541980
+"64","Syria",18269868
+"65","Kazakhstan",18204499
+"66","Chile",18054726
+"67","Zambia",17094130
+"68","Netherlands",17035938
+"69","Guatemala",16913503
+"70","Ecuador",16624858
+"71","Zimbabwe",16529904
+"72","Cambodia",16005373
+"73","Senegal",15850567
+"74","Chad",14899994
+"75","Somalia",14742523
+"76","Guinea",12717176
+"77","South Sudan",12575714
+"78","Rwanda",12208407
+"79","Tunisia",11532127
+"80","Cuba",11484636
+"81","Belgium",11429336
+"82","Benin",11175692
+"83","Greece",11159773
+"84","Bolivia",11051600
+"85","Haiti",10981229
+"86","Burundi",10864245
+"87","Dominican Republic",10766998
+"88","Czech Republic",10618303
+"89","Portugal",10329506
+"90","Sweden",9910701
+"91","Azerbaijan",9827589
+"92","Hungary",9721559
+"93","Jordan",9702353
+"94","Belarus",9468338
+"95","United Arab Emirates",9400145
+"96","Honduras",9265067
+"97","Tajikistan",8921343
+"98","Serbia",8790574
+"99","Austria",8735453
+"100","Switzerland",8476005
+"101","Israel",8321570
+"102","Papua New Guinea",8251162
+"103","Togo",7797694
+"104","Sierra Leone",7557212
+"105","Hong Kong",7364883
+"106","Bulgaria",7084571
+"107","Laos",6858160
+"108","Paraguay",6811297
+"109","El Salvador",6377853
+"110","Libya",6374616
+"111","Nicaragua",6217581
+"112","Lebanon",6082357
+"113","Kyrgyzstan",6045117
+"114","Turkmenistan",5758075
+"115","Denmark",5733551
+"116","Singapore",5708844
+"117","Finland",5523231
+"118","Slovakia",5447662
+"119","Norway",5305383
+"120","Congo (Brazzaville)",5260750
+"121","Eritrea",5068831
+"122","Palestinian Territories",4920724
+"123","Costa Rica",4905769
+"124","Ireland",4761657
+"125","Liberia",4731906
+"126","New Zealand",4705818
+"127","Central African Republic",4659080
+"128","Oman",4636262
+"129","Mauritania",4420184
+"130","Croatia",4189353
+"131","Kuwait",4136528
+"132","Panama",4098587
+"133","Moldova",4051212
+"134","Georgia",3912061
+"135","Puerto Rico",3663131
+"136","Bosnia and Herzegovina",3507017
+"137","Uruguay",3456750
+"138","Mongolia",3075647
+"139","Armenia",2930450
+"140","Albania",2930187
+"141","Jamaica",2890299
+"142","Lithuania",2890297
+"143","Qatar",2639211
+"144","Namibia",2533794
+"145","Botswana",2291661
+"146","Lesotho",2233339
+"147","The Gambia",2100568
+"148","Macedonia",2083160
+"149","Slovenia",2079976
+"150","Gabon",2025137
+"151","Latvia",1949670
+"152","Guinea-Bissau",1861283
+"153","Bahrain",1492584
+"154","Trinidad and Tobago",1369125
+"155","Eswatini (Swaziland)",1367254
+"156","Estonia",1309632
+"157","East Timor",1296311
+"158","Equatorial Guinea",1267689
+"159","Mauritius",1265138
+"160","Cyprus",1179551
+"161","Djibouti",956985
+"162","Fiji",905502
+"163","Réunion",876562
+"164","Comoros",813912
+"165","Bhutan",807610
+"166","Guyana",777859
+"167","Montenegro",628960
+"168","Macau",622567
+"169","Solomon Islands",611343
+"170","Luxembourg",583455
+"171","Suriname",563402
+"172","Western Sahara",552628
+"173","Cape Verde",546388
+"174","Guadeloupe",449568
+"175","Maldives",436330
+"176","Malta",430835
+"177","Brunei",428697
+"178","Bahamas",395361
+"179","Martinique",384896
+"180","Belize",374681
+"181","Iceland",335025
+"182","Barbados",285719
+"183","French Polynesia",283007
+"184","French Guiana",282731
+"185","New Caledonia",276255
+"186","Vanuatu",276244
+"187","Mayotte",253045
+"188","Sao Tome and Principe",204327
+"189","Samoa",196440
+"190","Saint Lucia",178844
+"191","Guernsey and  Jersey",165314
+"192","Guam",164229
+"193","Curaçao",160539
+"194","Kiribati",116398
+"195","Saint Vincent and the Grenadines",109897
+"196","Tonga",108020
+"197","Grenada",107825
+"198","Federated States of Micronesia",105544
+"199","Aruba",105264
+"200","United States Virgin Islands",104901
+"201","Antigua and Barbuda",102012
+"202","Seychelles",94737
+"203","Isle of Man",84287
+"204","Andorra",76965
+"205","Dominica",73925
+"206","Cayman Islands",61559
+"207","Bermuda",61349
+"208","Greenland",56480
+"209","American Samoa",55641
+"210","Saint Kitts and Nevis",55345
+"211","Northern Mariana Islands",55144
+"212","Marshall Islands",53127
+"213","Faroe Islands",49290
+"214","Sint Maarten",40120
+"215","Monaco",38695
+"216","Liechtenstein",37922
+"217","Turks and Caicos Islands",35446
+"218","Gibraltar",34571
+"219","San Marino",33400
+"220","British Virgin Islands",31196
+"221","Caribbean Netherlands",25398
+"222","Palau",21729
+"223","Cook Islands",17380
+"224","Anguilla",14909
+"225","Wallis and Futuna",11773
+"226","Nauru",11359
+"227","Tuvalu",11192
+"228","Saint Pierre and Miquelon",6320
+"229","Montserrat",5177
+"230","Saint Helena, Ascension and Tristan da Cunha",4049
+"231","Falkland Islands",2910
+"232","Niue",1618
+"233","Tokelau",1300
+"234","Vatican City",792
