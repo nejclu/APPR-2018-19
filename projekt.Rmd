@@ -55,7 +55,7 @@ kable(head(tidy_family), align="ccc")
   - `Leto` - spremenljivka: leto, katerega so bile opravljene meritve (celo število)
   - `Pričakovana življenjska doba` - meritev: v kolikšni meri pričakovana življenjska doba vpliva na izračun stopnje sreče ljudi (število)
 ```{r tidy_life.expectancy, echo=FALSE, message=FALSE}
-kable(head(tidy_life.expectancy), align="ccc")
+kable(head(tidy_life.expectancy), align="ccc", col.names = c("Država", "Leto", "Pričakovana življenjska doba"))
 ```   
   
 4. **Svoboda** - Podatki o pomenu svobode pri stopnji sreče ljudi
@@ -71,7 +71,7 @@ kable(head(tidy_freedom), align="ccc")
   - `Leto` - spremenljivka: leto, katerega so bile opravljene meritve (celo število)
   - `(Odsotnost) korupcije` - meritev: v kolikšni meri korupcija (oziroma njena odsotnost) vpliva na izračun stopnje sreče ljudi (število)
 ```{r tidy_trust, echo=FALSE, message=FALSE}
-kable(head(tidy_trust), align="ccc")
+kable(head(tidy_trust), align="ccc", col.names = c("Država", "Leto", "(Odsotnost) korupcije"))
 ```     
   
 6. **Radodarnost** - Podatki o pomenu radodarnosti pri stopnji sreče ljudi
@@ -82,27 +82,22 @@ kable(head(tidy_trust), align="ccc")
 kable(head(tidy_generosity), align="ccc")
 ```     
   
-7. **Dystopia + preostanek** - Podatki o pomenu dodatne komponente pri stopnji sreče ljudi
+7. **Dystopia in preostanek** - Podatki o pomenu dodatne komponente pri stopnji sreče ljudi
   - `Država` - spremenljivka: ime države (besedilo)
   - `Leto` - spremenljivka: leto, katerega so bile opravljene meritve (celo število)
-  - `Dystopia + preostanek` - meritev: v kolikšni meri rezultat države »Dystopia« in ocena napake prejšnjih meritev vpliva na izračun stopnje sreče ljudi (število)
+  - `Dystopia in preostanek` - meritev: v kolikšni meri rezultat države »Dystopia« in ocena napake prejšnjih meritev vpliva na izračun stopnje sreče ljudi (število)
 ```{r tidy_residual, echo=FALSE, message=FALSE}
-kable(head(tidy_residual), align="ccc")
+kable(head(tidy_residual), align="ccc", col.names = c("Država", "Leto", "Dystopia in preostanek"))
 ```     
 
 8. **Prebivalstvo** - Podatki o številu prebivalcev po državah (2016)
   - `Država` - spremenljivka: ime države (besedilo)
   - `Prebivalstvo` - spremenljivka: Število ljudi v določeni državi (izmerjeno leta 2016) (celo število)
-```{r tidy_preb, echo=FALSE, message=FALSE}
-kable(head(tidy_preb), align="cc")
-```     
 
-8. **Prirast prebivalstva** - Podatki o prirastu prebivalcev po državah (2016/2017)
+
+9. **Prirast prebivalstva** - Podatki o prirastu prebivalcev po državah (2016/2017)
   - `Država` - spremenljivka: ime države (besedilo)
   - `Prirast` - spremenljivka: prirast prebivalstva v državi med letoma 2016 in 2017 (izraženo v procentih) (število)
-```{r tidy_prir, echo=FALSE, message=FALSE}
-kable(head(tidy_prir), align="cc")
-```     
 
 ***
 
