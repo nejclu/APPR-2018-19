@@ -1,0 +1,3109 @@
+"","Država","Leto","Spremenljivka","Vrednost"
+"1","Switzerland",2015,"Economy",1.39651
+"2","Iceland",2015,"Economy",1.30232
+"3","Denmark",2015,"Economy",1.32548
+"4","Norway",2015,"Economy",1.459
+"5","Canada",2015,"Economy",1.32629
+"6","Finland",2015,"Economy",1.29025
+"7","Netherlands",2015,"Economy",1.32944
+"8","Sweden",2015,"Economy",1.33171
+"9","New Zealand",2015,"Economy",1.25018
+"10","Australia",2015,"Economy",1.33358
+"11","Israel",2015,"Economy",1.22857
+"12","Costa Rica",2015,"Economy",0.95578
+"13","Austria",2015,"Economy",1.33723
+"14","Mexico",2015,"Economy",1.02054
+"15","United States",2015,"Economy",1.39451
+"16","Brazil",2015,"Economy",0.98124
+"17","Luxembourg",2015,"Economy",1.56391
+"18","Ireland",2015,"Economy",1.33596
+"19","Belgium",2015,"Economy",1.30782
+"20","United Arab Emirates",2015,"Economy",1.42727
+"21","United Kingdom",2015,"Economy",1.26637
+"22","Venezuela",2015,"Economy",1.04424
+"23","Singapore",2015,"Economy",1.52186
+"24","Panama",2015,"Economy",1.06353
+"25","Germany",2015,"Economy",1.32792
+"26","Chile",2015,"Economy",1.10715
+"27","Qatar",2015,"Economy",1.69042
+"28","France",2015,"Economy",1.27778
+"29","Argentina",2015,"Economy",1.05351
+"30","Czech Republic",2015,"Economy",1.17898
+"31","Uruguay",2015,"Economy",1.06166
+"32","Colombia",2015,"Economy",0.91861
+"33","Thailand",2015,"Economy",0.9669
+"34","Saudi Arabia",2015,"Economy",1.39541
+"35","Spain",2015,"Economy",1.23011
+"36","Malta",2015,"Economy",1.2074
+"37","Taiwan",2015,"Economy",1.29098
+"38","Kuwait",2015,"Economy",1.55422
+"39","Trinidad and Tobago",2015,"Economy",1.21183
+"40","El Salvador",2015,"Economy",0.76454
+"41","Guatemala",2015,"Economy",0.74553
+"42","Uzbekistan",2015,"Economy",0.63244
+"43","Slovakia",2015,"Economy",1.16891
+"44","Japan",2015,"Economy",1.27074
+"45","South Korea",2015,"Economy",1.24461
+"46","Ecuador",2015,"Economy",0.86402
+"47","Bahrain",2015,"Economy",1.32376
+"48","Italy",2015,"Economy",1.25114
+"49","Bolivia",2015,"Economy",0.68133
+"50","Moldova",2015,"Economy",0.59448
+"51","Paraguay",2015,"Economy",0.75985
+"52","Kazakhstan",2015,"Economy",1.12254
+"53","Slovenia",2015,"Economy",1.18498
+"54","Lithuania",2015,"Economy",1.14723
+"55","Nicaragua",2015,"Economy",0.59325
+"56","Peru",2015,"Economy",0.90019
+"57","Belarus",2015,"Economy",1.03192
+"58","Poland",2015,"Economy",1.12555
+"59","Malaysia",2015,"Economy",1.12486
+"60","Croatia",2015,"Economy",1.08254
+"61","Libya",2015,"Economy",1.13145
+"62","Russia",2015,"Economy",1.13764
+"63","Jamaica",2015,"Economy",0.81038
+"64","North Cyprus",2015,"Economy",1.20806
+"65","Cyprus",2015,"Economy",1.20813
+"66","Algeria",2015,"Economy",0.93929
+"67","Kosovo",2015,"Economy",0.80148
+"68","Turkmenistan",2015,"Economy",0.95847
+"69","Mauritius",2015,"Economy",1.00761
+"70","Hong Kong",2015,"Economy",1.38604
+"71","Estonia",2015,"Economy",1.15174
+"72","Indonesia",2015,"Economy",0.82827
+"73","Vietnam",2015,"Economy",0.63216
+"74","Turkey",2015,"Economy",1.06098
+"75","Kyrgyzstan",2015,"Economy",0.47428
+"76","Nigeria",2015,"Economy",0.65435
+"77","Bhutan",2015,"Economy",0.77042
+"78","Azerbaijan",2015,"Economy",1.02389
+"79","Pakistan",2015,"Economy",0.59543
+"80","Jordan",2015,"Economy",0.90198
+"81","Montenegro",2015,"Economy",0.97438
+"82","China",2015,"Economy",0.89012
+"83","Zambia",2015,"Economy",0.47038
+"84","Romania",2015,"Economy",1.04345
+"85","Serbia",2015,"Economy",0.92053
+"86","Portugal",2015,"Economy",1.15991
+"87","Latvia",2015,"Economy",1.11312
+"88","Philippines",2015,"Economy",0.70532
+"89","Morocco",2015,"Economy",0.73479
+"90","Macedonia",2015,"Economy",0.91851
+"91","Albania",2015,"Economy",0.87867
+"92","Bosnia and Herzegovina",2015,"Economy",0.83223
+"93","Dominican Republic",2015,"Economy",0.89537
+"94","Mongolia",2015,"Economy",0.82819
+"95","Greece",2015,"Economy",1.15406
+"96","Lebanon",2015,"Economy",1.02564
+"97","Hungary",2015,"Economy",1.12094
+"98","Honduras",2015,"Economy",0.59532
+"99","Tajikistan",2015,"Economy",0.39047
+"100","Tunisia",2015,"Economy",0.88113
+"101","Palestinian Territories",2015,"Economy",0.59867
+"102","Bangladesh",2015,"Economy",0.39753
+"103","Iran",2015,"Economy",1.0088
+"104","Ukraine",2015,"Economy",0.79907
+"105","Iraq",2015,"Economy",0.98549
+"106","South Africa",2015,"Economy",0.92049
+"107","Ghana",2015,"Economy",0.54558
+"108","Zimbabwe",2015,"Economy",0.271
+"109","Liberia",2015,"Economy",0.0712
+"110","India",2015,"Economy",0.64499
+"111","Sudan",2015,"Economy",0.52107
+"112","Haiti",2015,"Economy",0.26673
+"113","Congo (Kinshasa)",2015,"Economy",0
+"114","Nepal",2015,"Economy",0.35997
+"115","Ethiopia",2015,"Economy",0.19073
+"116","Sierra Leone",2015,"Economy",0.33024
+"117","Mauritania",2015,"Economy",0.45407
+"118","Kenya",2015,"Economy",0.36471
+"119","Armenia",2015,"Economy",0.76821
+"120","Botswana",2015,"Economy",0.99355
+"121","Myanmar",2015,"Economy",0.27108
+"122","Georgia",2015,"Economy",0.7419
+"123","Malawi",2015,"Economy",0.01604
+"124","Sri Lanka",2015,"Economy",0.83524
+"125","Cameroon",2015,"Economy",0.4225
+"126","Bulgaria",2015,"Economy",1.01216
+"127","Egypt",2015,"Economy",0.8818
+"128","Yemen",2015,"Economy",0.54649
+"129","Angola",2015,"Economy",0.75778
+"130","Mali",2015,"Economy",0.26074
+"131","Congo (Brazzaville)",2015,"Economy",0.67866
+"132","Uganda",2015,"Economy",0.21102
+"133","Senegal",2015,"Economy",0.36498
+"134","Gabon",2015,"Economy",1.06024
+"135","Niger",2015,"Economy",0.0694
+"136","Cambodia",2015,"Economy",0.46038
+"137","Tanzania",2015,"Economy",0.2852
+"138","Madagascar",2015,"Economy",0.20824
+"139","Chad",2015,"Economy",0.34193
+"140","Guinea",2015,"Economy",0.17417
+"141","Ivory Coast",2015,"Economy",0.46534
+"142","Burkina Faso",2015,"Economy",0.25812
+"143","Afghanistan",2015,"Economy",0.31982
+"144","Rwanda",2015,"Economy",0.22208
+"145","Benin",2015,"Economy",0.28665
+"146","Syria",2015,"Economy",0.6632
+"147","Burundi",2015,"Economy",0.0153
+"148","Togo",2015,"Economy",0.20868
+"149","Denmark",2016,"Economy",1.44178
+"150","Switzerland",2016,"Economy",1.52733
+"151","Iceland",2016,"Economy",1.42666
+"152","Norway",2016,"Economy",1.57744
+"153","Finland",2016,"Economy",1.40598
+"154","Canada",2016,"Economy",1.44015
+"155","Netherlands",2016,"Economy",1.46468
+"156","New Zealand",2016,"Economy",1.36066
+"157","Australia",2016,"Economy",1.44443
+"158","Sweden",2016,"Economy",1.45181
+"159","Israel",2016,"Economy",1.33766
+"160","Austria",2016,"Economy",1.45038
+"161","United States",2016,"Economy",1.50796
+"162","Costa Rica",2016,"Economy",1.06879
+"163","Germany",2016,"Economy",1.44787
+"164","Brazil",2016,"Economy",1.08754
+"165","Belgium",2016,"Economy",1.42539
+"166","Ireland",2016,"Economy",1.48341
+"167","Luxembourg",2016,"Economy",1.69752
+"168","Mexico",2016,"Economy",1.11508
+"169","Singapore",2016,"Economy",1.64555
+"170","United Kingdom",2016,"Economy",1.40283
+"171","Chile",2016,"Economy",1.2167
+"172","Panama",2016,"Economy",1.18306
+"173","Argentina",2016,"Economy",1.15137
+"174","Czech Republic",2016,"Economy",1.30915
+"175","United Arab Emirates",2016,"Economy",1.57352
+"176","Uruguay",2016,"Economy",1.18157
+"177","Malta",2016,"Economy",1.30782
+"178","Colombia",2016,"Economy",1.03032
+"179","France",2016,"Economy",1.39488
+"180","Thailand",2016,"Economy",1.0893
+"181","Saudi Arabia",2016,"Economy",1.48953
+"182","Taiwan",2016,"Economy",1.39729
+"183","Qatar",2016,"Economy",1.82427
+"184","Spain",2016,"Economy",1.34253
+"185","Algeria",2016,"Economy",1.05266
+"186","Guatemala",2016,"Economy",0.83454
+"187","Kuwait",2016,"Economy",1.61714
+"188","Bahrain",2016,"Economy",1.44024
+"189","Trinidad and Tobago",2016,"Economy",1.32572
+"190","Venezuela",2016,"Economy",1.13367
+"191","Slovakia",2016,"Economy",1.27973
+"192","El Salvador",2016,"Economy",0.8737
+"193","Malaysia",2016,"Economy",1.25142
+"194","Nicaragua",2016,"Economy",0.69384
+"195","Uzbekistan",2016,"Economy",0.73591
+"196","Italy",2016,"Economy",1.35495
+"197","Ecuador",2016,"Economy",0.97306
+"198","Japan",2016,"Economy",1.38007
+"199","Kazakhstan",2016,"Economy",1.22943
+"200","Moldova",2016,"Economy",0.69177
+"201","Russia",2016,"Economy",1.23228
+"202","Poland",2016,"Economy",1.24585
+"203","South Korea",2016,"Economy",1.35948
+"204","Bolivia",2016,"Economy",0.79422
+"205","Lithuania",2016,"Economy",1.2692
+"206","Belarus",2016,"Economy",1.13062
+"207","North Cyprus",2016,"Economy",1.31141
+"208","Slovenia",2016,"Economy",1.29947
+"209","Peru",2016,"Economy",0.99602
+"210","Turkmenistan",2016,"Economy",1.08017
+"211","Mauritius",2016,"Economy",1.14372
+"212","Libya",2016,"Economy",1.06688
+"213","Latvia",2016,"Economy",1.21788
+"214","Cyprus",2016,"Economy",1.31857
+"215","Paraguay",2016,"Economy",0.89373
+"216","Romania",2016,"Economy",1.1697
+"217","Estonia",2016,"Economy",1.27964
+"218","Jamaica",2016,"Economy",0.89333
+"219","Croatia",2016,"Economy",1.18649
+"220","Hong Kong",2016,"Economy",1.5107
+"221","Kosovo",2016,"Economy",0.90145
+"222","Turkey",2016,"Economy",1.16492
+"223","Indonesia",2016,"Economy",0.95104
+"224","Jordan",2016,"Economy",0.99673
+"225","Azerbaijan",2016,"Economy",1.12373
+"226","Philippines",2016,"Economy",0.81217
+"227","China",2016,"Economy",1.0278
+"228","Bhutan",2016,"Economy",0.8527
+"229","Kyrgyzstan",2016,"Economy",0.56044
+"230","Serbia",2016,"Economy",1.03437
+"231","Bosnia and Herzegovina",2016,"Economy",0.93383
+"232","Montenegro",2016,"Economy",1.07838
+"233","Dominican Republic",2016,"Economy",1.02787
+"234","Morocco",2016,"Economy",0.84058
+"235","Hungary",2016,"Economy",1.24142
+"236","Pakistan",2016,"Economy",0.68816
+"237","Lebanon",2016,"Economy",1.12268
+"238","Portugal",2016,"Economy",1.27607
+"239","Macedonia",2016,"Economy",1.0193
+"240","Vietnam",2016,"Economy",0.74037
+"241","Tunisia",2016,"Economy",0.97724
+"242","Greece",2016,"Economy",1.24886
+"243","Tajikistan",2016,"Economy",0.48835
+"244","Mongolia",2016,"Economy",0.98853
+"245","Nigeria",2016,"Economy",0.75216
+"246","Honduras",2016,"Economy",0.69429
+"247","Iran",2016,"Economy",1.11758
+"248","Zambia",2016,"Economy",0.61202
+"249","Nepal",2016,"Economy",0.44626
+"250","Palestinian Territories",2016,"Economy",0.67024
+"251","Albania",2016,"Economy",0.9553
+"252","Bangladesh",2016,"Economy",0.54177
+"253","Sierra Leone",2016,"Economy",0.36485
+"254","Iraq",2016,"Economy",1.07474
+"255","Cameroon",2016,"Economy",0.52497
+"256","Ethiopia",2016,"Economy",0.29283
+"257","South Africa",2016,"Economy",1.02416
+"258","Sri Lanka",2016,"Economy",0.97318
+"259","India",2016,"Economy",0.74036
+"260","Myanmar",2016,"Economy",0.34112
+"261","Egypt",2016,"Economy",0.95395
+"262","Armenia",2016,"Economy",0.86086
+"263","Kenya",2016,"Economy",0.52267
+"264","Ukraine",2016,"Economy",0.87287
+"265","Ghana",2016,"Economy",0.63107
+"266","Congo (Kinshasa)",2016,"Economy",0.05661
+"267","Georgia",2016,"Economy",0.83792
+"268","Congo (Brazzaville)",2016,"Economy",0.77109
+"269","Senegal",2016,"Economy",0.44314
+"270","Bulgaria",2016,"Economy",1.11306
+"271","Mauritania",2016,"Economy",0.61391
+"272","Zimbabwe",2016,"Economy",0.35041
+"273","Malawi",2016,"Economy",0.08709
+"274","Sudan",2016,"Economy",0.63069
+"275","Gabon",2016,"Economy",1.15851
+"276","Mali",2016,"Economy",0.31292
+"277","Haiti",2016,"Economy",0.34097
+"278","Botswana",2016,"Economy",1.09426
+"279","Ivory Coast",2016,"Economy",0.55507
+"280","Cambodia",2016,"Economy",0.55604
+"281","Angola",2016,"Economy",0.84731
+"282","Niger",2016,"Economy",0.1327
+"283","Chad",2016,"Economy",0.42214
+"284","Burkina Faso",2016,"Economy",0.31995
+"285","Uganda",2016,"Economy",0.34719
+"286","Yemen",2016,"Economy",0.57939
+"287","Madagascar",2016,"Economy",0.27954
+"288","Tanzania",2016,"Economy",0.47155
+"289","Liberia",2016,"Economy",0.10706
+"290","Guinea",2016,"Economy",0.22415
+"291","Rwanda",2016,"Economy",0.32846
+"292","Benin",2016,"Economy",0.39499
+"293","Afghanistan",2016,"Economy",0.38227
+"294","Togo",2016,"Economy",0.28123
+"295","Syria",2016,"Economy",0.74719
+"296","Burundi",2016,"Economy",0.06831
+"297","Norway",2017,"Economy",1.61646318435669
+"298","Denmark",2017,"Economy",1.48238301277161
+"299","Iceland",2017,"Economy",1.480633020401
+"300","Switzerland",2017,"Economy",1.56497955322266
+"301","Finland",2017,"Economy",1.44357192516327
+"302","Netherlands",2017,"Economy",1.50394463539124
+"303","Canada",2017,"Economy",1.47920441627502
+"304","New Zealand",2017,"Economy",1.40570604801178
+"305","Sweden",2017,"Economy",1.49438726902008
+"306","Australia",2017,"Economy",1.484414935112
+"307","Israel",2017,"Economy",1.37538242340088
+"308","Costa Rica",2017,"Economy",1.10970628261566
+"309","Austria",2017,"Economy",1.48709726333618
+"310","United States",2017,"Economy",1.54625928401947
+"311","Ireland",2017,"Economy",1.53570663928986
+"312","Germany",2017,"Economy",1.48792338371277
+"313","Belgium",2017,"Economy",1.46378076076508
+"314","Luxembourg",2017,"Economy",1.74194359779358
+"315","United Kingdom",2017,"Economy",1.44163393974304
+"316","Chile",2017,"Economy",1.25278460979462
+"317","United Arab Emirates",2017,"Economy",1.62634336948395
+"318","Brazil",2017,"Economy",1.10735321044922
+"319","Czech Republic",2017,"Economy",1.35268235206604
+"320","Argentina",2017,"Economy",1.18529546260834
+"321","Mexico",2017,"Economy",1.15318381786346
+"322","Singapore",2017,"Economy",1.69227766990662
+"323","Malta",2017,"Economy",1.34327983856201
+"324","Uruguay",2017,"Economy",1.21755969524384
+"325","Guatemala",2017,"Economy",0.872001945972443
+"326","Panama",2017,"Economy",1.23374843597412
+"327","France",2017,"Economy",1.43092346191406
+"328","Thailand",2017,"Economy",1.12786877155304
+"329","Taiwan Province of China",2017,"Economy",1.43362653255463
+"330","Spain",2017,"Economy",1.38439786434174
+"331","Qatar",2017,"Economy",1.87076568603516
+"332","Colombia",2017,"Economy",1.07062232494354
+"333","Saudi Arabia",2017,"Economy",1.53062355518341
+"334","Trinidad and Tobago",2017,"Economy",1.36135590076447
+"335","Kuwait",2017,"Economy",1.63295245170593
+"336","Slovakia",2017,"Economy",1.32539355754852
+"337","Bahrain",2017,"Economy",1.48841226100922
+"338","Malaysia",2017,"Economy",1.29121541976929
+"339","Nicaragua",2017,"Economy",0.737299203872681
+"340","Ecuador",2017,"Economy",1.00082039833069
+"341","El Salvador",2017,"Economy",0.909784495830536
+"342","Poland",2017,"Economy",1.29178786277771
+"343","Uzbekistan",2017,"Economy",0.786441087722778
+"344","Italy",2017,"Economy",1.39506661891937
+"345","Russia",2017,"Economy",1.28177809715271
+"346","Japan",2017,"Economy",1.41691517829895
+"347","Lithuania",2017,"Economy",1.31458234786987
+"348","Algeria",2017,"Economy",1.09186446666718
+"349","Latvia",2017,"Economy",1.26074862480164
+"350","South Korea",2017,"Economy",1.40167844295502
+"351","Moldova",2017,"Economy",0.728870630264282
+"352","Romania",2017,"Economy",1.21768391132355
+"353","Bolivia",2017,"Economy",0.833756566047668
+"354","Turkmenistan",2017,"Economy",1.13077676296234
+"355","Kazakhstan",2017,"Economy",1.28455626964569
+"356","North Cyprus",2017,"Economy",1.3469113111496
+"357","Slovenia",2017,"Economy",1.3412059545517
+"358","Peru",2017,"Economy",1.03522527217865
+"359","Mauritius",2017,"Economy",1.18939554691315
+"360","Cyprus",2017,"Economy",1.35593807697296
+"361","Estonia",2017,"Economy",1.32087934017181
+"362","Belarus",2017,"Economy",1.15655755996704
+"363","Libya",2017,"Economy",1.10180306434631
+"364","Turkey",2017,"Economy",1.19827437400818
+"365","Paraguay",2017,"Economy",0.932537317276001
+"366","Hong Kong",2017,"Economy",1.55167484283447
+"367","Philippines",2017,"Economy",0.85769921541214
+"368","Serbia",2017,"Economy",1.06931757926941
+"369","Jordan",2017,"Economy",0.991012394428253
+"370","Hungary",2017,"Economy",1.2860119342804
+"371","Jamaica",2017,"Economy",0.925579309463501
+"372","Croatia",2017,"Economy",1.22255623340607
+"373","Kosovo",2017,"Economy",0.951484382152557
+"374","China",2017,"Economy",1.08116579055786
+"375","Pakistan",2017,"Economy",0.72688353061676
+"376","Indonesia",2017,"Economy",0.995538592338562
+"377","Venezuela",2017,"Economy",1.12843120098114
+"378","Montenegro",2017,"Economy",1.12112903594971
+"379","Morocco",2017,"Economy",0.878114581108093
+"380","Azerbaijan",2017,"Economy",1.15360176563263
+"381","Dominican Republic",2017,"Economy",1.07937383651733
+"382","Greece",2017,"Economy",1.28948748111725
+"383","Lebanon",2017,"Economy",1.07498753070831
+"384","Portugal",2017,"Economy",1.3151752948761
+"385","Bosnia and Herzegovina",2017,"Economy",0.982409417629242
+"386","Honduras",2017,"Economy",0.730573117733002
+"387","Macedonia",2017,"Economy",1.06457793712616
+"388","Vietnam",2017,"Economy",0.788547575473785
+"389","Nigeria",2017,"Economy",0.783756256103516
+"390","Tajikistan",2017,"Economy",0.524713635444641
+"391","Bhutan",2017,"Economy",0.885416388511658
+"392","Kyrgyzstan",2017,"Economy",0.596220076084137
+"393","Nepal",2017,"Economy",0.479820191860199
+"394","Mongolia",2017,"Economy",1.02723586559296
+"395","South Africa",2017,"Economy",1.05469870567322
+"396","Tunisia",2017,"Economy",1.00726580619812
+"397","Palestinian Territories",2017,"Economy",0.716249227523804
+"398","Egypt",2017,"Economy",0.989701807498932
+"399","Bulgaria",2017,"Economy",1.1614590883255
+"400","Sierra Leone",2017,"Economy",0.36842092871666
+"401","Cameroon",2017,"Economy",0.564305365085602
+"402","Iran",2017,"Economy",1.15687310695648
+"403","Albania",2017,"Economy",0.996192753314972
+"404","Bangladesh",2017,"Economy",0.586682975292206
+"405","Kenya",2017,"Economy",0.560479462146759
+"406","Myanmar",2017,"Economy",0.367110550403595
+"407","Senegal",2017,"Economy",0.479309022426605
+"408","Zambia",2017,"Economy",0.636406779289246
+"409","Iraq",2017,"Economy",1.10271048545837
+"410","Gabon",2017,"Economy",1.1982102394104
+"411","Ethiopia",2017,"Economy",0.339233845472336
+"412","Sri Lanka",2017,"Economy",1.00985014438629
+"413","Armenia",2017,"Economy",0.900596737861633
+"414","India",2017,"Economy",0.792221248149872
+"415","Mauritania",2017,"Economy",0.648457288742065
+"416","Congo (Brazzaville)",2017,"Economy",0.808964252471924
+"417","Georgia",2017,"Economy",0.950612664222717
+"418","Congo (Kinshasa)",2017,"Economy",0.0921023488044739
+"419","Mali",2017,"Economy",0.476180493831635
+"420","Ivory Coast",2017,"Economy",0.603048920631409
+"421","Cambodia",2017,"Economy",0.601765096187592
+"422","Sudan",2017,"Economy",0.65951669216156
+"423","Ghana",2017,"Economy",0.667224824428558
+"424","Ukraine",2017,"Economy",0.89465194940567
+"425","Uganda",2017,"Economy",0.381430715322495
+"426","Burkina Faso",2017,"Economy",0.3502277135849
+"427","Niger",2017,"Economy",0.161925330758095
+"428","Malawi",2017,"Economy",0.233442038297653
+"429","Chad",2017,"Economy",0.438012987375259
+"430","Zimbabwe",2017,"Economy",0.375846534967422
+"431","Angola",2017,"Economy",0.858428180217743
+"432","Afghanistan",2017,"Economy",0.401477217674255
+"433","Botswana",2017,"Economy",1.12209415435791
+"434","Benin",2017,"Economy",0.431085407733917
+"435","Madagascar",2017,"Economy",0.305808693170547
+"436","Haiti",2017,"Economy",0.368610262870789
+"437","Yemen",2017,"Economy",0.591683447360992
+"438","Liberia",2017,"Economy",0.119041793048382
+"439","Guinea",2017,"Economy",0.244549930095673
+"440","Togo",2017,"Economy",0.305444717407227
+"441","Rwanda",2017,"Economy",0.368745893239975
+"442","Syria",2017,"Economy",0.777153134346008
+"443","Tanzania",2017,"Economy",0.511135876178741
+"444","Burundi",2017,"Economy",0.091622568666935
+"445","Switzerland",2015,"Family",1.34951
+"446","Iceland",2015,"Family",1.40223
+"447","Denmark",2015,"Family",1.36058
+"448","Norway",2015,"Family",1.33095
+"449","Canada",2015,"Family",1.32261
+"450","Finland",2015,"Family",1.31826
+"451","Netherlands",2015,"Family",1.28017
+"452","Sweden",2015,"Family",1.28907
+"453","New Zealand",2015,"Family",1.31967
+"454","Australia",2015,"Family",1.30923
+"455","Israel",2015,"Family",1.22393
+"456","Costa Rica",2015,"Family",1.23788
+"457","Austria",2015,"Family",1.29704
+"458","Mexico",2015,"Family",0.91451
+"459","United States",2015,"Family",1.24711
+"460","Brazil",2015,"Family",1.23287
+"461","Luxembourg",2015,"Family",1.21963
+"462","Ireland",2015,"Family",1.36948
+"463","Belgium",2015,"Family",1.28566
+"464","United Arab Emirates",2015,"Family",1.12575
+"465","United Kingdom",2015,"Family",1.28548
+"466","Venezuela",2015,"Family",1.25596
+"467","Singapore",2015,"Family",1.02
+"468","Panama",2015,"Family",1.1985
+"469","Germany",2015,"Family",1.29937
+"470","Chile",2015,"Family",1.12447
+"471","Qatar",2015,"Family",1.0786
+"472","France",2015,"Family",1.26038
+"473","Argentina",2015,"Family",1.24823
+"474","Czech Republic",2015,"Family",1.20643
+"475","Uruguay",2015,"Family",1.2089
+"476","Colombia",2015,"Family",1.24018
+"477","Thailand",2015,"Family",1.26504
+"478","Saudi Arabia",2015,"Family",1.08393
+"479","Spain",2015,"Family",1.31379
+"480","Malta",2015,"Family",1.30203
+"481","Taiwan",2015,"Family",1.07617
+"482","Kuwait",2015,"Family",1.16594
+"483","Trinidad and Tobago",2015,"Family",1.18354
+"484","El Salvador",2015,"Family",1.02507
+"485","Guatemala",2015,"Family",1.04356
+"486","Uzbekistan",2015,"Family",1.34043
+"487","Slovakia",2015,"Family",1.26999
+"488","Japan",2015,"Family",1.25712
+"489","South Korea",2015,"Family",0.95774
+"490","Ecuador",2015,"Family",0.99903
+"491","Bahrain",2015,"Family",1.21624
+"492","Italy",2015,"Family",1.19777
+"493","Bolivia",2015,"Family",0.97841
+"494","Moldova",2015,"Family",1.01528
+"495","Paraguay",2015,"Family",1.30477
+"496","Kazakhstan",2015,"Family",1.12241
+"497","Slovenia",2015,"Family",1.27385
+"498","Lithuania",2015,"Family",1.25745
+"499","Nicaragua",2015,"Family",1.14184
+"500","Peru",2015,"Family",0.97459
+"501","Belarus",2015,"Family",1.23289
+"502","Poland",2015,"Family",1.27948
+"503","Malaysia",2015,"Family",1.07023
+"504","Croatia",2015,"Family",0.79624
+"505","Libya",2015,"Family",1.11862
+"506","Russia",2015,"Family",1.23617
+"507","Jamaica",2015,"Family",1.15102
+"508","North Cyprus",2015,"Family",1.07008
+"509","Cyprus",2015,"Family",0.89318
+"510","Algeria",2015,"Family",1.07772
+"511","Kosovo",2015,"Family",0.81198
+"512","Turkmenistan",2015,"Family",1.22668
+"513","Mauritius",2015,"Family",0.98521
+"514","Hong Kong",2015,"Family",1.05818
+"515","Estonia",2015,"Family",1.22791
+"516","Indonesia",2015,"Family",1.08708
+"517","Vietnam",2015,"Family",0.91226
+"518","Turkey",2015,"Family",0.94632
+"519","Kyrgyzstan",2015,"Family",1.15115
+"520","Nigeria",2015,"Family",0.90432
+"521","Bhutan",2015,"Family",1.10395
+"522","Azerbaijan",2015,"Family",0.93793
+"523","Pakistan",2015,"Family",0.41411
+"524","Jordan",2015,"Family",1.05392
+"525","Montenegro",2015,"Family",0.90557
+"526","China",2015,"Family",0.94675
+"527","Zambia",2015,"Family",0.91612
+"528","Romania",2015,"Family",0.88588
+"529","Serbia",2015,"Family",1.00964
+"530","Portugal",2015,"Family",1.13935
+"531","Latvia",2015,"Family",1.09562
+"532","Philippines",2015,"Family",1.03516
+"533","Morocco",2015,"Family",0.64095
+"534","Macedonia",2015,"Family",1.00232
+"535","Albania",2015,"Family",0.80434
+"536","Bosnia and Herzegovina",2015,"Family",0.91916
+"537","Dominican Republic",2015,"Family",1.17202
+"538","Mongolia",2015,"Family",1.3006
+"539","Greece",2015,"Family",0.92933
+"540","Lebanon",2015,"Family",0.80001
+"541","Hungary",2015,"Family",1.20215
+"542","Honduras",2015,"Family",0.95348
+"543","Tajikistan",2015,"Family",0.85563
+"544","Tunisia",2015,"Family",0.60429
+"545","Palestinian Territories",2015,"Family",0.92558
+"546","Bangladesh",2015,"Family",0.43106
+"547","Iran",2015,"Family",0.54447
+"548","Ukraine",2015,"Family",1.20278
+"549","Iraq",2015,"Family",0.81889
+"550","South Africa",2015,"Family",1.18468
+"551","Ghana",2015,"Family",0.67954
+"552","Zimbabwe",2015,"Family",1.03276
+"553","Liberia",2015,"Family",0.78968
+"554","India",2015,"Family",0.38174
+"555","Sudan",2015,"Family",1.01404
+"556","Haiti",2015,"Family",0.74302
+"557","Congo (Kinshasa)",2015,"Family",1.0012
+"558","Nepal",2015,"Family",0.86449
+"559","Ethiopia",2015,"Family",0.60406
+"560","Sierra Leone",2015,"Family",0.95571
+"561","Mauritania",2015,"Family",0.86908
+"562","Kenya",2015,"Family",0.99876
+"563","Armenia",2015,"Family",0.77711
+"564","Botswana",2015,"Family",1.10464
+"565","Myanmar",2015,"Family",0.70905
+"566","Georgia",2015,"Family",0.38562
+"567","Malawi",2015,"Family",0.41134
+"568","Sri Lanka",2015,"Family",1.01905
+"569","Cameroon",2015,"Family",0.88767
+"570","Bulgaria",2015,"Family",1.10614
+"571","Egypt",2015,"Family",0.747
+"572","Yemen",2015,"Family",0.68093
+"573","Angola",2015,"Family",0.8604
+"574","Mali",2015,"Family",1.03526
+"575","Congo (Brazzaville)",2015,"Family",0.6629
+"576","Uganda",2015,"Family",1.13299
+"577","Senegal",2015,"Family",0.97619
+"578","Gabon",2015,"Family",0.90528
+"579","Niger",2015,"Family",0.77265
+"580","Cambodia",2015,"Family",0.62736
+"581","Tanzania",2015,"Family",1.00268
+"582","Madagascar",2015,"Family",0.66801
+"583","Chad",2015,"Family",0.76062
+"584","Guinea",2015,"Family",0.46475
+"585","Ivory Coast",2015,"Family",0.77115
+"586","Burkina Faso",2015,"Family",0.85188
+"587","Afghanistan",2015,"Family",0.30285
+"588","Rwanda",2015,"Family",0.7737
+"589","Benin",2015,"Family",0.35386
+"590","Syria",2015,"Family",0.47489
+"591","Burundi",2015,"Family",0.41587
+"592","Togo",2015,"Family",0.13995
+"593","Denmark",2016,"Family",1.16374
+"594","Switzerland",2016,"Family",1.14524
+"595","Iceland",2016,"Family",1.18326
+"596","Norway",2016,"Family",1.1269
+"597","Finland",2016,"Family",1.13464
+"598","Canada",2016,"Family",1.0961
+"599","Netherlands",2016,"Family",1.02912
+"600","New Zealand",2016,"Family",1.17278
+"601","Australia",2016,"Family",1.10476
+"602","Sweden",2016,"Family",1.08764
+"603","Israel",2016,"Family",0.99537
+"604","Austria",2016,"Family",1.08383
+"605","United States",2016,"Family",1.04782
+"606","Costa Rica",2016,"Family",1.02152
+"607","Germany",2016,"Family",1.09774
+"608","Brazil",2016,"Family",1.03938
+"609","Belgium",2016,"Family",1.05249
+"610","Ireland",2016,"Family",1.16157
+"611","Luxembourg",2016,"Family",1.03999
+"612","Mexico",2016,"Family",0.7146
+"613","Singapore",2016,"Family",0.86758
+"614","United Kingdom",2016,"Family",1.08672
+"615","Chile",2016,"Family",0.90587
+"616","Panama",2016,"Family",0.98912
+"617","Argentina",2016,"Family",1.06612
+"618","Czech Republic",2016,"Family",1.00793
+"619","United Arab Emirates",2016,"Family",0.87114
+"620","Uruguay",2016,"Family",1.03143
+"621","Malta",2016,"Family",1.09879
+"622","Colombia",2016,"Family",1.02169
+"623","France",2016,"Family",1.00508
+"624","Thailand",2016,"Family",1.04477
+"625","Saudi Arabia",2016,"Family",0.84829
+"626","Taiwan",2016,"Family",0.92624
+"627","Qatar",2016,"Family",0.87964
+"628","Spain",2016,"Family",1.12945
+"629","Algeria",2016,"Family",0.83309
+"630","Guatemala",2016,"Family",0.87119
+"631","Kuwait",2016,"Family",0.87758
+"632","Bahrain",2016,"Family",0.94397
+"633","Trinidad and Tobago",2016,"Family",0.98569
+"634","Venezuela",2016,"Family",1.03302
+"635","Slovakia",2016,"Family",1.08268
+"636","El Salvador",2016,"Family",0.80975
+"637","Malaysia",2016,"Family",0.88025
+"638","Nicaragua",2016,"Family",0.89521
+"639","Uzbekistan",2016,"Family",1.1681
+"640","Italy",2016,"Family",1.04167
+"641","Ecuador",2016,"Family",0.85974
+"642","Japan",2016,"Family",1.06054
+"643","Kazakhstan",2016,"Family",0.95544
+"644","Moldova",2016,"Family",0.83132
+"645","Russia",2016,"Family",1.05261
+"646","Poland",2016,"Family",1.04685
+"647","South Korea",2016,"Family",0.72194
+"648","Bolivia",2016,"Family",0.83779
+"649","Lithuania",2016,"Family",1.06411
+"650","Belarus",2016,"Family",1.04993
+"651","North Cyprus",2016,"Family",0.81826
+"652","Slovenia",2016,"Family",1.05613
+"653","Peru",2016,"Family",0.81255
+"654","Turkmenistan",2016,"Family",1.03817
+"655","Mauritius",2016,"Family",0.75695
+"656","Libya",2016,"Family",0.95076
+"657","Latvia",2016,"Family",0.95025
+"658","Cyprus",2016,"Family",0.70697
+"659","Paraguay",2016,"Family",1.11111
+"660","Romania",2016,"Family",0.72803
+"661","Estonia",2016,"Family",1.05163
+"662","Jamaica",2016,"Family",0.96372
+"663","Croatia",2016,"Family",0.60809
+"664","Hong Kong",2016,"Family",0.87021
+"665","Kosovo",2016,"Family",0.66062
+"666","Turkey",2016,"Family",0.87717
+"667","Indonesia",2016,"Family",0.87625
+"668","Jordan",2016,"Family",0.86216
+"669","Azerbaijan",2016,"Family",0.76042
+"670","Philippines",2016,"Family",0.87877
+"671","China",2016,"Family",0.79381
+"672","Bhutan",2016,"Family",0.90836
+"673","Kyrgyzstan",2016,"Family",0.95434
+"674","Serbia",2016,"Family",0.81329
+"675","Bosnia and Herzegovina",2016,"Family",0.64367
+"676","Montenegro",2016,"Family",0.74173
+"677","Dominican Republic",2016,"Family",0.99496
+"678","Morocco",2016,"Family",0.38595
+"679","Hungary",2016,"Family",0.93164
+"680","Pakistan",2016,"Family",0.26135
+"681","Lebanon",2016,"Family",0.64184
+"682","Portugal",2016,"Family",0.94367
+"683","Macedonia",2016,"Family",0.78236
+"684","Vietnam",2016,"Family",0.79117
+"685","Tunisia",2016,"Family",0.43165
+"686","Greece",2016,"Family",0.75473
+"687","Tajikistan",2016,"Family",0.75602
+"688","Mongolia",2016,"Family",1.08983
+"689","Nigeria",2016,"Family",0.64498
+"690","Honduras",2016,"Family",0.75596
+"691","Iran",2016,"Family",0.38857
+"692","Zambia",2016,"Family",0.6376
+"693","Nepal",2016,"Family",0.69699
+"694","Palestinian Territories",2016,"Family",0.71629
+"695","Albania",2016,"Family",0.50163
+"696","Bangladesh",2016,"Family",0.24749
+"697","Sierra Leone",2016,"Family",0.628
+"698","Iraq",2016,"Family",0.59205
+"699","Cameroon",2016,"Family",0.62542
+"700","Ethiopia",2016,"Family",0.37932
+"701","South Africa",2016,"Family",0.96053
+"702","Sri Lanka",2016,"Family",0.84783
+"703","India",2016,"Family",0.29247
+"704","Myanmar",2016,"Family",0.69981
+"705","Egypt",2016,"Family",0.49813
+"706","Armenia",2016,"Family",0.62477
+"707","Kenya",2016,"Family",0.7624
+"708","Ukraine",2016,"Family",1.01413
+"709","Ghana",2016,"Family",0.49353
+"710","Congo (Kinshasa)",2016,"Family",0.80676
+"711","Georgia",2016,"Family",0.19249
+"712","Congo (Brazzaville)",2016,"Family",0.47799
+"713","Senegal",2016,"Family",0.77416
+"714","Bulgaria",2016,"Family",0.92542
+"715","Mauritania",2016,"Family",0.84142
+"716","Zimbabwe",2016,"Family",0.71478
+"717","Malawi",2016,"Family",0.147
+"718","Sudan",2016,"Family",0.81928
+"719","Gabon",2016,"Family",0.72368
+"720","Mali",2016,"Family",0.86333
+"721","Haiti",2016,"Family",0.29561
+"722","Botswana",2016,"Family",0.89186
+"723","Ivory Coast",2016,"Family",0.57576
+"724","Cambodia",2016,"Family",0.5375
+"725","Angola",2016,"Family",0.66366
+"726","Niger",2016,"Family",0.6053
+"727","Chad",2016,"Family",0.63178
+"728","Burkina Faso",2016,"Family",0.63054
+"729","Uganda",2016,"Family",0.90981
+"730","Yemen",2016,"Family",0.47493
+"731","Madagascar",2016,"Family",0.46115
+"732","Tanzania",2016,"Family",0.77623
+"733","Liberia",2016,"Family",0.50353
+"734","Guinea",2016,"Family",0.3109
+"735","Rwanda",2016,"Family",0.61586
+"736","Benin",2016,"Family",0.10419
+"737","Afghanistan",2016,"Family",0.11037
+"738","Togo",2016,"Family",0
+"739","Syria",2016,"Family",0.14866
+"740","Burundi",2016,"Family",0.23442
+"741","Norway",2017,"Family",1.53352355957031
+"742","Denmark",2017,"Family",1.55112159252167
+"743","Iceland",2017,"Family",1.6105740070343
+"744","Switzerland",2017,"Family",1.51691174507141
+"745","Finland",2017,"Family",1.5402467250824
+"746","Netherlands",2017,"Family",1.42893922328949
+"747","Canada",2017,"Family",1.48134899139404
+"748","New Zealand",2017,"Family",1.54819512367249
+"749","Sweden",2017,"Family",1.47816216945648
+"750","Australia",2017,"Family",1.51004195213318
+"751","Israel",2017,"Family",1.37628996372223
+"752","Costa Rica",2017,"Family",1.41640365123749
+"753","Austria",2017,"Family",1.4599449634552
+"754","United States",2017,"Family",1.41992056369781
+"755","Ireland",2017,"Family",1.55823111534119
+"756","Germany",2017,"Family",1.47252035140991
+"757","Belgium",2017,"Family",1.46231269836426
+"758","Luxembourg",2017,"Family",1.45758366584778
+"759","United Kingdom",2017,"Family",1.49646008014679
+"760","Chile",2017,"Family",1.28402495384216
+"761","United Arab Emirates",2017,"Family",1.26641023159027
+"762","Brazil",2017,"Family",1.43130600452423
+"763","Czech Republic",2017,"Family",1.43388521671295
+"764","Argentina",2017,"Family",1.44045114517212
+"765","Mexico",2017,"Family",1.210862159729
+"766","Singapore",2017,"Family",1.35381436347961
+"767","Malta",2017,"Family",1.48841166496277
+"768","Uruguay",2017,"Family",1.41222786903381
+"769","Guatemala",2017,"Family",1.25558519363403
+"770","Panama",2017,"Family",1.37319254875183
+"771","France",2017,"Family",1.38777685165405
+"772","Thailand",2017,"Family",1.42579245567322
+"773","Taiwan Province of China",2017,"Family",1.38456535339355
+"774","Spain",2017,"Family",1.53209090232849
+"775","Qatar",2017,"Family",1.27429687976837
+"776","Colombia",2017,"Family",1.4021829366684
+"777","Saudi Arabia",2017,"Family",1.28667759895325
+"778","Trinidad and Tobago",2017,"Family",1.3802285194397
+"779","Kuwait",2017,"Family",1.25969874858856
+"780","Slovakia",2017,"Family",1.50505924224854
+"781","Bahrain",2017,"Family",1.32311046123505
+"782","Malaysia",2017,"Family",1.28464603424072
+"783","Nicaragua",2017,"Family",1.28721570968628
+"784","Ecuador",2017,"Family",1.28616881370544
+"785","El Salvador",2017,"Family",1.18212509155273
+"786","Poland",2017,"Family",1.44571197032928
+"787","Uzbekistan",2017,"Family",1.54896914958954
+"788","Italy",2017,"Family",1.44492328166962
+"789","Russia",2017,"Family",1.46928238868713
+"790","Japan",2017,"Family",1.43633782863617
+"791","Lithuania",2017,"Family",1.47351610660553
+"792","Algeria",2017,"Family",1.1462174654007
+"793","Latvia",2017,"Family",1.40471494197845
+"794","South Korea",2017,"Family",1.12827444076538
+"795","Moldova",2017,"Family",1.25182557106018
+"796","Romania",2017,"Family",1.15009129047394
+"797","Bolivia",2017,"Family",1.22761905193329
+"798","Turkmenistan",2017,"Family",1.49314916133881
+"799","Kazakhstan",2017,"Family",1.38436901569366
+"800","North Cyprus",2017,"Family",1.18630337715149
+"801","Slovenia",2017,"Family",1.45251882076263
+"802","Peru",2017,"Family",1.21877038478851
+"803","Mauritius",2017,"Family",1.20956099033356
+"804","Cyprus",2017,"Family",1.13136327266693
+"805","Estonia",2017,"Family",1.47667109966278
+"806","Belarus",2017,"Family",1.44494521617889
+"807","Libya",2017,"Family",1.35756433010101
+"808","Turkey",2017,"Family",1.33775317668915
+"809","Paraguay",2017,"Family",1.50728487968445
+"810","Hong Kong",2017,"Family",1.26279091835022
+"811","Philippines",2017,"Family",1.25391757488251
+"812","Serbia",2017,"Family",1.25818979740143
+"813","Jordan",2017,"Family",1.23908889293671
+"814","Hungary",2017,"Family",1.34313309192657
+"815","Jamaica",2017,"Family",1.36821806430817
+"816","Croatia",2017,"Family",0.96798300743103
+"817","Kosovo",2017,"Family",1.13785350322723
+"818","China",2017,"Family",1.16083741188049
+"819","Pakistan",2017,"Family",0.672690689563751
+"820","Indonesia",2017,"Family",1.27444469928741
+"821","Venezuela",2017,"Family",1.43133759498596
+"822","Montenegro",2017,"Family",1.23837649822235
+"823","Morocco",2017,"Family",0.774864435195923
+"824","Azerbaijan",2017,"Family",1.15240025520325
+"825","Dominican Republic",2017,"Family",1.40241670608521
+"826","Greece",2017,"Family",1.23941457271576
+"827","Lebanon",2017,"Family",1.12962424755096
+"828","Portugal",2017,"Family",1.36704301834106
+"829","Bosnia and Herzegovina",2017,"Family",1.0693359375
+"830","Honduras",2017,"Family",1.14394497871399
+"831","Macedonia",2017,"Family",1.20789301395416
+"832","Vietnam",2017,"Family",1.27749133110046
+"833","Nigeria",2017,"Family",1.21577048301697
+"834","Tajikistan",2017,"Family",1.27146327495575
+"835","Bhutan",2017,"Family",1.34012651443481
+"836","Kyrgyzstan",2017,"Family",1.39423859119415
+"837","Nepal",2017,"Family",1.17928326129913
+"838","Mongolia",2017,"Family",1.4930112361908
+"839","South Africa",2017,"Family",1.38478863239288
+"840","Tunisia",2017,"Family",0.868351459503174
+"841","Palestinian Territories",2017,"Family",1.15564715862274
+"842","Egypt",2017,"Family",0.997471392154694
+"843","Bulgaria",2017,"Family",1.43437945842743
+"844","Sierra Leone",2017,"Family",0.984136044979095
+"845","Cameroon",2017,"Family",0.946018218994141
+"846","Iran",2017,"Family",0.711551249027252
+"847","Albania",2017,"Family",0.803685247898102
+"848","Bangladesh",2017,"Family",0.735131740570068
+"849","Kenya",2017,"Family",1.06795072555542
+"850","Myanmar",2017,"Family",1.12323594093323
+"851","Senegal",2017,"Family",1.17969191074371
+"852","Zambia",2017,"Family",1.00318729877472
+"853","Iraq",2017,"Family",0.978613197803497
+"854","Gabon",2017,"Family",1.1556202173233
+"855","Ethiopia",2017,"Family",0.86466920375824
+"856","Sri Lanka",2017,"Family",1.25997638702393
+"857","Armenia",2017,"Family",1.00748372077942
+"858","India",2017,"Family",0.754372596740723
+"859","Mauritania",2017,"Family",1.2720308303833
+"860","Congo (Brazzaville)",2017,"Family",0.832044363021851
+"861","Georgia",2017,"Family",0.57061493396759
+"862","Congo (Kinshasa)",2017,"Family",1.22902345657349
+"863","Mali",2017,"Family",1.28147339820862
+"864","Ivory Coast",2017,"Family",0.904780030250549
+"865","Cambodia",2017,"Family",1.00623834133148
+"866","Sudan",2017,"Family",1.21400856971741
+"867","Ghana",2017,"Family",0.873664736747742
+"868","Ukraine",2017,"Family",1.39453756809235
+"869","Uganda",2017,"Family",1.12982773780823
+"870","Burkina Faso",2017,"Family",1.04328000545502
+"871","Niger",2017,"Family",0.993025004863739
+"872","Malawi",2017,"Family",0.512568831443787
+"873","Chad",2017,"Family",0.953855872154236
+"874","Zimbabwe",2017,"Family",1.08309590816498
+"875","Angola",2017,"Family",1.10441195964813
+"876","Afghanistan",2017,"Family",0.581543326377869
+"877","Botswana",2017,"Family",1.22155499458313
+"878","Benin",2017,"Family",0.435299843549728
+"879","Madagascar",2017,"Family",0.913020372390747
+"880","Haiti",2017,"Family",0.640449821949005
+"881","Yemen",2017,"Family",0.93538224697113
+"882","Liberia",2017,"Family",0.872117936611176
+"883","Guinea",2017,"Family",0.791244685649872
+"884","Togo",2017,"Family",0.431882530450821
+"885","Rwanda",2017,"Family",0.945707023143768
+"886","Syria",2017,"Family",0.396102607250214
+"887","Tanzania",2017,"Family",1.04198980331421
+"888","Burundi",2017,"Family",0.629793584346771
+"889","Switzerland",2015,"Life.Expectancy",0.94143
+"890","Iceland",2015,"Life.Expectancy",0.94784
+"891","Denmark",2015,"Life.Expectancy",0.87464
+"892","Norway",2015,"Life.Expectancy",0.88521
+"893","Canada",2015,"Life.Expectancy",0.90563
+"894","Finland",2015,"Life.Expectancy",0.88911
+"895","Netherlands",2015,"Life.Expectancy",0.89284
+"896","Sweden",2015,"Life.Expectancy",0.91087
+"897","New Zealand",2015,"Life.Expectancy",0.90837
+"898","Australia",2015,"Life.Expectancy",0.93156
+"899","Israel",2015,"Life.Expectancy",0.91387
+"900","Costa Rica",2015,"Life.Expectancy",0.86027
+"901","Austria",2015,"Life.Expectancy",0.89042
+"902","Mexico",2015,"Life.Expectancy",0.81444
+"903","United States",2015,"Life.Expectancy",0.86179
+"904","Brazil",2015,"Life.Expectancy",0.69702
+"905","Luxembourg",2015,"Life.Expectancy",0.91894
+"906","Ireland",2015,"Life.Expectancy",0.89533
+"907","Belgium",2015,"Life.Expectancy",0.89667
+"908","United Arab Emirates",2015,"Life.Expectancy",0.80925
+"909","United Kingdom",2015,"Life.Expectancy",0.90943
+"910","Venezuela",2015,"Life.Expectancy",0.72052
+"911","Singapore",2015,"Life.Expectancy",1.02525
+"912","Panama",2015,"Life.Expectancy",0.79661
+"913","Germany",2015,"Life.Expectancy",0.89186
+"914","Chile",2015,"Life.Expectancy",0.85857
+"915","Qatar",2015,"Life.Expectancy",0.79733
+"916","France",2015,"Life.Expectancy",0.94579
+"917","Argentina",2015,"Life.Expectancy",0.78723
+"918","Czech Republic",2015,"Life.Expectancy",0.84483
+"919","Uruguay",2015,"Life.Expectancy",0.8116
+"920","Colombia",2015,"Life.Expectancy",0.69077
+"921","Thailand",2015,"Life.Expectancy",0.7385
+"922","Saudi Arabia",2015,"Life.Expectancy",0.72025
+"923","Spain",2015,"Life.Expectancy",0.95562
+"924","Malta",2015,"Life.Expectancy",0.88721
+"925","Taiwan",2015,"Life.Expectancy",0.8753
+"926","Kuwait",2015,"Life.Expectancy",0.72492
+"927","Trinidad and Tobago",2015,"Life.Expectancy",0.61483
+"928","El Salvador",2015,"Life.Expectancy",0.67737
+"929","Guatemala",2015,"Life.Expectancy",0.64425
+"930","Uzbekistan",2015,"Life.Expectancy",0.59772
+"931","Slovakia",2015,"Life.Expectancy",0.78902
+"932","Japan",2015,"Life.Expectancy",0.99111
+"933","South Korea",2015,"Life.Expectancy",0.96538
+"934","Ecuador",2015,"Life.Expectancy",0.79075
+"935","Bahrain",2015,"Life.Expectancy",0.74716
+"936","Italy",2015,"Life.Expectancy",0.95446
+"937","Bolivia",2015,"Life.Expectancy",0.5392
+"938","Moldova",2015,"Life.Expectancy",0.61826
+"939","Paraguay",2015,"Life.Expectancy",0.66098
+"940","Kazakhstan",2015,"Life.Expectancy",0.64368
+"941","Slovenia",2015,"Life.Expectancy",0.87337
+"942","Lithuania",2015,"Life.Expectancy",0.73128
+"943","Nicaragua",2015,"Life.Expectancy",0.74314
+"944","Peru",2015,"Life.Expectancy",0.73017
+"945","Belarus",2015,"Life.Expectancy",0.73608
+"946","Poland",2015,"Life.Expectancy",0.77903
+"947","Malaysia",2015,"Life.Expectancy",0.72394
+"948","Croatia",2015,"Life.Expectancy",0.78805
+"949","Libya",2015,"Life.Expectancy",0.7038
+"950","Russia",2015,"Life.Expectancy",0.66926
+"951","Jamaica",2015,"Life.Expectancy",0.68741
+"952","North Cyprus",2015,"Life.Expectancy",0.92356
+"953","Cyprus",2015,"Life.Expectancy",0.92356
+"954","Algeria",2015,"Life.Expectancy",0.61766
+"955","Kosovo",2015,"Life.Expectancy",0.63132
+"956","Turkmenistan",2015,"Life.Expectancy",0.53886
+"957","Mauritius",2015,"Life.Expectancy",0.7095
+"958","Hong Kong",2015,"Life.Expectancy",1.01328
+"959","Estonia",2015,"Life.Expectancy",0.77361
+"960","Indonesia",2015,"Life.Expectancy",0.63793
+"961","Vietnam",2015,"Life.Expectancy",0.74676
+"962","Turkey",2015,"Life.Expectancy",0.73172
+"963","Kyrgyzstan",2015,"Life.Expectancy",0.65088
+"964","Nigeria",2015,"Life.Expectancy",0.16007
+"965","Bhutan",2015,"Life.Expectancy",0.57407
+"966","Azerbaijan",2015,"Life.Expectancy",0.64045
+"967","Pakistan",2015,"Life.Expectancy",0.51466
+"968","Jordan",2015,"Life.Expectancy",0.69639
+"969","Montenegro",2015,"Life.Expectancy",0.72521
+"970","China",2015,"Life.Expectancy",0.81658
+"971","Zambia",2015,"Life.Expectancy",0.29924
+"972","Romania",2015,"Life.Expectancy",0.7689
+"973","Serbia",2015,"Life.Expectancy",0.74836
+"974","Portugal",2015,"Life.Expectancy",0.87519
+"975","Latvia",2015,"Life.Expectancy",0.72437
+"976","Philippines",2015,"Life.Expectancy",0.58114
+"977","Morocco",2015,"Life.Expectancy",0.60954
+"978","Macedonia",2015,"Life.Expectancy",0.73545
+"979","Albania",2015,"Life.Expectancy",0.81325
+"980","Bosnia and Herzegovina",2015,"Life.Expectancy",0.79081
+"981","Dominican Republic",2015,"Life.Expectancy",0.66825
+"982","Mongolia",2015,"Life.Expectancy",0.60268
+"983","Greece",2015,"Life.Expectancy",0.88213
+"984","Lebanon",2015,"Life.Expectancy",0.83947
+"985","Hungary",2015,"Life.Expectancy",0.75905
+"986","Honduras",2015,"Life.Expectancy",0.6951
+"987","Tajikistan",2015,"Life.Expectancy",0.57379
+"988","Tunisia",2015,"Life.Expectancy",0.73793
+"989","Palestinian Territories",2015,"Life.Expectancy",0.66015
+"990","Bangladesh",2015,"Life.Expectancy",0.60164
+"991","Iran",2015,"Life.Expectancy",0.69805
+"992","Ukraine",2015,"Life.Expectancy",0.6739
+"993","Iraq",2015,"Life.Expectancy",0.60237
+"994","South Africa",2015,"Life.Expectancy",0.27688
+"995","Ghana",2015,"Life.Expectancy",0.40132
+"996","Zimbabwe",2015,"Life.Expectancy",0.33475
+"997","Liberia",2015,"Life.Expectancy",0.34201
+"998","India",2015,"Life.Expectancy",0.51529
+"999","Sudan",2015,"Life.Expectancy",0.36878
+"1000","Haiti",2015,"Life.Expectancy",0.38847
+"1001","Congo (Kinshasa)",2015,"Life.Expectancy",0.09806
+"1002","Nepal",2015,"Life.Expectancy",0.56874
+"1003","Ethiopia",2015,"Life.Expectancy",0.44055
+"1004","Sierra Leone",2015,"Life.Expectancy",0
+"1005","Mauritania",2015,"Life.Expectancy",0.35874
+"1006","Kenya",2015,"Life.Expectancy",0.41435
+"1007","Armenia",2015,"Life.Expectancy",0.7299
+"1008","Botswana",2015,"Life.Expectancy",0.04776
+"1009","Myanmar",2015,"Life.Expectancy",0.48246
+"1010","Georgia",2015,"Life.Expectancy",0.72926
+"1011","Malawi",2015,"Life.Expectancy",0.22562
+"1012","Sri Lanka",2015,"Life.Expectancy",0.70806
+"1013","Cameroon",2015,"Life.Expectancy",0.23402
+"1014","Bulgaria",2015,"Life.Expectancy",0.76649
+"1015","Egypt",2015,"Life.Expectancy",0.61712
+"1016","Yemen",2015,"Life.Expectancy",0.40064
+"1017","Angola",2015,"Life.Expectancy",0.16683
+"1018","Mali",2015,"Life.Expectancy",0.20583
+"1019","Congo (Brazzaville)",2015,"Life.Expectancy",0.31051
+"1020","Uganda",2015,"Life.Expectancy",0.33861
+"1021","Senegal",2015,"Life.Expectancy",0.4354
+"1022","Gabon",2015,"Life.Expectancy",0.43372
+"1023","Niger",2015,"Life.Expectancy",0.29707
+"1024","Cambodia",2015,"Life.Expectancy",0.61114
+"1025","Tanzania",2015,"Life.Expectancy",0.38215
+"1026","Madagascar",2015,"Life.Expectancy",0.46721
+"1027","Chad",2015,"Life.Expectancy",0.1501
+"1028","Guinea",2015,"Life.Expectancy",0.24009
+"1029","Ivory Coast",2015,"Life.Expectancy",0.15185
+"1030","Burkina Faso",2015,"Life.Expectancy",0.27125
+"1031","Afghanistan",2015,"Life.Expectancy",0.30335
+"1032","Rwanda",2015,"Life.Expectancy",0.42864
+"1033","Benin",2015,"Life.Expectancy",0.3191
+"1034","Syria",2015,"Life.Expectancy",0.72193
+"1035","Burundi",2015,"Life.Expectancy",0.22396
+"1036","Togo",2015,"Life.Expectancy",0.28443
+"1037","Denmark",2016,"Life.Expectancy",0.79504
+"1038","Switzerland",2016,"Life.Expectancy",0.86303
+"1039","Iceland",2016,"Life.Expectancy",0.86733
+"1040","Norway",2016,"Life.Expectancy",0.79579
+"1041","Finland",2016,"Life.Expectancy",0.81091
+"1042","Canada",2016,"Life.Expectancy",0.8276
+"1043","Netherlands",2016,"Life.Expectancy",0.81231
+"1044","New Zealand",2016,"Life.Expectancy",0.83096
+"1045","Australia",2016,"Life.Expectancy",0.8512
+"1046","Sweden",2016,"Life.Expectancy",0.83121
+"1047","Israel",2016,"Life.Expectancy",0.84917
+"1048","Austria",2016,"Life.Expectancy",0.80565
+"1049","United States",2016,"Life.Expectancy",0.779
+"1050","Costa Rica",2016,"Life.Expectancy",0.76146
+"1051","Germany",2016,"Life.Expectancy",0.81487
+"1052","Brazil",2016,"Life.Expectancy",0.61415
+"1053","Belgium",2016,"Life.Expectancy",0.81959
+"1054","Ireland",2016,"Life.Expectancy",0.81455
+"1055","Luxembourg",2016,"Life.Expectancy",0.84542
+"1056","Mexico",2016,"Life.Expectancy",0.71143
+"1057","Singapore",2016,"Life.Expectancy",0.94719
+"1058","United Kingdom",2016,"Life.Expectancy",0.80991
+"1059","Chile",2016,"Life.Expectancy",0.81883
+"1060","Panama",2016,"Life.Expectancy",0.70835
+"1061","Argentina",2016,"Life.Expectancy",0.69711
+"1062","Czech Republic",2016,"Life.Expectancy",0.76376
+"1063","United Arab Emirates",2016,"Life.Expectancy",0.72993
+"1064","Uruguay",2016,"Life.Expectancy",0.72183
+"1065","Malta",2016,"Life.Expectancy",0.80315
+"1066","Colombia",2016,"Life.Expectancy",0.59659
+"1067","France",2016,"Life.Expectancy",0.83795
+"1068","Thailand",2016,"Life.Expectancy",0.64915
+"1069","Saudi Arabia",2016,"Life.Expectancy",0.59267
+"1070","Taiwan",2016,"Life.Expectancy",0.79565
+"1071","Qatar",2016,"Life.Expectancy",0.71723
+"1072","Spain",2016,"Life.Expectancy",0.87896
+"1073","Algeria",2016,"Life.Expectancy",0.61804
+"1074","Guatemala",2016,"Life.Expectancy",0.54039
+"1075","Kuwait",2016,"Life.Expectancy",0.63569
+"1076","Bahrain",2016,"Life.Expectancy",0.65696
+"1077","Trinidad and Tobago",2016,"Life.Expectancy",0.52608
+"1078","Venezuela",2016,"Life.Expectancy",0.61904
+"1079","Slovakia",2016,"Life.Expectancy",0.70367
+"1080","El Salvador",2016,"Life.Expectancy",0.596
+"1081","Malaysia",2016,"Life.Expectancy",0.62366
+"1082","Nicaragua",2016,"Life.Expectancy",0.65213
+"1083","Uzbekistan",2016,"Life.Expectancy",0.50163
+"1084","Italy",2016,"Life.Expectancy",0.85102
+"1085","Ecuador",2016,"Life.Expectancy",0.68613
+"1086","Japan",2016,"Life.Expectancy",0.91491
+"1087","Kazakhstan",2016,"Life.Expectancy",0.57386
+"1088","Moldova",2016,"Life.Expectancy",0.52309
+"1089","Russia",2016,"Life.Expectancy",0.58991
+"1090","Poland",2016,"Life.Expectancy",0.69058
+"1091","South Korea",2016,"Life.Expectancy",0.88645
+"1092","Bolivia",2016,"Life.Expectancy",0.4697
+"1093","Lithuania",2016,"Life.Expectancy",0.64674
+"1094","Belarus",2016,"Life.Expectancy",0.63104
+"1095","North Cyprus",2016,"Life.Expectancy",0.84142
+"1096","Slovenia",2016,"Life.Expectancy",0.79151
+"1097","Peru",2016,"Life.Expectancy",0.62994
+"1098","Turkmenistan",2016,"Life.Expectancy",0.44006
+"1099","Mauritius",2016,"Life.Expectancy",0.66189
+"1100","Libya",2016,"Life.Expectancy",0.52304
+"1101","Latvia",2016,"Life.Expectancy",0.63952
+"1102","Cyprus",2016,"Life.Expectancy",0.8488
+"1103","Paraguay",2016,"Life.Expectancy",0.58295
+"1104","Romania",2016,"Life.Expectancy",0.67602
+"1105","Estonia",2016,"Life.Expectancy",0.68098
+"1106","Jamaica",2016,"Life.Expectancy",0.59469
+"1107","Croatia",2016,"Life.Expectancy",0.70524
+"1108","Hong Kong",2016,"Life.Expectancy",0.95277
+"1109","Kosovo",2016,"Life.Expectancy",0.54
+"1110","Turkey",2016,"Life.Expectancy",0.64718
+"1111","Indonesia",2016,"Life.Expectancy",0.49374
+"1112","Jordan",2016,"Life.Expectancy",0.60712
+"1113","Azerbaijan",2016,"Life.Expectancy",0.54504
+"1114","Philippines",2016,"Life.Expectancy",0.47036
+"1115","China",2016,"Life.Expectancy",0.73561
+"1116","Bhutan",2016,"Life.Expectancy",0.49759
+"1117","Kyrgyzstan",2016,"Life.Expectancy",0.55449
+"1118","Serbia",2016,"Life.Expectancy",0.6458
+"1119","Bosnia and Herzegovina",2016,"Life.Expectancy",0.70766
+"1120","Montenegro",2016,"Life.Expectancy",0.63533
+"1121","Dominican Republic",2016,"Life.Expectancy",0.57669
+"1122","Morocco",2016,"Life.Expectancy",0.59471
+"1123","Hungary",2016,"Life.Expectancy",0.67608
+"1124","Pakistan",2016,"Life.Expectancy",0.40306
+"1125","Lebanon",2016,"Life.Expectancy",0.76171
+"1126","Portugal",2016,"Life.Expectancy",0.79363
+"1127","Macedonia",2016,"Life.Expectancy",0.64738
+"1128","Vietnam",2016,"Life.Expectancy",0.66157
+"1129","Tunisia",2016,"Life.Expectancy",0.59577
+"1130","Greece",2016,"Life.Expectancy",0.80029
+"1131","Tajikistan",2016,"Life.Expectancy",0.53119
+"1132","Mongolia",2016,"Life.Expectancy",0.55469
+"1133","Nigeria",2016,"Life.Expectancy",0.05108
+"1134","Honduras",2016,"Life.Expectancy",0.58383
+"1135","Iran",2016,"Life.Expectancy",0.64232
+"1136","Zambia",2016,"Life.Expectancy",0.23573
+"1137","Nepal",2016,"Life.Expectancy",0.50073
+"1138","Palestinian Territories",2016,"Life.Expectancy",0.56844
+"1139","Albania",2016,"Life.Expectancy",0.73007
+"1140","Bangladesh",2016,"Life.Expectancy",0.52989
+"1141","Sierra Leone",2016,"Life.Expectancy",0
+"1142","Iraq",2016,"Life.Expectancy",0.51076
+"1143","Cameroon",2016,"Life.Expectancy",0.12698
+"1144","Ethiopia",2016,"Life.Expectancy",0.34578
+"1145","South Africa",2016,"Life.Expectancy",0.18611
+"1146","Sri Lanka",2016,"Life.Expectancy",0.62007
+"1147","India",2016,"Life.Expectancy",0.45091
+"1148","Myanmar",2016,"Life.Expectancy",0.3988
+"1149","Egypt",2016,"Life.Expectancy",0.52116
+"1150","Armenia",2016,"Life.Expectancy",0.64083
+"1151","Kenya",2016,"Life.Expectancy",0.30147
+"1152","Ukraine",2016,"Life.Expectancy",0.58628
+"1153","Ghana",2016,"Life.Expectancy",0.29681
+"1154","Congo (Kinshasa)",2016,"Life.Expectancy",0.188
+"1155","Georgia",2016,"Life.Expectancy",0.64035
+"1156","Congo (Brazzaville)",2016,"Life.Expectancy",0.28212
+"1157","Senegal",2016,"Life.Expectancy",0.40457
+"1158","Bulgaria",2016,"Life.Expectancy",0.67806
+"1159","Mauritania",2016,"Life.Expectancy",0.28639
+"1160","Zimbabwe",2016,"Life.Expectancy",0.1595
+"1161","Malawi",2016,"Life.Expectancy",0.29364
+"1162","Sudan",2016,"Life.Expectancy",0.29759
+"1163","Gabon",2016,"Life.Expectancy",0.3494
+"1164","Mali",2016,"Life.Expectancy",0.16347
+"1165","Haiti",2016,"Life.Expectancy",0.27494
+"1166","Botswana",2016,"Life.Expectancy",0.34752
+"1167","Ivory Coast",2016,"Life.Expectancy",0.04476
+"1168","Cambodia",2016,"Life.Expectancy",0.42494
+"1169","Angola",2016,"Life.Expectancy",0.04991
+"1170","Niger",2016,"Life.Expectancy",0.26162
+"1171","Chad",2016,"Life.Expectancy",0.03824
+"1172","Burkina Faso",2016,"Life.Expectancy",0.21297
+"1173","Uganda",2016,"Life.Expectancy",0.19625
+"1174","Yemen",2016,"Life.Expectancy",0.31048
+"1175","Madagascar",2016,"Life.Expectancy",0.37109
+"1176","Tanzania",2016,"Life.Expectancy",0.357
+"1177","Liberia",2016,"Life.Expectancy",0.23165
+"1178","Guinea",2016,"Life.Expectancy",0.18829
+"1179","Rwanda",2016,"Life.Expectancy",0.31865
+"1180","Benin",2016,"Life.Expectancy",0.21028
+"1181","Afghanistan",2016,"Life.Expectancy",0.17344
+"1182","Togo",2016,"Life.Expectancy",0.24811
+"1183","Syria",2016,"Life.Expectancy",0.62994
+"1184","Burundi",2016,"Life.Expectancy",0.15747
+"1185","Norway",2017,"Life.Expectancy",0.796666502952576
+"1186","Denmark",2017,"Life.Expectancy",0.792565524578094
+"1187","Iceland",2017,"Life.Expectancy",0.833552122116089
+"1188","Switzerland",2017,"Life.Expectancy",0.858131289482117
+"1189","Finland",2017,"Life.Expectancy",0.80915766954422
+"1190","Netherlands",2017,"Life.Expectancy",0.810696125030518
+"1191","Canada",2017,"Life.Expectancy",0.83455765247345
+"1192","New Zealand",2017,"Life.Expectancy",0.816759705543518
+"1193","Sweden",2017,"Life.Expectancy",0.830875158309937
+"1194","Australia",2017,"Life.Expectancy",0.84388679265976
+"1195","Israel",2017,"Life.Expectancy",0.83840399980545
+"1196","Costa Rica",2017,"Life.Expectancy",0.759509265422821
+"1197","Austria",2017,"Life.Expectancy",0.815328419208527
+"1198","United States",2017,"Life.Expectancy",0.77428662776947
+"1199","Ireland",2017,"Life.Expectancy",0.80978262424469
+"1200","Germany",2017,"Life.Expectancy",0.798950731754303
+"1201","Belgium",2017,"Life.Expectancy",0.818091869354248
+"1202","Luxembourg",2017,"Life.Expectancy",0.845089495182037
+"1203","United Kingdom",2017,"Life.Expectancy",0.805335938930511
+"1204","Chile",2017,"Life.Expectancy",0.819479703903198
+"1205","United Arab Emirates",2017,"Life.Expectancy",0.726798236370087
+"1206","Brazil",2017,"Life.Expectancy",0.616552352905273
+"1207","Czech Republic",2017,"Life.Expectancy",0.754444003105164
+"1208","Argentina",2017,"Life.Expectancy",0.695137083530426
+"1209","Mexico",2017,"Life.Expectancy",0.709978997707367
+"1210","Singapore",2017,"Life.Expectancy",0.949492394924164
+"1211","Malta",2017,"Life.Expectancy",0.821944236755371
+"1212","Uruguay",2017,"Life.Expectancy",0.719216823577881
+"1213","Guatemala",2017,"Life.Expectancy",0.540239989757538
+"1214","Panama",2017,"Life.Expectancy",0.706156134605408
+"1215","France",2017,"Life.Expectancy",0.844465851783752
+"1216","Thailand",2017,"Life.Expectancy",0.647239029407501
+"1217","Taiwan Province of China",2017,"Life.Expectancy",0.793984234333038
+"1218","Spain",2017,"Life.Expectancy",0.888960599899292
+"1219","Qatar",2017,"Life.Expectancy",0.710098087787628
+"1220","Colombia",2017,"Life.Expectancy",0.595027923583984
+"1221","Saudi Arabia",2017,"Life.Expectancy",0.590148329734802
+"1222","Trinidad and Tobago",2017,"Life.Expectancy",0.519983291625977
+"1223","Kuwait",2017,"Life.Expectancy",0.632105708122253
+"1224","Slovakia",2017,"Life.Expectancy",0.712732911109924
+"1225","Bahrain",2017,"Life.Expectancy",0.653133034706116
+"1226","Malaysia",2017,"Life.Expectancy",0.618784427642822
+"1227","Nicaragua",2017,"Life.Expectancy",0.653095960617065
+"1228","Ecuador",2017,"Life.Expectancy",0.685636222362518
+"1229","El Salvador",2017,"Life.Expectancy",0.596018552780151
+"1230","Poland",2017,"Life.Expectancy",0.699475347995758
+"1231","Uzbekistan",2017,"Life.Expectancy",0.498272627592087
+"1232","Italy",2017,"Life.Expectancy",0.853144347667694
+"1233","Russia",2017,"Life.Expectancy",0.547349333763123
+"1234","Japan",2017,"Life.Expectancy",0.913475871086121
+"1235","Lithuania",2017,"Life.Expectancy",0.62894994020462
+"1236","Algeria",2017,"Life.Expectancy",0.617584645748138
+"1237","Latvia",2017,"Life.Expectancy",0.638566970825195
+"1238","South Korea",2017,"Life.Expectancy",0.900214076042175
+"1239","Moldova",2017,"Life.Expectancy",0.589465200901031
+"1240","Romania",2017,"Life.Expectancy",0.685158312320709
+"1241","Bolivia",2017,"Life.Expectancy",0.473630249500275
+"1242","Turkmenistan",2017,"Life.Expectancy",0.437726080417633
+"1243","Kazakhstan",2017,"Life.Expectancy",0.606041550636292
+"1244","North Cyprus",2017,"Life.Expectancy",0.834647238254547
+"1245","Slovenia",2017,"Life.Expectancy",0.790828227996826
+"1246","Peru",2017,"Life.Expectancy",0.630166113376617
+"1247","Mauritius",2017,"Life.Expectancy",0.638007462024689
+"1248","Cyprus",2017,"Life.Expectancy",0.84471470117569
+"1249","Estonia",2017,"Life.Expectancy",0.695168316364288
+"1250","Belarus",2017,"Life.Expectancy",0.637714266777039
+"1251","Libya",2017,"Life.Expectancy",0.520169019699097
+"1252","Turkey",2017,"Life.Expectancy",0.637605607509613
+"1253","Paraguay",2017,"Life.Expectancy",0.579250693321228
+"1254","Hong Kong",2017,"Life.Expectancy",0.943062424659729
+"1255","Philippines",2017,"Life.Expectancy",0.468009054660797
+"1256","Serbia",2017,"Life.Expectancy",0.65078467130661
+"1257","Jordan",2017,"Life.Expectancy",0.604590058326721
+"1258","Hungary",2017,"Life.Expectancy",0.687763452529907
+"1259","Jamaica",2017,"Life.Expectancy",0.641022384166718
+"1260","Croatia",2017,"Life.Expectancy",0.701288521289825
+"1261","Kosovo",2017,"Life.Expectancy",0.541452050209045
+"1262","China",2017,"Life.Expectancy",0.741415500640869
+"1263","Pakistan",2017,"Life.Expectancy",0.402047783136368
+"1264","Indonesia",2017,"Life.Expectancy",0.492345720529556
+"1265","Venezuela",2017,"Life.Expectancy",0.617144227027893
+"1266","Montenegro",2017,"Life.Expectancy",0.667464673519135
+"1267","Morocco",2017,"Life.Expectancy",0.59771066904068
+"1268","Azerbaijan",2017,"Life.Expectancy",0.540775775909424
+"1269","Dominican Republic",2017,"Life.Expectancy",0.574873745441437
+"1270","Greece",2017,"Life.Expectancy",0.810198903083801
+"1271","Lebanon",2017,"Life.Expectancy",0.735081076622009
+"1272","Portugal",2017,"Life.Expectancy",0.795843541622162
+"1273","Bosnia and Herzegovina",2017,"Life.Expectancy",0.705186307430267
+"1274","Honduras",2017,"Life.Expectancy",0.582569479942322
+"1275","Macedonia",2017,"Life.Expectancy",0.644948184490204
+"1276","Vietnam",2017,"Life.Expectancy",0.652168989181519
+"1277","Nigeria",2017,"Life.Expectancy",0.0569157302379608
+"1278","Tajikistan",2017,"Life.Expectancy",0.529235124588013
+"1279","Bhutan",2017,"Life.Expectancy",0.495879292488098
+"1280","Kyrgyzstan",2017,"Life.Expectancy",0.553457796573639
+"1281","Nepal",2017,"Life.Expectancy",0.504130780696869
+"1282","Mongolia",2017,"Life.Expectancy",0.557783484458923
+"1283","South Africa",2017,"Life.Expectancy",0.187080070376396
+"1284","Tunisia",2017,"Life.Expectancy",0.613212049007416
+"1285","Palestinian Territories",2017,"Life.Expectancy",0.565666973590851
+"1286","Egypt",2017,"Life.Expectancy",0.520187258720398
+"1287","Bulgaria",2017,"Life.Expectancy",0.708217680454254
+"1288","Sierra Leone",2017,"Life.Expectancy",0.00556475389748812
+"1289","Cameroon",2017,"Life.Expectancy",0.132892116904259
+"1290","Iran",2017,"Life.Expectancy",0.639333188533783
+"1291","Albania",2017,"Life.Expectancy",0.731159746646881
+"1292","Bangladesh",2017,"Life.Expectancy",0.533241033554077
+"1293","Kenya",2017,"Life.Expectancy",0.309988349676132
+"1294","Myanmar",2017,"Life.Expectancy",0.397522568702698
+"1295","Senegal",2017,"Life.Expectancy",0.409362852573395
+"1296","Zambia",2017,"Life.Expectancy",0.257835894823074
+"1297","Iraq",2017,"Life.Expectancy",0.501180469989777
+"1298","Gabon",2017,"Life.Expectancy",0.356578588485718
+"1299","Ethiopia",2017,"Life.Expectancy",0.353409707546234
+"1300","Sri Lanka",2017,"Life.Expectancy",0.625130832195282
+"1301","Armenia",2017,"Life.Expectancy",0.637524425983429
+"1302","India",2017,"Life.Expectancy",0.455427616834641
+"1303","Mauritania",2017,"Life.Expectancy",0.285349279642105
+"1304","Congo (Brazzaville)",2017,"Life.Expectancy",0.28995743393898
+"1305","Georgia",2017,"Life.Expectancy",0.649546980857849
+"1306","Congo (Kinshasa)",2017,"Life.Expectancy",0.191407024860382
+"1307","Mali",2017,"Life.Expectancy",0.169365674257278
+"1308","Ivory Coast",2017,"Life.Expectancy",0.0486421696841717
+"1309","Cambodia",2017,"Life.Expectancy",0.429783403873444
+"1310","Sudan",2017,"Life.Expectancy",0.290920823812485
+"1311","Ghana",2017,"Life.Expectancy",0.295637726783752
+"1312","Ukraine",2017,"Life.Expectancy",0.575903952121735
+"1313","Uganda",2017,"Life.Expectancy",0.217632606625557
+"1314","Burkina Faso",2017,"Life.Expectancy",0.215844258666039
+"1315","Niger",2017,"Life.Expectancy",0.26850500702858
+"1316","Malawi",2017,"Life.Expectancy",0.315089583396912
+"1317","Chad",2017,"Life.Expectancy",0.0411347150802612
+"1318","Zimbabwe",2017,"Life.Expectancy",0.196763753890991
+"1319","Angola",2017,"Life.Expectancy",0.0498686656355858
+"1320","Afghanistan",2017,"Life.Expectancy",0.180746778845787
+"1321","Botswana",2017,"Life.Expectancy",0.341755509376526
+"1322","Benin",2017,"Life.Expectancy",0.209930211305618
+"1323","Madagascar",2017,"Life.Expectancy",0.375223308801651
+"1324","Haiti",2017,"Life.Expectancy",0.277321130037308
+"1325","Yemen",2017,"Life.Expectancy",0.310080915689468
+"1326","Liberia",2017,"Life.Expectancy",0.229918196797371
+"1327","Guinea",2017,"Life.Expectancy",0.194129139184952
+"1328","Togo",2017,"Life.Expectancy",0.247105568647385
+"1329","Rwanda",2017,"Life.Expectancy",0.326424807310104
+"1330","Syria",2017,"Life.Expectancy",0.50053334236145
+"1331","Tanzania",2017,"Life.Expectancy",0.364509284496307
+"1332","Burundi",2017,"Life.Expectancy",0.151610791683197
+"1333","Switzerland",2015,"Freedom",0.66557
+"1334","Iceland",2015,"Freedom",0.62877
+"1335","Denmark",2015,"Freedom",0.64938
+"1336","Norway",2015,"Freedom",0.66973
+"1337","Canada",2015,"Freedom",0.63297
+"1338","Finland",2015,"Freedom",0.64169
+"1339","Netherlands",2015,"Freedom",0.61576
+"1340","Sweden",2015,"Freedom",0.6598
+"1341","New Zealand",2015,"Freedom",0.63938
+"1342","Australia",2015,"Freedom",0.65124
+"1343","Israel",2015,"Freedom",0.41319
+"1344","Costa Rica",2015,"Freedom",0.63376
+"1345","Austria",2015,"Freedom",0.62433
+"1346","Mexico",2015,"Freedom",0.48181
+"1347","United States",2015,"Freedom",0.54604
+"1348","Brazil",2015,"Freedom",0.49049
+"1349","Luxembourg",2015,"Freedom",0.61583
+"1350","Ireland",2015,"Freedom",0.61777
+"1351","Belgium",2015,"Freedom",0.5845
+"1352","United Arab Emirates",2015,"Freedom",0.64157
+"1353","United Kingdom",2015,"Freedom",0.59625
+"1354","Venezuela",2015,"Freedom",0.42908
+"1355","Singapore",2015,"Freedom",0.54252
+"1356","Panama",2015,"Freedom",0.5421
+"1357","Germany",2015,"Freedom",0.61477
+"1358","Chile",2015,"Freedom",0.44132
+"1359","Qatar",2015,"Freedom",0.6404
+"1360","France",2015,"Freedom",0.55011
+"1361","Argentina",2015,"Freedom",0.44974
+"1362","Czech Republic",2015,"Freedom",0.46364
+"1363","Uruguay",2015,"Freedom",0.60362
+"1364","Colombia",2015,"Freedom",0.53466
+"1365","Thailand",2015,"Freedom",0.55664
+"1366","Saudi Arabia",2015,"Freedom",0.31048
+"1367","Spain",2015,"Freedom",0.45951
+"1368","Malta",2015,"Freedom",0.60365
+"1369","Taiwan",2015,"Freedom",0.3974
+"1370","Kuwait",2015,"Freedom",0.55499
+"1371","Trinidad and Tobago",2015,"Freedom",0.55884
+"1372","El Salvador",2015,"Freedom",0.4035
+"1373","Guatemala",2015,"Freedom",0.57733
+"1374","Uzbekistan",2015,"Freedom",0.65821
+"1375","Slovakia",2015,"Freedom",0.31751
+"1376","Japan",2015,"Freedom",0.49615
+"1377","South Korea",2015,"Freedom",0.33208
+"1378","Ecuador",2015,"Freedom",0.48574
+"1379","Bahrain",2015,"Freedom",0.45492
+"1380","Italy",2015,"Freedom",0.26236
+"1381","Bolivia",2015,"Freedom",0.57414
+"1382","Moldova",2015,"Freedom",0.32818
+"1383","Paraguay",2015,"Freedom",0.53899
+"1384","Kazakhstan",2015,"Freedom",0.51649
+"1385","Slovenia",2015,"Freedom",0.60855
+"1386","Lithuania",2015,"Freedom",0.21342
+"1387","Nicaragua",2015,"Freedom",0.55475
+"1388","Peru",2015,"Freedom",0.41496
+"1389","Belarus",2015,"Freedom",0.37938
+"1390","Poland",2015,"Freedom",0.53122
+"1391","Malaysia",2015,"Freedom",0.53024
+"1392","Croatia",2015,"Freedom",0.25883
+"1393","Libya",2015,"Freedom",0.41668
+"1394","Russia",2015,"Freedom",0.36679
+"1395","Jamaica",2015,"Freedom",0.50442
+"1396","North Cyprus",2015,"Freedom",0.49027
+"1397","Cyprus",2015,"Freedom",0.40672
+"1398","Algeria",2015,"Freedom",0.28579
+"1399","Kosovo",2015,"Freedom",0.24749
+"1400","Turkmenistan",2015,"Freedom",0.4761
+"1401","Mauritius",2015,"Freedom",0.56066
+"1402","Hong Kong",2015,"Freedom",0.59608
+"1403","Estonia",2015,"Freedom",0.44888
+"1404","Indonesia",2015,"Freedom",0.46611
+"1405","Vietnam",2015,"Freedom",0.59444
+"1406","Turkey",2015,"Freedom",0.22815
+"1407","Kyrgyzstan",2015,"Freedom",0.43477
+"1408","Nigeria",2015,"Freedom",0.34334
+"1409","Bhutan",2015,"Freedom",0.53206
+"1410","Azerbaijan",2015,"Freedom",0.3703
+"1411","Pakistan",2015,"Freedom",0.12102
+"1412","Jordan",2015,"Freedom",0.40661
+"1413","Montenegro",2015,"Freedom",0.1826
+"1414","China",2015,"Freedom",0.51697
+"1415","Zambia",2015,"Freedom",0.48827
+"1416","Romania",2015,"Freedom",0.35068
+"1417","Serbia",2015,"Freedom",0.20107
+"1418","Portugal",2015,"Freedom",0.51469
+"1419","Latvia",2015,"Freedom",0.29671
+"1420","Philippines",2015,"Freedom",0.62545
+"1421","Morocco",2015,"Freedom",0.41691
+"1422","Macedonia",2015,"Freedom",0.33457
+"1423","Albania",2015,"Freedom",0.35733
+"1424","Bosnia and Herzegovina",2015,"Freedom",0.09245
+"1425","Dominican Republic",2015,"Freedom",0.57672
+"1426","Mongolia",2015,"Freedom",0.43626
+"1427","Greece",2015,"Freedom",0.07699
+"1428","Lebanon",2015,"Freedom",0.33916
+"1429","Hungary",2015,"Freedom",0.32112
+"1430","Honduras",2015,"Freedom",0.40148
+"1431","Tajikistan",2015,"Freedom",0.47216
+"1432","Tunisia",2015,"Freedom",0.26268
+"1433","Palestinian Territories",2015,"Freedom",0.24499
+"1434","Bangladesh",2015,"Freedom",0.4082
+"1435","Iran",2015,"Freedom",0.30033
+"1436","Ukraine",2015,"Freedom",0.25123
+"1437","Iraq",2015,"Freedom",0
+"1438","South Africa",2015,"Freedom",0.33207
+"1439","Ghana",2015,"Freedom",0.42342
+"1440","Zimbabwe",2015,"Freedom",0.25861
+"1441","Liberia",2015,"Freedom",0.28531
+"1442","India",2015,"Freedom",0.39786
+"1443","Sudan",2015,"Freedom",0.10081
+"1444","Haiti",2015,"Freedom",0.24425
+"1445","Congo (Kinshasa)",2015,"Freedom",0.22605
+"1446","Nepal",2015,"Freedom",0.38282
+"1447","Ethiopia",2015,"Freedom",0.4345
+"1448","Sierra Leone",2015,"Freedom",0.4084
+"1449","Mauritania",2015,"Freedom",0.24232
+"1450","Kenya",2015,"Freedom",0.42215
+"1451","Armenia",2015,"Freedom",0.19847
+"1452","Botswana",2015,"Freedom",0.49495
+"1453","Myanmar",2015,"Freedom",0.44017
+"1454","Georgia",2015,"Freedom",0.40577
+"1455","Malawi",2015,"Freedom",0.43054
+"1456","Sri Lanka",2015,"Freedom",0.53726
+"1457","Cameroon",2015,"Freedom",0.49309
+"1458","Bulgaria",2015,"Freedom",0.30587
+"1459","Egypt",2015,"Freedom",0.17288
+"1460","Yemen",2015,"Freedom",0.35571
+"1461","Angola",2015,"Freedom",0.10384
+"1462","Mali",2015,"Freedom",0.38857
+"1463","Congo (Brazzaville)",2015,"Freedom",0.41466
+"1464","Uganda",2015,"Freedom",0.45727
+"1465","Senegal",2015,"Freedom",0.36772
+"1466","Gabon",2015,"Freedom",0.31914
+"1467","Niger",2015,"Freedom",0.47692
+"1468","Cambodia",2015,"Freedom",0.66246
+"1469","Tanzania",2015,"Freedom",0.32878
+"1470","Madagascar",2015,"Freedom",0.19184
+"1471","Chad",2015,"Freedom",0.23501
+"1472","Guinea",2015,"Freedom",0.37725
+"1473","Ivory Coast",2015,"Freedom",0.46866
+"1474","Burkina Faso",2015,"Freedom",0.39493
+"1475","Afghanistan",2015,"Freedom",0.23414
+"1476","Rwanda",2015,"Freedom",0.59201
+"1477","Benin",2015,"Freedom",0.4845
+"1478","Syria",2015,"Freedom",0.15684
+"1479","Burundi",2015,"Freedom",0.1185
+"1480","Togo",2015,"Freedom",0.36453
+"1481","Denmark",2016,"Freedom",0.57941
+"1482","Switzerland",2016,"Freedom",0.58557
+"1483","Iceland",2016,"Freedom",0.56624
+"1484","Norway",2016,"Freedom",0.59609
+"1485","Finland",2016,"Freedom",0.57104
+"1486","Canada",2016,"Freedom",0.5737
+"1487","Netherlands",2016,"Freedom",0.55211
+"1488","New Zealand",2016,"Freedom",0.58147
+"1489","Australia",2016,"Freedom",0.56837
+"1490","Sweden",2016,"Freedom",0.58218
+"1491","Israel",2016,"Freedom",0.36432
+"1492","Austria",2016,"Freedom",0.54355
+"1493","United States",2016,"Freedom",0.48163
+"1494","Costa Rica",2016,"Freedom",0.55225
+"1495","Germany",2016,"Freedom",0.53466
+"1496","Brazil",2016,"Freedom",0.40425
+"1497","Belgium",2016,"Freedom",0.51354
+"1498","Ireland",2016,"Freedom",0.54008
+"1499","Luxembourg",2016,"Freedom",0.5487
+"1500","Mexico",2016,"Freedom",0.37709
+"1501","Singapore",2016,"Freedom",0.4877
+"1502","United Kingdom",2016,"Freedom",0.50036
+"1503","Chile",2016,"Freedom",0.37789
+"1504","Panama",2016,"Freedom",0.48927
+"1505","Argentina",2016,"Freedom",0.42284
+"1506","Czech Republic",2016,"Freedom",0.41418
+"1507","United Arab Emirates",2016,"Freedom",0.56215
+"1508","Uruguay",2016,"Freedom",0.54388
+"1509","Malta",2016,"Freedom",0.54994
+"1510","Colombia",2016,"Freedom",0.44735
+"1511","France",2016,"Freedom",0.46562
+"1512","Thailand",2016,"Freedom",0.49553
+"1513","Saudi Arabia",2016,"Freedom",0.37904
+"1514","Taiwan",2016,"Freedom",0.32377
+"1515","Qatar",2016,"Freedom",0.56679
+"1516","Spain",2016,"Freedom",0.37545
+"1517","Algeria",2016,"Freedom",0.21006
+"1518","Guatemala",2016,"Freedom",0.50379
+"1519","Kuwait",2016,"Freedom",0.43166
+"1520","Bahrain",2016,"Freedom",0.47375
+"1521","Trinidad and Tobago",2016,"Freedom",0.48453
+"1522","Venezuela",2016,"Freedom",0.19847
+"1523","Slovakia",2016,"Freedom",0.23391
+"1524","El Salvador",2016,"Freedom",0.37269
+"1525","Malaysia",2016,"Freedom",0.39031
+"1526","Nicaragua",2016,"Freedom",0.46582
+"1527","Uzbekistan",2016,"Freedom",0.60848
+"1528","Italy",2016,"Freedom",0.18827
+"1529","Ecuador",2016,"Freedom",0.4027
+"1530","Japan",2016,"Freedom",0.46761
+"1531","Kazakhstan",2016,"Freedom",0.4052
+"1532","Moldova",2016,"Freedom",0.25202
+"1533","Russia",2016,"Freedom",0.32682
+"1534","Poland",2016,"Freedom",0.4519
+"1535","South Korea",2016,"Freedom",0.25168
+"1536","Bolivia",2016,"Freedom",0.50961
+"1537","Lithuania",2016,"Freedom",0.18929
+"1538","Belarus",2016,"Freedom",0.29091
+"1539","North Cyprus",2016,"Freedom",0.43596
+"1540","Slovenia",2016,"Freedom",0.53164
+"1541","Peru",2016,"Freedom",0.37502
+"1542","Turkmenistan",2016,"Freedom",0.37408
+"1543","Mauritius",2016,"Freedom",0.46145
+"1544","Libya",2016,"Freedom",0.40672
+"1545","Latvia",2016,"Freedom",0.27996
+"1546","Cyprus",2016,"Freedom",0.29507
+"1547","Paraguay",2016,"Freedom",0.46235
+"1548","Romania",2016,"Freedom",0.36712
+"1549","Estonia",2016,"Freedom",0.41511
+"1550","Jamaica",2016,"Freedom",0.43597
+"1551","Croatia",2016,"Freedom",0.23907
+"1552","Hong Kong",2016,"Freedom",0.48079
+"1553","Kosovo",2016,"Freedom",0.14396
+"1554","Turkey",2016,"Freedom",0.23889
+"1555","Indonesia",2016,"Freedom",0.39237
+"1556","Jordan",2016,"Freedom",0.36023
+"1557","Azerbaijan",2016,"Freedom",0.35327
+"1558","Philippines",2016,"Freedom",0.54854
+"1559","China",2016,"Freedom",0.44012
+"1560","Bhutan",2016,"Freedom",0.46074
+"1561","Kyrgyzstan",2016,"Freedom",0.40212
+"1562","Serbia",2016,"Freedom",0.15718
+"1563","Bosnia and Herzegovina",2016,"Freedom",0.09511
+"1564","Montenegro",2016,"Freedom",0.15111
+"1565","Dominican Republic",2016,"Freedom",0.52259
+"1566","Morocco",2016,"Freedom",0.25646
+"1567","Hungary",2016,"Freedom",0.1977
+"1568","Pakistan",2016,"Freedom",0.14622
+"1569","Lebanon",2016,"Freedom",0.26228
+"1570","Portugal",2016,"Freedom",0.44727
+"1571","Macedonia",2016,"Freedom",0.27668
+"1572","Vietnam",2016,"Freedom",0.55954
+"1573","Tunisia",2016,"Freedom",0.23553
+"1574","Greece",2016,"Freedom",0.05822
+"1575","Tajikistan",2016,"Freedom",0.43408
+"1576","Mongolia",2016,"Freedom",0.35972
+"1577","Nigeria",2016,"Freedom",0.27854
+"1578","Honduras",2016,"Freedom",0.26755
+"1579","Iran",2016,"Freedom",0.22544
+"1580","Zambia",2016,"Freedom",0.42662
+"1581","Nepal",2016,"Freedom",0.37012
+"1582","Palestinian Territories",2016,"Freedom",0.17744
+"1583","Albania",2016,"Freedom",0.31866
+"1584","Bangladesh",2016,"Freedom",0.39778
+"1585","Sierra Leone",2016,"Freedom",0.30685
+"1586","Iraq",2016,"Freedom",0.24856
+"1587","Cameroon",2016,"Freedom",0.42736
+"1588","Ethiopia",2016,"Freedom",0.36703
+"1589","South Africa",2016,"Freedom",0.42483
+"1590","Sri Lanka",2016,"Freedom",0.50817
+"1591","India",2016,"Freedom",0.40285
+"1592","Myanmar",2016,"Freedom",0.42692
+"1593","Egypt",2016,"Freedom",0.18847
+"1594","Armenia",2016,"Freedom",0.14037
+"1595","Kenya",2016,"Freedom",0.40576
+"1596","Ukraine",2016,"Freedom",0.12859
+"1597","Ghana",2016,"Freedom",0.40973
+"1598","Congo (Kinshasa)",2016,"Freedom",0.15602
+"1599","Georgia",2016,"Freedom",0.32461
+"1600","Congo (Brazzaville)",2016,"Freedom",0.37938
+"1601","Senegal",2016,"Freedom",0.31056
+"1602","Bulgaria",2016,"Freedom",0.21219
+"1603","Mauritania",2016,"Freedom",0.1268
+"1604","Zimbabwe",2016,"Freedom",0.25429
+"1605","Malawi",2016,"Freedom",0.4143
+"1606","Sudan",2016,"Freedom",0
+"1607","Gabon",2016,"Freedom",0.28098
+"1608","Mali",2016,"Freedom",0.27544
+"1609","Haiti",2016,"Freedom",0.12072
+"1610","Botswana",2016,"Freedom",0.44089
+"1611","Ivory Coast",2016,"Freedom",0.40663
+"1612","Cambodia",2016,"Freedom",0.58852
+"1613","Angola",2016,"Freedom",0.00589
+"1614","Niger",2016,"Freedom",0.38041
+"1615","Chad",2016,"Freedom",0.12807
+"1616","Burkina Faso",2016,"Freedom",0.3337
+"1617","Uganda",2016,"Freedom",0.43653
+"1618","Yemen",2016,"Freedom",0.2287
+"1619","Madagascar",2016,"Freedom",0.13684
+"1620","Tanzania",2016,"Freedom",0.3176
+"1621","Liberia",2016,"Freedom",0.25748
+"1622","Guinea",2016,"Freedom",0.30953
+"1623","Rwanda",2016,"Freedom",0.5432
+"1624","Benin",2016,"Freedom",0.39747
+"1625","Afghanistan",2016,"Freedom",0.1643
+"1626","Togo",2016,"Freedom",0.34678
+"1627","Syria",2016,"Freedom",0.06912
+"1628","Burundi",2016,"Freedom",0.0432
+"1629","Norway",2017,"Freedom",0.635422587394714
+"1630","Denmark",2017,"Freedom",0.626006722450256
+"1631","Iceland",2017,"Freedom",0.627162635326385
+"1632","Switzerland",2017,"Freedom",0.620070576667786
+"1633","Finland",2017,"Freedom",0.617950856685638
+"1634","Netherlands",2017,"Freedom",0.585384488105774
+"1635","Canada",2017,"Freedom",0.611100912094116
+"1636","New Zealand",2017,"Freedom",0.614062130451202
+"1637","Sweden",2017,"Freedom",0.612924098968506
+"1638","Australia",2017,"Freedom",0.601607382297516
+"1639","Israel",2017,"Freedom",0.405988603830338
+"1640","Costa Rica",2017,"Freedom",0.580131649971008
+"1641","Austria",2017,"Freedom",0.567766189575195
+"1642","United States",2017,"Freedom",0.505740523338318
+"1643","Ireland",2017,"Freedom",0.573110342025757
+"1644","Germany",2017,"Freedom",0.562511384487152
+"1645","Belgium",2017,"Freedom",0.539770722389221
+"1646","Luxembourg",2017,"Freedom",0.59662789106369
+"1647","United Kingdom",2017,"Freedom",0.508190035820007
+"1648","Chile",2017,"Freedom",0.376895278692245
+"1649","United Arab Emirates",2017,"Freedom",0.60834527015686
+"1650","Brazil",2017,"Freedom",0.437453746795654
+"1651","Czech Republic",2017,"Freedom",0.490946173667908
+"1652","Argentina",2017,"Freedom",0.494519203901291
+"1653","Mexico",2017,"Freedom",0.412730008363724
+"1654","Singapore",2017,"Freedom",0.549840569496155
+"1655","Malta",2017,"Freedom",0.588767051696777
+"1656","Uruguay",2017,"Freedom",0.57939225435257
+"1657","Guatemala",2017,"Freedom",0.531310617923737
+"1658","Panama",2017,"Freedom",0.550026834011078
+"1659","France",2017,"Freedom",0.470222115516663
+"1660","Thailand",2017,"Freedom",0.580200731754303
+"1661","Taiwan Province of China",2017,"Freedom",0.361466586589813
+"1662","Spain",2017,"Freedom",0.408781230449677
+"1663","Qatar",2017,"Freedom",0.604130983352661
+"1664","Colombia",2017,"Freedom",0.477487415075302
+"1665","Saudi Arabia",2017,"Freedom",0.449750572443008
+"1666","Trinidad and Tobago",2017,"Freedom",0.518630743026733
+"1667","Kuwait",2017,"Freedom",0.496337592601776
+"1668","Slovakia",2017,"Freedom",0.295817464590073
+"1669","Bahrain",2017,"Freedom",0.536746919155121
+"1670","Malaysia",2017,"Freedom",0.402264982461929
+"1671","Nicaragua",2017,"Freedom",0.447551846504211
+"1672","Ecuador",2017,"Freedom",0.4551981985569
+"1673","El Salvador",2017,"Freedom",0.432452529668808
+"1674","Poland",2017,"Freedom",0.520342111587524
+"1675","Uzbekistan",2017,"Freedom",0.658248662948608
+"1676","Italy",2017,"Freedom",0.256450712680817
+"1677","Russia",2017,"Freedom",0.373783111572266
+"1678","Japan",2017,"Freedom",0.505625545978546
+"1679","Lithuania",2017,"Freedom",0.234231784939766
+"1680","Algeria",2017,"Freedom",0.233335807919502
+"1681","Latvia",2017,"Freedom",0.325707912445068
+"1682","South Korea",2017,"Freedom",0.257921665906906
+"1683","Moldova",2017,"Freedom",0.240729048848152
+"1684","Romania",2017,"Freedom",0.457003742456436
+"1685","Bolivia",2017,"Freedom",0.558732926845551
+"1686","Turkmenistan",2017,"Freedom",0.41827192902565
+"1687","Kazakhstan",2017,"Freedom",0.437454283237457
+"1688","North Cyprus",2017,"Freedom",0.471203625202179
+"1689","Slovenia",2017,"Freedom",0.572575807571411
+"1690","Peru",2017,"Freedom",0.450002878904343
+"1691","Mauritius",2017,"Freedom",0.491247326135635
+"1692","Cyprus",2017,"Freedom",0.355111539363861
+"1693","Estonia",2017,"Freedom",0.479131430387497
+"1694","Belarus",2017,"Freedom",0.295400261878967
+"1695","Libya",2017,"Freedom",0.465733230113983
+"1696","Turkey",2017,"Freedom",0.300740599632263
+"1697","Paraguay",2017,"Freedom",0.473507791757584
+"1698","Hong Kong",2017,"Freedom",0.490968644618988
+"1699","Philippines",2017,"Freedom",0.585214674472809
+"1700","Serbia",2017,"Freedom",0.208715528249741
+"1701","Jordan",2017,"Freedom",0.418421149253845
+"1702","Hungary",2017,"Freedom",0.175863519310951
+"1703","Jamaica",2017,"Freedom",0.474307239055634
+"1704","Croatia",2017,"Freedom",0.255772292613983
+"1705","Kosovo",2017,"Freedom",0.260287940502167
+"1706","China",2017,"Freedom",0.472787708044052
+"1707","Pakistan",2017,"Freedom",0.23521526157856
+"1708","Indonesia",2017,"Freedom",0.443323463201523
+"1709","Venezuela",2017,"Freedom",0.153997123241425
+"1710","Montenegro",2017,"Freedom",0.194989055395126
+"1711","Morocco",2017,"Freedom",0.408158332109451
+"1712","Azerbaijan",2017,"Freedom",0.398155838251114
+"1713","Dominican Republic",2017,"Freedom",0.55258983373642
+"1714","Greece",2017,"Freedom",0.0957312509417534
+"1715","Lebanon",2017,"Freedom",0.288515985012054
+"1716","Portugal",2017,"Freedom",0.498465299606323
+"1717","Bosnia and Herzegovina",2017,"Freedom",0.204403176903725
+"1718","Honduras",2017,"Freedom",0.348079860210419
+"1719","Macedonia",2017,"Freedom",0.325905978679657
+"1720","Vietnam",2017,"Freedom",0.571055591106415
+"1721","Nigeria",2017,"Freedom",0.394952565431595
+"1722","Tajikistan",2017,"Freedom",0.471566706895828
+"1723","Bhutan",2017,"Freedom",0.501537680625916
+"1724","Kyrgyzstan",2017,"Freedom",0.454943388700485
+"1725","Nepal",2017,"Freedom",0.440305948257446
+"1726","Mongolia",2017,"Freedom",0.394143968820572
+"1727","South Africa",2017,"Freedom",0.479246735572815
+"1728","Tunisia",2017,"Freedom",0.289680689573288
+"1729","Palestinian Territories",2017,"Freedom",0.25471106171608
+"1730","Egypt",2017,"Freedom",0.282110154628754
+"1731","Bulgaria",2017,"Freedom",0.289231717586517
+"1732","Sierra Leone",2017,"Freedom",0.318697690963745
+"1733","Cameroon",2017,"Freedom",0.430388748645782
+"1734","Iran",2017,"Freedom",0.249322608113289
+"1735","Albania",2017,"Freedom",0.381498634815216
+"1736","Bangladesh",2017,"Freedom",0.478356659412384
+"1737","Kenya",2017,"Freedom",0.452763766050339
+"1738","Myanmar",2017,"Freedom",0.514492034912109
+"1739","Senegal",2017,"Freedom",0.377922266721725
+"1740","Zambia",2017,"Freedom",0.461603492498398
+"1741","Iraq",2017,"Freedom",0.288555532693863
+"1742","Gabon",2017,"Freedom",0.312328577041626
+"1743","Ethiopia",2017,"Freedom",0.408842742443085
+"1744","Sri Lanka",2017,"Freedom",0.561213254928589
+"1745","Armenia",2017,"Freedom",0.198303267359734
+"1746","India",2017,"Freedom",0.469987004995346
+"1747","Mauritania",2017,"Freedom",0.0960980430245399
+"1748","Congo (Brazzaville)",2017,"Freedom",0.435025870800018
+"1749","Georgia",2017,"Freedom",0.309410035610199
+"1750","Congo (Kinshasa)",2017,"Freedom",0.235961347818375
+"1751","Mali",2017,"Freedom",0.306613743305206
+"1752","Ivory Coast",2017,"Freedom",0.447706192731857
+"1753","Cambodia",2017,"Freedom",0.633375823497772
+"1754","Sudan",2017,"Freedom",0.0149958552792668
+"1755","Ghana",2017,"Freedom",0.423026293516159
+"1756","Ukraine",2017,"Freedom",0.122974775731564
+"1757","Uganda",2017,"Freedom",0.443185955286026
+"1758","Burkina Faso",2017,"Freedom",0.324367851018906
+"1759","Niger",2017,"Freedom",0.36365869641304
+"1760","Malawi",2017,"Freedom",0.466914653778076
+"1761","Chad",2017,"Freedom",0.16234202682972
+"1762","Zimbabwe",2017,"Freedom",0.336384207010269
+"1763","Angola",2017,"Freedom",0
+"1764","Afghanistan",2017,"Freedom",0.106179520487785
+"1765","Botswana",2017,"Freedom",0.505196332931519
+"1766","Benin",2017,"Freedom",0.425962775945663
+"1767","Madagascar",2017,"Freedom",0.189196765422821
+"1768","Haiti",2017,"Freedom",0.0303698573261499
+"1769","Yemen",2017,"Freedom",0.249463722109795
+"1770","Liberia",2017,"Freedom",0.332881182432175
+"1771","Guinea",2017,"Freedom",0.348587512969971
+"1772","Togo",2017,"Freedom",0.38042613863945
+"1773","Rwanda",2017,"Freedom",0.581843852996826
+"1774","Syria",2017,"Freedom",0.0815394446253777
+"1775","Tanzania",2017,"Freedom",0.390017777681351
+"1776","Burundi",2017,"Freedom",0.0599007532000542
+"1777","Switzerland",2015,"Trust",0.41978
+"1778","Iceland",2015,"Trust",0.14145
+"1779","Denmark",2015,"Trust",0.48357
+"1780","Norway",2015,"Trust",0.36503
+"1781","Canada",2015,"Trust",0.32957
+"1782","Finland",2015,"Trust",0.41372
+"1783","Netherlands",2015,"Trust",0.31814
+"1784","Sweden",2015,"Trust",0.43844
+"1785","New Zealand",2015,"Trust",0.42922
+"1786","Australia",2015,"Trust",0.35637
+"1787","Israel",2015,"Trust",0.07785
+"1788","Costa Rica",2015,"Trust",0.10583
+"1789","Austria",2015,"Trust",0.18676
+"1790","Mexico",2015,"Trust",0.21312
+"1791","United States",2015,"Trust",0.1589
+"1792","Brazil",2015,"Trust",0.17521
+"1793","Luxembourg",2015,"Trust",0.37798
+"1794","Ireland",2015,"Trust",0.28703
+"1795","Belgium",2015,"Trust",0.2254
+"1796","United Arab Emirates",2015,"Trust",0.38583
+"1797","United Kingdom",2015,"Trust",0.32067
+"1798","Venezuela",2015,"Trust",0.11069
+"1799","Singapore",2015,"Trust",0.4921
+"1800","Panama",2015,"Trust",0.0927
+"1801","Germany",2015,"Trust",0.21843
+"1802","Chile",2015,"Trust",0.12869
+"1803","Qatar",2015,"Trust",0.52208
+"1804","France",2015,"Trust",0.20646
+"1805","Argentina",2015,"Trust",0.08484
+"1806","Czech Republic",2015,"Trust",0.02652
+"1807","Uruguay",2015,"Trust",0.24558
+"1808","Colombia",2015,"Trust",0.0512
+"1809","Thailand",2015,"Trust",0.03187
+"1810","Saudi Arabia",2015,"Trust",0.32524
+"1811","Spain",2015,"Trust",0.06398
+"1812","Malta",2015,"Trust",0.13586
+"1813","Taiwan",2015,"Trust",0.08129
+"1814","Kuwait",2015,"Trust",0.25609
+"1815","Trinidad and Tobago",2015,"Trust",0.0114
+"1816","El Salvador",2015,"Trust",0.11776
+"1817","Guatemala",2015,"Trust",0.09472
+"1818","Uzbekistan",2015,"Trust",0.30826
+"1819","Slovakia",2015,"Trust",0.03431
+"1820","Japan",2015,"Trust",0.1806
+"1821","South Korea",2015,"Trust",0.07857
+"1822","Ecuador",2015,"Trust",0.1809
+"1823","Bahrain",2015,"Trust",0.306
+"1824","Italy",2015,"Trust",0.02901
+"1825","Bolivia",2015,"Trust",0.088
+"1826","Moldova",2015,"Trust",0.01615
+"1827","Paraguay",2015,"Trust",0.08242
+"1828","Kazakhstan",2015,"Trust",0.08454
+"1829","Slovenia",2015,"Trust",0.03787
+"1830","Lithuania",2015,"Trust",0.01031
+"1831","Nicaragua",2015,"Trust",0.19317
+"1832","Peru",2015,"Trust",0.05989
+"1833","Belarus",2015,"Trust",0.1909
+"1834","Poland",2015,"Trust",0.04212
+"1835","Malaysia",2015,"Trust",0.10501
+"1836","Croatia",2015,"Trust",0.0243
+"1837","Libya",2015,"Trust",0.11023
+"1838","Russia",2015,"Trust",0.03005
+"1839","Jamaica",2015,"Trust",0.02299
+"1840","North Cyprus",2015,"Trust",0.1428
+"1841","Cyprus",2015,"Trust",0.06146
+"1842","Algeria",2015,"Trust",0.17383
+"1843","Kosovo",2015,"Trust",0.04741
+"1844","Turkmenistan",2015,"Trust",0.30844
+"1845","Mauritius",2015,"Trust",0.07521
+"1846","Hong Kong",2015,"Trust",0.37124
+"1847","Estonia",2015,"Trust",0.15184
+"1848","Indonesia",2015,"Trust",0
+"1849","Vietnam",2015,"Trust",0.10441
+"1850","Turkey",2015,"Trust",0.15746
+"1851","Kyrgyzstan",2015,"Trust",0.04232
+"1852","Nigeria",2015,"Trust",0.0403
+"1853","Bhutan",2015,"Trust",0.15445
+"1854","Azerbaijan",2015,"Trust",0.16065
+"1855","Pakistan",2015,"Trust",0.10464
+"1856","Jordan",2015,"Trust",0.14293
+"1857","Montenegro",2015,"Trust",0.14296
+"1858","China",2015,"Trust",0.02781
+"1859","Zambia",2015,"Trust",0.12468
+"1860","Romania",2015,"Trust",0.00649
+"1861","Serbia",2015,"Trust",0.02617
+"1862","Portugal",2015,"Trust",0.01078
+"1863","Latvia",2015,"Trust",0.06332
+"1864","Philippines",2015,"Trust",0.12279
+"1865","Morocco",2015,"Trust",0.08546
+"1866","Macedonia",2015,"Trust",0.05327
+"1867","Albania",2015,"Trust",0.06413
+"1868","Bosnia and Herzegovina",2015,"Trust",0.00227
+"1869","Dominican Republic",2015,"Trust",0.14234
+"1870","Mongolia",2015,"Trust",0.02666
+"1871","Greece",2015,"Trust",0.01397
+"1872","Lebanon",2015,"Trust",0.04582
+"1873","Hungary",2015,"Trust",0.02758
+"1874","Honduras",2015,"Trust",0.06825
+"1875","Tajikistan",2015,"Trust",0.15072
+"1876","Tunisia",2015,"Trust",0.06358
+"1877","Palestinian Territories",2015,"Trust",0.12905
+"1878","Bangladesh",2015,"Trust",0.12569
+"1879","Iran",2015,"Trust",0.05863
+"1880","Ukraine",2015,"Trust",0.02961
+"1881","Iraq",2015,"Trust",0.13788
+"1882","South Africa",2015,"Trust",0.08884
+"1883","Ghana",2015,"Trust",0.04355
+"1884","Zimbabwe",2015,"Trust",0.08079
+"1885","Liberia",2015,"Trust",0.06232
+"1886","India",2015,"Trust",0.08492
+"1887","Sudan",2015,"Trust",0.1466
+"1888","Haiti",2015,"Trust",0.17175
+"1889","Congo (Kinshasa)",2015,"Trust",0.07625
+"1890","Nepal",2015,"Trust",0.05907
+"1891","Ethiopia",2015,"Trust",0.15048
+"1892","Sierra Leone",2015,"Trust",0.08786
+"1893","Mauritania",2015,"Trust",0.17461
+"1894","Kenya",2015,"Trust",0.05839
+"1895","Armenia",2015,"Trust",0.039
+"1896","Botswana",2015,"Trust",0.12474
+"1897","Myanmar",2015,"Trust",0.19034
+"1898","Georgia",2015,"Trust",0.38331
+"1899","Malawi",2015,"Trust",0.06977
+"1900","Sri Lanka",2015,"Trust",0.09179
+"1901","Cameroon",2015,"Trust",0.05786
+"1902","Bulgaria",2015,"Trust",0.00872
+"1903","Egypt",2015,"Trust",0.06324
+"1904","Yemen",2015,"Trust",0.07854
+"1905","Angola",2015,"Trust",0.07122
+"1906","Mali",2015,"Trust",0.12352
+"1907","Congo (Brazzaville)",2015,"Trust",0.11686
+"1908","Uganda",2015,"Trust",0.07267
+"1909","Senegal",2015,"Trust",0.10713
+"1910","Gabon",2015,"Trust",0.11091
+"1911","Niger",2015,"Trust",0.15639
+"1912","Cambodia",2015,"Trust",0.07247
+"1913","Tanzania",2015,"Trust",0.05747
+"1914","Madagascar",2015,"Trust",0.08124
+"1915","Chad",2015,"Trust",0.05269
+"1916","Guinea",2015,"Trust",0.12139
+"1917","Ivory Coast",2015,"Trust",0.17922
+"1918","Burkina Faso",2015,"Trust",0.12832
+"1919","Afghanistan",2015,"Trust",0.09719
+"1920","Rwanda",2015,"Trust",0.55191
+"1921","Benin",2015,"Trust",0.0801
+"1922","Syria",2015,"Trust",0.18906
+"1923","Burundi",2015,"Trust",0.10062
+"1924","Togo",2015,"Trust",0.10731
+"1925","Denmark",2016,"Trust",0.44453
+"1926","Switzerland",2016,"Trust",0.41203
+"1927","Iceland",2016,"Trust",0.14975
+"1928","Norway",2016,"Trust",0.35776
+"1929","Finland",2016,"Trust",0.41004
+"1930","Canada",2016,"Trust",0.31329
+"1931","Netherlands",2016,"Trust",0.29927
+"1932","New Zealand",2016,"Trust",0.41904
+"1933","Australia",2016,"Trust",0.32331
+"1934","Sweden",2016,"Trust",0.40867
+"1935","Israel",2016,"Trust",0.08728
+"1936","Austria",2016,"Trust",0.21348
+"1937","United States",2016,"Trust",0.14868
+"1938","Costa Rica",2016,"Trust",0.10547
+"1939","Germany",2016,"Trust",0.28551
+"1940","Brazil",2016,"Trust",0.14166
+"1941","Belgium",2016,"Trust",0.26248
+"1942","Ireland",2016,"Trust",0.29754
+"1943","Luxembourg",2016,"Trust",0.35329
+"1944","Mexico",2016,"Trust",0.18355
+"1945","Singapore",2016,"Trust",0.46987
+"1946","United Kingdom",2016,"Trust",0.27399
+"1947","Chile",2016,"Trust",0.11451
+"1948","Panama",2016,"Trust",0.08423
+"1949","Argentina",2016,"Trust",0.07296
+"1950","Czech Republic",2016,"Trust",0.03986
+"1951","United Arab Emirates",2016,"Trust",0.35561
+"1952","Uruguay",2016,"Trust",0.21394
+"1953","Malta",2016,"Trust",0.17554
+"1954","Colombia",2016,"Trust",0.05399
+"1955","France",2016,"Trust",0.17808
+"1956","Thailand",2016,"Trust",0.02833
+"1957","Saudi Arabia",2016,"Trust",0.30008
+"1958","Taiwan",2016,"Trust",0.0663
+"1959","Qatar",2016,"Trust",0.48049
+"1960","Spain",2016,"Trust",0.06137
+"1961","Algeria",2016,"Trust",0.16157
+"1962","Guatemala",2016,"Trust",0.08701
+"1963","Kuwait",2016,"Trust",0.23669
+"1964","Bahrain",2016,"Trust",0.25772
+"1965","Trinidad and Tobago",2016,"Trust",0.01241
+"1966","Venezuela",2016,"Trust",0.08304
+"1967","Slovakia",2016,"Trust",0.02947
+"1968","El Salvador",2016,"Trust",0.10613
+"1969","Malaysia",2016,"Trust",0.09081
+"1970","Nicaragua",2016,"Trust",0.16292
+"1971","Uzbekistan",2016,"Trust",0.28333
+"1972","Italy",2016,"Trust",0.02556
+"1973","Ecuador",2016,"Trust",0.18037
+"1974","Japan",2016,"Trust",0.18985
+"1975","Kazakhstan",2016,"Trust",0.11132
+"1976","Moldova",2016,"Trust",0.01903
+"1977","Russia",2016,"Trust",0.03586
+"1978","Poland",2016,"Trust",0.055
+"1979","South Korea",2016,"Trust",0.07716
+"1980","Bolivia",2016,"Trust",0.07746
+"1981","Lithuania",2016,"Trust",0.0182
+"1982","Belarus",2016,"Trust",0.17457
+"1983","North Cyprus",2016,"Trust",0.16578
+"1984","Slovenia",2016,"Trust",0.03635
+"1985","Peru",2016,"Trust",0.05292
+"1986","Turkmenistan",2016,"Trust",0.28467
+"1987","Mauritius",2016,"Trust",0.05203
+"1988","Libya",2016,"Trust",0.10339
+"1989","Latvia",2016,"Trust",0.0889
+"1990","Cyprus",2016,"Trust",0.05228
+"1991","Paraguay",2016,"Trust",0.07396
+"1992","Romania",2016,"Trust",0.00679
+"1993","Estonia",2016,"Trust",0.18519
+"1994","Jamaica",2016,"Trust",0.04294
+"1995","Croatia",2016,"Trust",0.04002
+"1996","Hong Kong",2016,"Trust",0.31647
+"1997","Kosovo",2016,"Trust",0.06547
+"1998","Turkey",2016,"Trust",0.12348
+"1999","Indonesia",2016,"Trust",0.00322
+"2000","Jordan",2016,"Trust",0.13297
+"2001","Azerbaijan",2016,"Trust",0.17914
+"2002","Philippines",2016,"Trust",0.11757
+"2003","China",2016,"Trust",0.02745
+"2004","Bhutan",2016,"Trust",0.1616
+"2005","Kyrgyzstan",2016,"Trust",0.04762
+"2006","Serbia",2016,"Trust",0.04339
+"2007","Bosnia and Herzegovina",2016,"Trust",0
+"2008","Montenegro",2016,"Trust",0.12721
+"2009","Dominican Republic",2016,"Trust",0.12372
+"2010","Morocco",2016,"Trust",0.08404
+"2011","Hungary",2016,"Trust",0.04472
+"2012","Pakistan",2016,"Trust",0.1388
+"2013","Lebanon",2016,"Trust",0.03061
+"2014","Portugal",2016,"Trust",0.01521
+"2015","Macedonia",2016,"Trust",0.07047
+"2016","Vietnam",2016,"Trust",0.11556
+"2017","Tunisia",2016,"Trust",0.0817
+"2018","Greece",2016,"Trust",0.04127
+"2019","Tajikistan",2016,"Trust",0.13509
+"2020","Mongolia",2016,"Trust",0.03285
+"2021","Nigeria",2016,"Trust",0.0305
+"2022","Honduras",2016,"Trust",0.06906
+"2023","Iran",2016,"Trust",0.0557
+"2024","Zambia",2016,"Trust",0.11479
+"2025","Nepal",2016,"Trust",0.07008
+"2026","Palestinian Territories",2016,"Trust",0.10613
+"2027","Albania",2016,"Trust",0.05301
+"2028","Bangladesh",2016,"Trust",0.12583
+"2029","Sierra Leone",2016,"Trust",0.08196
+"2030","Iraq",2016,"Trust",0.13636
+"2031","Cameroon",2016,"Trust",0.06126
+"2032","Ethiopia",2016,"Trust",0.1717
+"2033","South Africa",2016,"Trust",0.08415
+"2034","Sri Lanka",2016,"Trust",0.07964
+"2035","India",2016,"Trust",0.08722
+"2036","Myanmar",2016,"Trust",0.20243
+"2037","Egypt",2016,"Trust",0.10393
+"2038","Armenia",2016,"Trust",0.03616
+"2039","Kenya",2016,"Trust",0.06686
+"2040","Ukraine",2016,"Trust",0.01829
+"2041","Ghana",2016,"Trust",0.0326
+"2042","Congo (Kinshasa)",2016,"Trust",0.06075
+"2043","Georgia",2016,"Trust",0.3188
+"2044","Congo (Brazzaville)",2016,"Trust",0.09753
+"2045","Senegal",2016,"Trust",0.11681
+"2046","Bulgaria",2016,"Trust",0.00615
+"2047","Mauritania",2016,"Trust",0.17955
+"2048","Zimbabwe",2016,"Trust",0.08582
+"2049","Malawi",2016,"Trust",0.07564
+"2050","Sudan",2016,"Trust",0.10039
+"2051","Gabon",2016,"Trust",0.09314
+"2052","Mali",2016,"Trust",0.13647
+"2053","Haiti",2016,"Trust",0.14476
+"2054","Botswana",2016,"Trust",0.10769
+"2055","Ivory Coast",2016,"Trust",0.1553
+"2056","Cambodia",2016,"Trust",0.08092
+"2057","Angola",2016,"Trust",0.08434
+"2058","Niger",2016,"Trust",0.17176
+"2059","Chad",2016,"Trust",0.04952
+"2060","Burkina Faso",2016,"Trust",0.12533
+"2061","Uganda",2016,"Trust",0.06442
+"2062","Yemen",2016,"Trust",0.05892
+"2063","Madagascar",2016,"Trust",0.07506
+"2064","Tanzania",2016,"Trust",0.05099
+"2065","Liberia",2016,"Trust",0.04852
+"2066","Guinea",2016,"Trust",0.1192
+"2067","Rwanda",2016,"Trust",0.50521
+"2068","Benin",2016,"Trust",0.06681
+"2069","Afghanistan",2016,"Trust",0.07112
+"2070","Togo",2016,"Trust",0.11587
+"2071","Syria",2016,"Trust",0.17233
+"2072","Burundi",2016,"Trust",0.09419
+"2073","Norway",2017,"Trust",0.315963834524155
+"2074","Denmark",2017,"Trust",0.40077006816864
+"2075","Iceland",2017,"Trust",0.153526559472084
+"2076","Switzerland",2017,"Trust",0.367007285356522
+"2077","Finland",2017,"Trust",0.38261154294014
+"2078","Netherlands",2017,"Trust",0.282661825418472
+"2079","Canada",2017,"Trust",0.287371516227722
+"2080","New Zealand",2017,"Trust",0.382816702127457
+"2081","Sweden",2017,"Trust",0.384398728609085
+"2082","Australia",2017,"Trust",0.301183730363846
+"2083","Israel",2017,"Trust",0.0852421000599861
+"2084","Costa Rica",2017,"Trust",0.100106589496136
+"2085","Austria",2017,"Trust",0.221060365438461
+"2086","United States",2017,"Trust",0.135638788342476
+"2087","Ireland",2017,"Trust",0.29838815331459
+"2088","Germany",2017,"Trust",0.276731938123703
+"2089","Belgium",2017,"Trust",0.251343131065369
+"2090","Luxembourg",2017,"Trust",0.31883442401886
+"2091","United Kingdom",2017,"Trust",0.265428066253662
+"2092","Chile",2017,"Trust",0.0822879821062088
+"2093","United Arab Emirates",2017,"Trust",0.324489563703537
+"2094","Brazil",2017,"Trust",0.111092761158943
+"2095","Czech Republic",2017,"Trust",0.0368729270994663
+"2096","Argentina",2017,"Trust",0.059739887714386
+"2097","Mexico",2017,"Trust",0.132774114608765
+"2098","Singapore",2017,"Trust",0.46430778503418
+"2099","Malta",2017,"Trust",0.153066068887711
+"2100","Uruguay",2017,"Trust",0.178061872720718
+"2101","Guatemala",2017,"Trust",0.0772232785820961
+"2102","Panama",2017,"Trust",0.070983923971653
+"2103","France",2017,"Trust",0.172502428293228
+"2104","Thailand",2017,"Trust",0.0316127352416515
+"2105","Taiwan Province of China",2017,"Trust",0.0638292357325554
+"2106","Spain",2017,"Trust",0.0709140971302986
+"2107","Qatar",2017,"Trust",0.439299255609512
+"2108","Colombia",2017,"Trust",0.0466687418520451
+"2109","Saudi Arabia",2017,"Trust",0.27343225479126
+"2110","Trinidad and Tobago",2017,"Trust",0.00896481610834599
+"2111","Kuwait",2017,"Trust",0.215159550309181
+"2112","Slovakia",2017,"Trust",0.0242108516395092
+"2113","Bahrain",2017,"Trust",0.257042169570923
+"2114","Malaysia",2017,"Trust",0.0656007081270218
+"2115","Nicaragua",2017,"Trust",0.130687981843948
+"2116","Ecuador",2017,"Trust",0.140134647488594
+"2117","El Salvador",2017,"Trust",0.0899809598922729
+"2118","Poland",2017,"Trust",0.0593078061938286
+"2119","Uzbekistan",2017,"Trust",0.246528223156929
+"2120","Italy",2017,"Trust",0.0280280914157629
+"2121","Russia",2017,"Trust",0.0329628810286522
+"2122","Japan",2017,"Trust",0.163760736584663
+"2123","Lithuania",2017,"Trust",0.0118656428530812
+"2124","Algeria",2017,"Trust",0.146096110343933
+"2125","Latvia",2017,"Trust",0.0738427266478539
+"2126","South Korea",2017,"Trust",0.0632826685905457
+"2127","Moldova",2017,"Trust",0.0100912861526012
+"2128","Romania",2017,"Trust",0.00438790069893003
+"2129","Bolivia",2017,"Trust",0.0604777261614799
+"2130","Turkmenistan",2017,"Trust",0.259270340204239
+"2131","Kazakhstan",2017,"Trust",0.119282886385918
+"2132","North Cyprus",2017,"Trust",0.155353352427483
+"2133","Slovenia",2017,"Trust",0.0451289787888527
+"2134","Peru",2017,"Trust",0.0470490865409374
+"2135","Mauritius",2017,"Trust",0.0421815551817417
+"2136","Cyprus",2017,"Trust",0.0412379764020443
+"2137","Estonia",2017,"Trust",0.183248922228813
+"2138","Belarus",2017,"Trust",0.156313821673393
+"2139","Libya",2017,"Trust",0.0926102101802826
+"2140","Turkey",2017,"Trust",0.0996715798974037
+"2141","Paraguay",2017,"Trust",0.091065913438797
+"2142","Hong Kong",2017,"Trust",0.293933749198914
+"2143","Philippines",2017,"Trust",0.0993318930268288
+"2144","Serbia",2017,"Trust",0.0409037806093693
+"2145","Jordan",2017,"Trust",0.11980327218771
+"2146","Hungary",2017,"Trust",0.0366369374096394
+"2147","Jamaica",2017,"Trust",0.0552677810192108
+"2148","Croatia",2017,"Trust",0.0431031100451946
+"2149","Kosovo",2017,"Trust",0.0574716180562973
+"2150","China",2017,"Trust",0.0227942746132612
+"2151","Pakistan",2017,"Trust",0.124348066747189
+"2152","Indonesia",2017,"Trust",0.0153171354904771
+"2153","Venezuela",2017,"Trust",0.0644911229610443
+"2154","Montenegro",2017,"Trust",0.0881741940975189
+"2155","Morocco",2017,"Trust",0.0877631828188896
+"2156","Azerbaijan",2017,"Trust",0.180987507104874
+"2157","Dominican Republic",2017,"Trust",0.113945253193378
+"2158","Greece",2017,"Trust",0.04328977689147
+"2159","Lebanon",2017,"Trust",0.037513829767704
+"2160","Portugal",2017,"Trust",0.0158694516867399
+"2161","Bosnia and Herzegovina",2017,"Trust",0
+"2162","Honduras",2017,"Trust",0.0733454525470734
+"2163","Macedonia",2017,"Trust",0.0602777935564518
+"2164","Vietnam",2017,"Trust",0.0876332372426987
+"2165","Nigeria",2017,"Trust",0.0261215660721064
+"2166","Tajikistan",2017,"Trust",0.146377146244049
+"2167","Bhutan",2017,"Trust",0.173380389809608
+"2168","Kyrgyzstan",2017,"Trust",0.0394391790032387
+"2169","Nepal",2017,"Trust",0.0729755461215973
+"2170","Mongolia",2017,"Trust",0.0329022891819477
+"2171","South Africa",2017,"Trust",0.0725094974040985
+"2172","Tunisia",2017,"Trust",0.0867231488227844
+"2173","Palestinian Territories",2017,"Trust",0.0892826020717621
+"2174","Egypt",2017,"Trust",0.114381365478039
+"2175","Bulgaria",2017,"Trust",0.0110515309497714
+"2176","Sierra Leone",2017,"Trust",0.0710951760411263
+"2177","Cameroon",2017,"Trust",0.0513066314160824
+"2178","Iran",2017,"Trust",0.048761073499918
+"2179","Albania",2017,"Trust",0.0398642159998417
+"2180","Bangladesh",2017,"Trust",0.123717859387398
+"2181","Kenya",2017,"Trust",0.0646413192152977
+"2182","Myanmar",2017,"Trust",0.188816204667091
+"2183","Senegal",2017,"Trust",0.115460447967052
+"2184","Zambia",2017,"Trust",0.0782135501503944
+"2185","Iraq",2017,"Trust",0.107215754687786
+"2186","Gabon",2017,"Trust",0.0760467872023582
+"2187","Ethiopia",2017,"Trust",0.165455713868141
+"2188","Sri Lanka",2017,"Trust",0.0736539661884308
+"2189","Armenia",2017,"Trust",0.0266744215041399
+"2190","India",2017,"Trust",0.0922268852591515
+"2191","Mauritania",2017,"Trust",0.136957004666328
+"2192","Congo (Brazzaville)",2017,"Trust",0.0796181336045265
+"2193","Georgia",2017,"Trust",0.251666635274887
+"2194","Congo (Kinshasa)",2017,"Trust",0.0602413564920425
+"2195","Mali",2017,"Trust",0.104970246553421
+"2196","Ivory Coast",2017,"Trust",0.130061775445938
+"2197","Cambodia",2017,"Trust",0.0681059509515762
+"2198","Sudan",2017,"Trust",0.089847519993782
+"2199","Ghana",2017,"Trust",0.0253363698720932
+"2200","Ukraine",2017,"Trust",0.0230294708162546
+"2201","Uganda",2017,"Trust",0.057069718837738
+"2202","Burkina Faso",2017,"Trust",0.120328105986118
+"2203","Niger",2017,"Trust",0.138572946190834
+"2204","Malawi",2017,"Trust",0.0727116540074348
+"2205","Chad",2017,"Trust",0.0535818822681904
+"2206","Zimbabwe",2017,"Trust",0.0953753814101219
+"2207","Angola",2017,"Trust",0.0697203353047371
+"2208","Afghanistan",2017,"Trust",0.0611578300595284
+"2209","Botswana",2017,"Trust",0.0985831990838051
+"2210","Benin",2017,"Trust",0.0609290152788162
+"2211","Madagascar",2017,"Trust",0.0672319754958153
+"2212","Haiti",2017,"Trust",0.0998721495270729
+"2213","Yemen",2017,"Trust",0.0567674227058887
+"2214","Liberia",2017,"Trust",0.0389482490718365
+"2215","Guinea",2017,"Trust",0.110937617719173
+"2216","Togo",2017,"Trust",0.0956650152802467
+"2217","Rwanda",2017,"Trust",0.455220013856888
+"2218","Syria",2017,"Trust",0.151347130537033
+"2219","Tanzania",2017,"Trust",0.0660351067781448
+"2220","Burundi",2017,"Trust",0.0841479450464249
+"2221","Switzerland",2015,"Generosity",0.29678
+"2222","Iceland",2015,"Generosity",0.4363
+"2223","Denmark",2015,"Generosity",0.34139
+"2224","Norway",2015,"Generosity",0.34699
+"2225","Canada",2015,"Generosity",0.45811
+"2226","Finland",2015,"Generosity",0.23351
+"2227","Netherlands",2015,"Generosity",0.4761
+"2228","Sweden",2015,"Generosity",0.36262
+"2229","New Zealand",2015,"Generosity",0.47501
+"2230","Australia",2015,"Generosity",0.43562
+"2231","Israel",2015,"Generosity",0.33172
+"2232","Costa Rica",2015,"Generosity",0.25497
+"2233","Austria",2015,"Generosity",0.33088
+"2234","Mexico",2015,"Generosity",0.14074
+"2235","United States",2015,"Generosity",0.40105
+"2236","Brazil",2015,"Generosity",0.14574
+"2237","Luxembourg",2015,"Generosity",0.28034
+"2238","Ireland",2015,"Generosity",0.45901
+"2239","Belgium",2015,"Generosity",0.2225
+"2240","United Arab Emirates",2015,"Generosity",0.26428
+"2241","United Kingdom",2015,"Generosity",0.51912
+"2242","Venezuela",2015,"Generosity",0.05841
+"2243","Singapore",2015,"Generosity",0.31105
+"2244","Panama",2015,"Generosity",0.24434
+"2245","Germany",2015,"Generosity",0.28214
+"2246","Chile",2015,"Generosity",0.33363
+"2247","Qatar",2015,"Generosity",0.32573
+"2248","France",2015,"Generosity",0.12332
+"2249","Argentina",2015,"Generosity",0.11451
+"2250","Czech Republic",2015,"Generosity",0.10686
+"2251","Uruguay",2015,"Generosity",0.2324
+"2252","Colombia",2015,"Generosity",0.18401
+"2253","Thailand",2015,"Generosity",0.5763
+"2254","Saudi Arabia",2015,"Generosity",0.13706
+"2255","Spain",2015,"Generosity",0.18227
+"2256","Malta",2015,"Generosity",0.51752
+"2257","Taiwan",2015,"Generosity",0.25376
+"2258","Kuwait",2015,"Generosity",0.16228
+"2259","Trinidad and Tobago",2015,"Generosity",0.31844
+"2260","El Salvador",2015,"Generosity",0.10692
+"2261","Guatemala",2015,"Generosity",0.27489
+"2262","Uzbekistan",2015,"Generosity",0.22837
+"2263","Slovakia",2015,"Generosity",0.16893
+"2264","Japan",2015,"Generosity",0.10705
+"2265","South Korea",2015,"Generosity",0.18557
+"2266","Ecuador",2015,"Generosity",0.11541
+"2267","Bahrain",2015,"Generosity",0.17362
+"2268","Italy",2015,"Generosity",0.22823
+"2269","Bolivia",2015,"Generosity",0.20536
+"2270","Moldova",2015,"Generosity",0.20951
+"2271","Paraguay",2015,"Generosity",0.3424
+"2272","Kazakhstan",2015,"Generosity",0.11827
+"2273","Slovenia",2015,"Generosity",0.25328
+"2274","Lithuania",2015,"Generosity",0.02641
+"2275","Nicaragua",2015,"Generosity",0.27815
+"2276","Peru",2015,"Generosity",0.14982
+"2277","Belarus",2015,"Generosity",0.11046
+"2278","Poland",2015,"Generosity",0.16759
+"2279","Malaysia",2015,"Generosity",0.33075
+"2280","Croatia",2015,"Generosity",0.05444
+"2281","Libya",2015,"Generosity",0.18295
+"2282","Russia",2015,"Generosity",0.00199
+"2283","Jamaica",2015,"Generosity",0.2123
+"2284","North Cyprus",2015,"Generosity",0.26169
+"2285","Cyprus",2015,"Generosity",0.30638
+"2286","Algeria",2015,"Generosity",0.07822
+"2287","Kosovo",2015,"Generosity",0.2831
+"2288","Turkmenistan",2015,"Generosity",0.16979
+"2289","Mauritius",2015,"Generosity",0.37744
+"2290","Hong Kong",2015,"Generosity",0.39478
+"2291","Estonia",2015,"Generosity",0.0868
+"2292","Indonesia",2015,"Generosity",0.51535
+"2293","Vietnam",2015,"Generosity",0.1686
+"2294","Turkey",2015,"Generosity",0.12253
+"2295","Kyrgyzstan",2015,"Generosity",0.3003
+"2296","Nigeria",2015,"Generosity",0.27233
+"2297","Bhutan",2015,"Generosity",0.47998
+"2298","Azerbaijan",2015,"Generosity",0.07799
+"2299","Pakistan",2015,"Generosity",0.33671
+"2300","Jordan",2015,"Generosity",0.11053
+"2301","Montenegro",2015,"Generosity",0.1614
+"2302","China",2015,"Generosity",0.08185
+"2303","Zambia",2015,"Generosity",0.19591
+"2304","Romania",2015,"Generosity",0.13748
+"2305","Serbia",2015,"Generosity",0.19231
+"2306","Portugal",2015,"Generosity",0.13719
+"2307","Latvia",2015,"Generosity",0.18226
+"2308","Philippines",2015,"Generosity",0.24991
+"2309","Morocco",2015,"Generosity",0.07172
+"2310","Macedonia",2015,"Generosity",0.22359
+"2311","Albania",2015,"Generosity",0.14272
+"2312","Bosnia and Herzegovina",2015,"Generosity",0.24808
+"2313","Dominican Republic",2015,"Generosity",0.21684
+"2314","Mongolia",2015,"Generosity",0.3323
+"2315","Greece",2015,"Generosity",0
+"2316","Lebanon",2015,"Generosity",0.21854
+"2317","Hungary",2015,"Generosity",0.128
+"2318","Honduras",2015,"Generosity",0.23027
+"2319","Tajikistan",2015,"Generosity",0.22974
+"2320","Tunisia",2015,"Generosity",0.06431
+"2321","Palestinian Territories",2015,"Generosity",0.11251
+"2322","Bangladesh",2015,"Generosity",0.21222
+"2323","Iran",2015,"Generosity",0.38086
+"2324","Ukraine",2015,"Generosity",0.15275
+"2325","Iraq",2015,"Generosity",0.17922
+"2326","South Africa",2015,"Generosity",0.11973
+"2327","Ghana",2015,"Generosity",0.23087
+"2328","Zimbabwe",2015,"Generosity",0.18987
+"2329","Liberia",2015,"Generosity",0.24362
+"2330","India",2015,"Generosity",0.26475
+"2331","Sudan",2015,"Generosity",0.19062
+"2332","Haiti",2015,"Generosity",0.46187
+"2333","Congo (Kinshasa)",2015,"Generosity",0.24834
+"2334","Nepal",2015,"Generosity",0.32296
+"2335","Ethiopia",2015,"Generosity",0.24325
+"2336","Sierra Leone",2015,"Generosity",0.21488
+"2337","Mauritania",2015,"Generosity",0.219
+"2338","Kenya",2015,"Generosity",0.37542
+"2339","Armenia",2015,"Generosity",0.07855
+"2340","Botswana",2015,"Generosity",0.10461
+"2341","Myanmar",2015,"Generosity",0.79588
+"2342","Georgia",2015,"Generosity",0.05547
+"2343","Malawi",2015,"Generosity",0.33128
+"2344","Sri Lanka",2015,"Generosity",0.40828
+"2345","Cameroon",2015,"Generosity",0.20618
+"2346","Bulgaria",2015,"Generosity",0.11921
+"2347","Egypt",2015,"Generosity",0.11291
+"2348","Yemen",2015,"Generosity",0.09131
+"2349","Angola",2015,"Generosity",0.12344
+"2350","Mali",2015,"Generosity",0.18798
+"2351","Congo (Brazzaville)",2015,"Generosity",0.12388
+"2352","Uganda",2015,"Generosity",0.29066
+"2353","Senegal",2015,"Generosity",0.20843
+"2354","Gabon",2015,"Generosity",0.06822
+"2355","Niger",2015,"Generosity",0.19387
+"2356","Cambodia",2015,"Generosity",0.40359
+"2357","Tanzania",2015,"Generosity",0.34377
+"2358","Madagascar",2015,"Generosity",0.21333
+"2359","Chad",2015,"Generosity",0.18386
+"2360","Guinea",2015,"Generosity",0.28657
+"2361","Ivory Coast",2015,"Generosity",0.20165
+"2362","Burkina Faso",2015,"Generosity",0.21747
+"2363","Afghanistan",2015,"Generosity",0.3651
+"2364","Rwanda",2015,"Generosity",0.22628
+"2365","Benin",2015,"Generosity",0.1826
+"2366","Syria",2015,"Generosity",0.47179
+"2367","Burundi",2015,"Generosity",0.19727
+"2368","Togo",2015,"Generosity",0.16681
+"2369","Denmark",2016,"Generosity",0.36171
+"2370","Switzerland",2016,"Generosity",0.28083
+"2371","Iceland",2016,"Generosity",0.47678
+"2372","Norway",2016,"Generosity",0.37895
+"2373","Finland",2016,"Generosity",0.25492
+"2374","Canada",2016,"Generosity",0.44834
+"2375","Netherlands",2016,"Generosity",0.47416
+"2376","New Zealand",2016,"Generosity",0.49401
+"2377","Australia",2016,"Generosity",0.47407
+"2378","Sweden",2016,"Generosity",0.38254
+"2379","Israel",2016,"Generosity",0.32288
+"2380","Austria",2016,"Generosity",0.32865
+"2381","United States",2016,"Generosity",0.41077
+"2382","Costa Rica",2016,"Generosity",0.22553
+"2383","Germany",2016,"Generosity",0.30452
+"2384","Brazil",2016,"Generosity",0.15776
+"2385","Belgium",2016,"Generosity",0.2424
+"2386","Ireland",2016,"Generosity",0.44963
+"2387","Luxembourg",2016,"Generosity",0.27571
+"2388","Mexico",2016,"Generosity",0.11735
+"2389","Singapore",2016,"Generosity",0.32706
+"2390","United Kingdom",2016,"Generosity",0.50156
+"2391","Chile",2016,"Generosity",0.31595
+"2392","Panama",2016,"Generosity",0.2418
+"2393","Argentina",2016,"Generosity",0.10989
+"2394","Czech Republic",2016,"Generosity",0.09929
+"2395","United Arab Emirates",2016,"Generosity",0.26591
+"2396","Uruguay",2016,"Generosity",0.18056
+"2397","Malta",2016,"Generosity",0.56237
+"2398","Colombia",2016,"Generosity",0.15626
+"2399","France",2016,"Generosity",0.1216
+"2400","Thailand",2016,"Generosity",0.58696
+"2401","Saudi Arabia",2016,"Generosity",0.15457
+"2402","Taiwan",2016,"Generosity",0.25495
+"2403","Qatar",2016,"Generosity",0.32388
+"2404","Spain",2016,"Generosity",0.17665
+"2405","Algeria",2016,"Generosity",0.07044
+"2406","Guatemala",2016,"Generosity",0.28808
+"2407","Kuwait",2016,"Generosity",0.15965
+"2408","Bahrain",2016,"Generosity",0.17147
+"2409","Trinidad and Tobago",2016,"Generosity",0.31935
+"2410","Venezuela",2016,"Generosity",0.0425
+"2411","Slovakia",2016,"Generosity",0.13837
+"2412","El Salvador",2016,"Generosity",0.08877
+"2413","Malaysia",2016,"Generosity",0.41474
+"2414","Nicaragua",2016,"Generosity",0.29773
+"2415","Uzbekistan",2016,"Generosity",0.34326
+"2416","Italy",2016,"Generosity",0.16684
+"2417","Ecuador",2016,"Generosity",0.10074
+"2418","Japan",2016,"Generosity",0.10224
+"2419","Kazakhstan",2016,"Generosity",0.15011
+"2420","Moldova",2016,"Generosity",0.19997
+"2421","Russia",2016,"Generosity",0.02736
+"2422","Poland",2016,"Generosity",0.14443
+"2423","South Korea",2016,"Generosity",0.18824
+"2424","Bolivia",2016,"Generosity",0.21698
+"2425","Lithuania",2016,"Generosity",0.02025
+"2426","Belarus",2016,"Generosity",0.13942
+"2427","North Cyprus",2016,"Generosity",0.26322
+"2428","Slovenia",2016,"Generosity",0.25738
+"2429","Peru",2016,"Generosity",0.14527
+"2430","Turkmenistan",2016,"Generosity",0.22567
+"2431","Mauritius",2016,"Generosity",0.36951
+"2432","Libya",2016,"Generosity",0.17087
+"2433","Latvia",2016,"Generosity",0.17445
+"2434","Cyprus",2016,"Generosity",0.27906
+"2435","Paraguay",2016,"Generosity",0.25296
+"2436","Romania",2016,"Generosity",0.12889
+"2437","Estonia",2016,"Generosity",0.08423
+"2438","Jamaica",2016,"Generosity",0.22245
+"2439","Croatia",2016,"Generosity",0.18434
+"2440","Hong Kong",2016,"Generosity",0.40097
+"2441","Kosovo",2016,"Generosity",0.27992
+"2442","Turkey",2016,"Generosity",0.04707
+"2443","Indonesia",2016,"Generosity",0.56521
+"2444","Jordan",2016,"Generosity",0.14262
+"2445","Azerbaijan",2016,"Generosity",0.0564
+"2446","Philippines",2016,"Generosity",0.21674
+"2447","China",2016,"Generosity",0.04959
+"2448","Bhutan",2016,"Generosity",0.48546
+"2449","Kyrgyzstan",2016,"Generosity",0.38432
+"2450","Serbia",2016,"Generosity",0.20737
+"2451","Bosnia and Herzegovina",2016,"Generosity",0.29889
+"2452","Montenegro",2016,"Generosity",0.17191
+"2453","Dominican Republic",2016,"Generosity",0.21286
+"2454","Morocco",2016,"Generosity",0.04053
+"2455","Hungary",2016,"Generosity",0.099
+"2456","Pakistan",2016,"Generosity",0.31185
+"2457","Lebanon",2016,"Generosity",0.23693
+"2458","Portugal",2016,"Generosity",0.11691
+"2459","Macedonia",2016,"Generosity",0.23507
+"2460","Vietnam",2016,"Generosity",0.25075
+"2461","Tunisia",2016,"Generosity",0.03936
+"2462","Greece",2016,"Generosity",0
+"2463","Tajikistan",2016,"Generosity",0.25998
+"2464","Mongolia",2016,"Generosity",0.34539
+"2465","Nigeria",2016,"Generosity",0.23219
+"2466","Honduras",2016,"Generosity",0.2044
+"2467","Iran",2016,"Generosity",0.38538
+"2468","Zambia",2016,"Generosity",0.17866
+"2469","Nepal",2016,"Generosity",0.3816
+"2470","Palestinian Territories",2016,"Generosity",0.11154
+"2471","Albania",2016,"Generosity",0.1684
+"2472","Bangladesh",2016,"Generosity",0.19132
+"2473","Sierra Leone",2016,"Generosity",0.23897
+"2474","Iraq",2016,"Generosity",0.19589
+"2475","Cameroon",2016,"Generosity",0.2268
+"2476","Ethiopia",2016,"Generosity",0.29522
+"2477","South Africa",2016,"Generosity",0.13656
+"2478","Sri Lanka",2016,"Generosity",0.46978
+"2479","India",2016,"Generosity",0.25028
+"2480","Myanmar",2016,"Generosity",0.81971
+"2481","Egypt",2016,"Generosity",0.12706
+"2482","Armenia",2016,"Generosity",0.07793
+"2483","Kenya",2016,"Generosity",0.41328
+"2484","Ukraine",2016,"Generosity",0.20363
+"2485","Ghana",2016,"Generosity",0.21203
+"2486","Congo (Kinshasa)",2016,"Generosity",0.25458
+"2487","Georgia",2016,"Generosity",0.06786
+"2488","Congo (Brazzaville)",2016,"Generosity",0.12077
+"2489","Senegal",2016,"Generosity",0.19103
+"2490","Bulgaria",2016,"Generosity",0.12793
+"2491","Mauritania",2016,"Generosity",0.22686
+"2492","Zimbabwe",2016,"Generosity",0.18503
+"2493","Malawi",2016,"Generosity",0.30968
+"2494","Sudan",2016,"Generosity",0.18077
+"2495","Gabon",2016,"Generosity",0.06244
+"2496","Mali",2016,"Generosity",0.21064
+"2497","Haiti",2016,"Generosity",0.47958
+"2498","Botswana",2016,"Generosity",0.12425
+"2499","Ivory Coast",2016,"Generosity",0.20338
+"2500","Cambodia",2016,"Generosity",0.40339
+"2501","Angola",2016,"Generosity",0.12071
+"2502","Niger",2016,"Generosity",0.2097
+"2503","Chad",2016,"Generosity",0.18667
+"2504","Burkina Faso",2016,"Generosity",0.24353
+"2505","Uganda",2016,"Generosity",0.27102
+"2506","Yemen",2016,"Generosity",0.09821
+"2507","Madagascar",2016,"Generosity",0.2204
+"2508","Tanzania",2016,"Generosity",0.31472
+"2509","Liberia",2016,"Generosity",0.24063
+"2510","Guinea",2016,"Generosity",0.29914
+"2511","Rwanda",2016,"Generosity",0.23552
+"2512","Benin",2016,"Generosity",0.2018
+"2513","Afghanistan",2016,"Generosity",0.31268
+"2514","Togo",2016,"Generosity",0.17517
+"2515","Syria",2016,"Generosity",0.48397
+"2516","Burundi",2016,"Generosity",0.2029
+"2517","Norway",2017,"Generosity",0.36201223731041
+"2518","Denmark",2017,"Generosity",0.355280488729477
+"2519","Iceland",2017,"Generosity",0.475540220737457
+"2520","Switzerland",2017,"Generosity",0.290549278259277
+"2521","Finland",2017,"Generosity",0.24548277258873
+"2522","Netherlands",2017,"Generosity",0.470489829778671
+"2523","Canada",2017,"Generosity",0.435539722442627
+"2524","New Zealand",2017,"Generosity",0.500005125999451
+"2525","Sweden",2017,"Generosity",0.385399252176285
+"2526","Australia",2017,"Generosity",0.477699249982834
+"2527","Israel",2017,"Generosity",0.330082654953003
+"2528","Costa Rica",2017,"Generosity",0.214613229036331
+"2529","Austria",2017,"Generosity",0.316472321748734
+"2530","United States",2017,"Generosity",0.392578780651093
+"2531","Ireland",2017,"Generosity",0.42785832285881
+"2532","Germany",2017,"Generosity",0.336269170045853
+"2533","Belgium",2017,"Generosity",0.231503337621689
+"2534","Luxembourg",2017,"Generosity",0.283180981874466
+"2535","United Kingdom",2017,"Generosity",0.492774158716202
+"2536","Chile",2017,"Generosity",0.326662421226501
+"2537","United Arab Emirates",2017,"Generosity",0.3609419465065
+"2538","Brazil",2017,"Generosity",0.16234989464283
+"2539","Czech Republic",2017,"Generosity",0.0881067588925362
+"2540","Argentina",2017,"Generosity",0.109457060694695
+"2541","Mexico",2017,"Generosity",0.120990432798862
+"2542","Singapore",2017,"Generosity",0.345965981483459
+"2543","Malta",2017,"Generosity",0.574730575084686
+"2544","Uruguay",2017,"Generosity",0.175096929073334
+"2545","Guatemala",2017,"Generosity",0.283488392829895
+"2546","Panama",2017,"Generosity",0.21055693924427
+"2547","France",2017,"Generosity",0.129762306809425
+"2548","Thailand",2017,"Generosity",0.572123110294342
+"2549","Taiwan Province of China",2017,"Generosity",0.258360475301743
+"2550","Spain",2017,"Generosity",0.190133571624756
+"2551","Qatar",2017,"Generosity",0.330473870038986
+"2552","Colombia",2017,"Generosity",0.149014472961426
+"2553","Saudi Arabia",2017,"Generosity",0.147616013884544
+"2554","Trinidad and Tobago",2017,"Generosity",0.325296461582184
+"2555","Kuwait",2017,"Generosity",0.228289797902107
+"2556","Slovakia",2017,"Generosity",0.136544480919838
+"2557","Bahrain",2017,"Generosity",0.172668486833572
+"2558","Malaysia",2017,"Generosity",0.416608929634094
+"2559","Nicaragua",2017,"Generosity",0.301674216985703
+"2560","Ecuador",2017,"Generosity",0.150112465023994
+"2561","El Salvador",2017,"Generosity",0.0782579854130745
+"2562","Poland",2017,"Generosity",0.158465966582298
+"2563","Uzbekistan",2017,"Generosity",0.415983647108078
+"2564","Italy",2017,"Generosity",0.17278964817524
+"2565","Russia",2017,"Generosity",0.0522638224065304
+"2566","Japan",2017,"Generosity",0.12057276815176
+"2567","Lithuania",2017,"Generosity",0.010164656676352
+"2568","Algeria",2017,"Generosity",0.0694366469979286
+"2569","Latvia",2017,"Generosity",0.153074786067009
+"2570","South Korea",2017,"Generosity",0.206674367189407
+"2571","Moldova",2017,"Generosity",0.208779126405716
+"2572","Romania",2017,"Generosity",0.133519917726517
+"2573","Bolivia",2017,"Generosity",0.22556072473526
+"2574","Turkmenistan",2017,"Generosity",0.24992498755455
+"2575","Kazakhstan",2017,"Generosity",0.201964423060417
+"2576","North Cyprus",2017,"Generosity",0.266845703125
+"2577","Slovenia",2017,"Generosity",0.242649093270302
+"2578","Peru",2017,"Generosity",0.126819714903831
+"2579","Mauritius",2017,"Generosity",0.360933750867844
+"2580","Cyprus",2017,"Generosity",0.271254301071167
+"2581","Estonia",2017,"Generosity",0.0988908112049103
+"2582","Belarus",2017,"Generosity",0.15513750910759
+"2583","Libya",2017,"Generosity",0.152073666453362
+"2584","Turkey",2017,"Generosity",0.0466930419206619
+"2585","Paraguay",2017,"Generosity",0.224150657653809
+"2586","Hong Kong",2017,"Generosity",0.374465793371201
+"2587","Philippines",2017,"Generosity",0.193513423204422
+"2588","Serbia",2017,"Generosity",0.220125883817673
+"2589","Jordan",2017,"Generosity",0.172170460224152
+"2590","Hungary",2017,"Generosity",0.0784016624093056
+"2591","Jamaica",2017,"Generosity",0.233818337321281
+"2592","Croatia",2017,"Generosity",0.248002976179123
+"2593","Kosovo",2017,"Generosity",0.319931447505951
+"2594","China",2017,"Generosity",0.0288068410009146
+"2595","Pakistan",2017,"Generosity",0.315446019172668
+"2596","Indonesia",2017,"Generosity",0.611704587936401
+"2597","Venezuela",2017,"Generosity",0.0650196298956871
+"2598","Montenegro",2017,"Generosity",0.197911024093628
+"2599","Morocco",2017,"Generosity",0.0322099551558495
+"2600","Azerbaijan",2017,"Generosity",0.0452693402767181
+"2601","Dominican Republic",2017,"Generosity",0.186967849731445
+"2602","Greece",2017,"Generosity",0
+"2603","Lebanon",2017,"Generosity",0.264450758695602
+"2604","Portugal",2017,"Generosity",0.0951027125120163
+"2605","Bosnia and Herzegovina",2017,"Generosity",0.328867495059967
+"2606","Honduras",2017,"Generosity",0.236188873648643
+"2607","Macedonia",2017,"Generosity",0.25376096367836
+"2608","Vietnam",2017,"Generosity",0.234968051314354
+"2609","Nigeria",2017,"Generosity",0.230947196483612
+"2610","Tajikistan",2017,"Generosity",0.248997643589973
+"2611","Bhutan",2017,"Generosity",0.474054545164108
+"2612","Kyrgyzstan",2017,"Generosity",0.42858037352562
+"2613","Nepal",2017,"Generosity",0.394096165895462
+"2614","Mongolia",2017,"Generosity",0.338464230298996
+"2615","South Africa",2017,"Generosity",0.139362379908562
+"2616","Tunisia",2017,"Generosity",0.0496933571994305
+"2617","Palestinian Territories",2017,"Generosity",0.114173173904419
+"2618","Egypt",2017,"Generosity",0.128631442785263
+"2619","Bulgaria",2017,"Generosity",0.113177694380283
+"2620","Sierra Leone",2017,"Generosity",0.293040901422501
+"2621","Cameroon",2017,"Generosity",0.236298456788063
+"2622","Iran",2017,"Generosity",0.387242913246155
+"2623","Albania",2017,"Generosity",0.201312944293022
+"2624","Bangladesh",2017,"Generosity",0.172255352139473
+"2625","Kenya",2017,"Generosity",0.444860309362411
+"2626","Myanmar",2017,"Generosity",0.838075160980225
+"2627","Senegal",2017,"Generosity",0.183468893170357
+"2628","Zambia",2017,"Generosity",0.249580144882202
+"2629","Iraq",2017,"Generosity",0.19963726401329
+"2630","Gabon",2017,"Generosity",0.0437853783369064
+"2631","Ethiopia",2017,"Generosity",0.312650740146637
+"2632","Sri Lanka",2017,"Generosity",0.490863561630249
+"2633","Armenia",2017,"Generosity",0.0834880918264389
+"2634","India",2017,"Generosity",0.231538489460945
+"2635","Mauritania",2017,"Generosity",0.201870024204254
+"2636","Congo (Brazzaville)",2017,"Generosity",0.120852127671242
+"2637","Georgia",2017,"Generosity",0.0540088154375553
+"2638","Congo (Kinshasa)",2017,"Generosity",0.246455833315849
+"2639","Mali",2017,"Generosity",0.183354198932648
+"2640","Ivory Coast",2017,"Generosity",0.201237469911575
+"2641","Cambodia",2017,"Generosity",0.385922968387604
+"2642","Sudan",2017,"Generosity",0.182317450642586
+"2643","Ghana",2017,"Generosity",0.256923943758011
+"2644","Ukraine",2017,"Generosity",0.270061463117599
+"2645","Uganda",2017,"Generosity",0.325766056776047
+"2646","Burkina Faso",2017,"Generosity",0.250864684581757
+"2647","Niger",2017,"Generosity",0.228673845529556
+"2648","Malawi",2017,"Generosity",0.287170469760895
+"2649","Chad",2017,"Generosity",0.216113850474358
+"2650","Zimbabwe",2017,"Generosity",0.189143493771553
+"2651","Angola",2017,"Generosity",0.097926490008831
+"2652","Afghanistan",2017,"Generosity",0.311870932579041
+"2653","Botswana",2017,"Generosity",0.0993484482169151
+"2654","Benin",2017,"Generosity",0.207948461174965
+"2655","Madagascar",2017,"Generosity",0.208732530474663
+"2656","Haiti",2017,"Generosity",0.489203780889511
+"2657","Yemen",2017,"Generosity",0.104125209152699
+"2658","Liberia",2017,"Generosity",0.26654988527298
+"2659","Guinea",2017,"Generosity",0.264815092086792
+"2660","Togo",2017,"Generosity",0.196896150708199
+"2661","Rwanda",2017,"Generosity",0.252756029367447
+"2662","Syria",2017,"Generosity",0.493663728237152
+"2663","Tanzania",2017,"Generosity",0.354256361722946
+"2664","Burundi",2017,"Generosity",0.204435184597969
+"2665","Switzerland",2015,"Dystopia.Residual",2.51738
+"2666","Iceland",2015,"Dystopia.Residual",2.70201
+"2667","Denmark",2015,"Dystopia.Residual",2.49204
+"2668","Norway",2015,"Dystopia.Residual",2.46531
+"2669","Canada",2015,"Dystopia.Residual",2.45176
+"2670","Finland",2015,"Dystopia.Residual",2.61955
+"2671","Netherlands",2015,"Dystopia.Residual",2.4657
+"2672","Sweden",2015,"Dystopia.Residual",2.37119
+"2673","New Zealand",2015,"Dystopia.Residual",2.26425
+"2674","Australia",2015,"Dystopia.Residual",2.26646
+"2675","Israel",2015,"Dystopia.Residual",3.08854
+"2676","Costa Rica",2015,"Dystopia.Residual",3.17728
+"2677","Austria",2015,"Dystopia.Residual",2.5332
+"2678","Mexico",2015,"Dystopia.Residual",3.60214
+"2679","United States",2015,"Dystopia.Residual",2.51011
+"2680","Brazil",2015,"Dystopia.Residual",3.26001
+"2681","Luxembourg",2015,"Dystopia.Residual",1.96961
+"2682","Ireland",2015,"Dystopia.Residual",1.9757
+"2683","Belgium",2015,"Dystopia.Residual",2.41484
+"2684","United Arab Emirates",2015,"Dystopia.Residual",2.24743
+"2685","United Kingdom",2015,"Dystopia.Residual",1.96994
+"2686","Venezuela",2015,"Dystopia.Residual",3.19131
+"2687","Singapore",2015,"Dystopia.Residual",1.88501
+"2688","Panama",2015,"Dystopia.Residual",2.84848
+"2689","Germany",2015,"Dystopia.Residual",2.11569
+"2690","Chile",2015,"Dystopia.Residual",2.67585
+"2691","Qatar",2015,"Dystopia.Residual",1.55674
+"2692","France",2015,"Dystopia.Residual",2.21126
+"2693","Argentina",2015,"Dystopia.Residual",2.836
+"2694","Czech Republic",2015,"Dystopia.Residual",2.67782
+"2695","Uruguay",2015,"Dystopia.Residual",2.32142
+"2696","Colombia",2015,"Dystopia.Residual",2.85737
+"2697","Thailand",2015,"Dystopia.Residual",2.31945
+"2698","Saudi Arabia",2015,"Dystopia.Residual",2.43872
+"2699","Spain",2015,"Dystopia.Residual",2.12367
+"2700","Malta",2015,"Dystopia.Residual",1.6488
+"2701","Taiwan",2015,"Dystopia.Residual",2.32323
+"2702","Kuwait",2015,"Dystopia.Residual",1.87634
+"2703","Trinidad and Tobago",2015,"Dystopia.Residual",2.26882
+"2704","El Salvador",2015,"Dystopia.Residual",3.035
+"2705","Guatemala",2015,"Dystopia.Residual",2.74255
+"2706","Uzbekistan",2015,"Dystopia.Residual",2.23741
+"2707","Slovakia",2015,"Dystopia.Residual",2.24639
+"2708","Japan",2015,"Dystopia.Residual",1.68435
+"2709","South Korea",2015,"Dystopia.Residual",2.21978
+"2710","Ecuador",2015,"Dystopia.Residual",2.53942
+"2711","Bahrain",2015,"Dystopia.Residual",1.73797
+"2712","Italy",2015,"Dystopia.Residual",2.02518
+"2713","Bolivia",2015,"Dystopia.Residual",2.82334
+"2714","Moldova",2015,"Dystopia.Residual",3.10712
+"2715","Paraguay",2015,"Dystopia.Residual",2.18896
+"2716","Kazakhstan",2015,"Dystopia.Residual",2.24729
+"2717","Slovenia",2015,"Dystopia.Residual",1.61583
+"2718","Lithuania",2015,"Dystopia.Residual",2.44649
+"2719","Nicaragua",2015,"Dystopia.Residual",2.32407
+"2720","Peru",2015,"Dystopia.Residual",2.5945
+"2721","Belarus",2015,"Dystopia.Residual",2.1309
+"2722","Poland",2015,"Dystopia.Residual",1.86565
+"2723","Malaysia",2015,"Dystopia.Residual",1.88541
+"2724","Croatia",2015,"Dystopia.Residual",2.75414
+"2725","Libya",2015,"Dystopia.Residual",2.09066
+"2726","Russia",2015,"Dystopia.Residual",2.27394
+"2727","Jamaica",2015,"Dystopia.Residual",2.32038
+"2728","North Cyprus",2015,"Dystopia.Residual",1.59888
+"2729","Cyprus",2015,"Dystopia.Residual",1.88931
+"2730","Algeria",2015,"Dystopia.Residual",2.43209
+"2731","Kosovo",2015,"Dystopia.Residual",2.76579
+"2732","Turkmenistan",2015,"Dystopia.Residual",1.86984
+"2733","Mauritius",2015,"Dystopia.Residual",1.76145
+"2734","Hong Kong",2015,"Dystopia.Residual",0.65429
+"2735","Estonia",2015,"Dystopia.Residual",1.58782
+"2736","Indonesia",2015,"Dystopia.Residual",1.86399
+"2737","Vietnam",2015,"Dystopia.Residual",2.20173
+"2738","Turkey",2015,"Dystopia.Residual",2.08528
+"2739","Kyrgyzstan",2015,"Dystopia.Residual",2.2327
+"2740","Nigeria",2015,"Dystopia.Residual",2.89319
+"2741","Bhutan",2015,"Dystopia.Residual",1.63794
+"2742","Azerbaijan",2015,"Dystopia.Residual",2.00073
+"2743","Pakistan",2015,"Dystopia.Residual",3.10709
+"2744","Jordan",2015,"Dystopia.Residual",1.87996
+"2745","Montenegro",2015,"Dystopia.Residual",2.10017
+"2746","China",2015,"Dystopia.Residual",1.8604
+"2747","Zambia",2015,"Dystopia.Residual",2.6343
+"2748","Romania",2015,"Dystopia.Residual",1.93129
+"2749","Serbia",2015,"Dystopia.Residual",2.025
+"2750","Portugal",2015,"Dystopia.Residual",1.26462
+"2751","Latvia",2015,"Dystopia.Residual",1.62215
+"2752","Philippines",2015,"Dystopia.Residual",1.7536
+"2753","Morocco",2015,"Dystopia.Residual",2.45373
+"2754","Macedonia",2015,"Dystopia.Residual",1.73933
+"2755","Albania",2015,"Dystopia.Residual",1.89894
+"2756","Bosnia and Herzegovina",2015,"Dystopia.Residual",2.06367
+"2757","Dominican Republic",2015,"Dystopia.Residual",1.21305
+"2758","Mongolia",2015,"Dystopia.Residual",1.34759
+"2759","Greece",2015,"Dystopia.Residual",1.80101
+"2760","Lebanon",2015,"Dystopia.Residual",1.57059
+"2761","Hungary",2015,"Dystopia.Residual",1.24074
+"2762","Honduras",2015,"Dystopia.Residual",1.84408
+"2763","Tajikistan",2015,"Dystopia.Residual",2.11399
+"2764","Tunisia",2015,"Dystopia.Residual",2.12466
+"2765","Palestinian Territories",2015,"Dystopia.Residual",2.04384
+"2766","Bangladesh",2015,"Dystopia.Residual",2.51767
+"2767","Iran",2015,"Dystopia.Residual",1.6944
+"2768","Ukraine",2015,"Dystopia.Residual",1.5714
+"2769","Iraq",2015,"Dystopia.Residual",1.95335
+"2770","South Africa",2015,"Dystopia.Residual",1.71956
+"2771","Ghana",2015,"Dystopia.Residual",2.30919
+"2772","Zimbabwe",2015,"Dystopia.Residual",2.44191
+"2773","Liberia",2015,"Dystopia.Residual",2.77729
+"2774","India",2015,"Dystopia.Residual",2.27513
+"2775","Sudan",2015,"Dystopia.Residual",2.20857
+"2776","Haiti",2015,"Dystopia.Residual",2.24173
+"2777","Congo (Kinshasa)",2015,"Dystopia.Residual",2.86712
+"2778","Nepal",2015,"Dystopia.Residual",1.95637
+"2779","Ethiopia",2015,"Dystopia.Residual",2.44876
+"2780","Sierra Leone",2015,"Dystopia.Residual",2.51009
+"2781","Mauritania",2015,"Dystopia.Residual",2.11773
+"2782","Kenya",2015,"Dystopia.Residual",1.78555
+"2783","Armenia",2015,"Dystopia.Residual",1.75873
+"2784","Botswana",2015,"Dystopia.Residual",1.46181
+"2785","Myanmar",2015,"Dystopia.Residual",1.41805
+"2786","Georgia",2015,"Dystopia.Residual",1.59541
+"2787","Malawi",2015,"Dystopia.Residual",2.80791
+"2788","Sri Lanka",2015,"Dystopia.Residual",0.67108
+"2789","Cameroon",2015,"Dystopia.Residual",1.95071
+"2790","Bulgaria",2015,"Dystopia.Residual",0.89991
+"2791","Egypt",2015,"Dystopia.Residual",1.59927
+"2792","Yemen",2015,"Dystopia.Residual",1.92313
+"2793","Angola",2015,"Dystopia.Residual",1.94939
+"2794","Mali",2015,"Dystopia.Residual",1.79293
+"2795","Congo (Brazzaville)",2015,"Dystopia.Residual",1.68135
+"2796","Uganda",2015,"Dystopia.Residual",1.42766
+"2797","Senegal",2015,"Dystopia.Residual",1.44395
+"2798","Gabon",2015,"Dystopia.Residual",0.99895
+"2799","Niger",2015,"Dystopia.Residual",1.87877
+"2800","Cambodia",2015,"Dystopia.Residual",0.98195
+"2801","Tanzania",2015,"Dystopia.Residual",1.38079
+"2802","Madagascar",2015,"Dystopia.Residual",1.851
+"2803","Chad",2015,"Dystopia.Residual",1.94296
+"2804","Guinea",2015,"Dystopia.Residual",1.99172
+"2805","Ivory Coast",2015,"Dystopia.Residual",1.41723
+"2806","Burkina Faso",2015,"Dystopia.Residual",1.46494
+"2807","Afghanistan",2015,"Dystopia.Residual",1.9521
+"2808","Rwanda",2015,"Dystopia.Residual",0.67042
+"2809","Benin",2015,"Dystopia.Residual",1.63328
+"2810","Syria",2015,"Dystopia.Residual",0.32858
+"2811","Burundi",2015,"Dystopia.Residual",1.83302
+"2812","Togo",2015,"Dystopia.Residual",1.56726
+"2813","Denmark",2016,"Dystopia.Residual",2.73939
+"2814","Switzerland",2016,"Dystopia.Residual",2.69463
+"2815","Iceland",2016,"Dystopia.Residual",2.83137
+"2816","Norway",2016,"Dystopia.Residual",2.66465
+"2817","Finland",2016,"Dystopia.Residual",2.82596
+"2818","Canada",2016,"Dystopia.Residual",2.70485
+"2819","Netherlands",2016,"Dystopia.Residual",2.70749
+"2820","New Zealand",2016,"Dystopia.Residual",2.47553
+"2821","Australia",2016,"Dystopia.Residual",2.5465
+"2822","Sweden",2016,"Dystopia.Residual",2.54734
+"2823","Israel",2016,"Dystopia.Residual",3.31029
+"2824","Austria",2016,"Dystopia.Residual",2.69343
+"2825","United States",2016,"Dystopia.Residual",2.72782
+"2826","Costa Rica",2016,"Dystopia.Residual",3.35168
+"2827","Germany",2016,"Dystopia.Residual",2.50931
+"2828","Brazil",2016,"Dystopia.Residual",3.50733
+"2829","Belgium",2016,"Dystopia.Residual",2.61355
+"2830","Ireland",2016,"Dystopia.Residual",2.15988
+"2831","Luxembourg",2016,"Dystopia.Residual",2.11055
+"2832","Mexico",2016,"Dystopia.Residual",3.55906
+"2833","Singapore",2016,"Dystopia.Residual",1.99375
+"2834","United Kingdom",2016,"Dystopia.Residual",2.14999
+"2835","Chile",2016,"Dystopia.Residual",2.95505
+"2836","Panama",2016,"Dystopia.Residual",3.00559
+"2837","Argentina",2016,"Dystopia.Residual",3.12985
+"2838","Czech Republic",2016,"Dystopia.Residual",2.96211
+"2839","United Arab Emirates",2016,"Dystopia.Residual",2.21507
+"2840","Uruguay",2016,"Dystopia.Residual",2.67139
+"2841","Malta",2016,"Dystopia.Residual",1.99032
+"2842","Colombia",2016,"Dystopia.Residual",3.17471
+"2843","France",2016,"Dystopia.Residual",2.4744
+"2844","Thailand",2016,"Dystopia.Residual",2.5796
+"2845","Saudi Arabia",2016,"Dystopia.Residual",2.61482
+"2846","Taiwan",2016,"Dystopia.Residual",2.61523
+"2847","Qatar",2016,"Dystopia.Residual",1.58224
+"2848","Spain",2016,"Dystopia.Residual",2.39663
+"2849","Algeria",2016,"Dystopia.Residual",3.40904
+"2850","Guatemala",2016,"Dystopia.Residual",3.19863
+"2851","Kuwait",2016,"Dystopia.Residual",2.28085
+"2852","Bahrain",2016,"Dystopia.Residual",2.27405
+"2853","Trinidad and Tobago",2016,"Dystopia.Residual",2.51394
+"2854","Venezuela",2016,"Dystopia.Residual",2.97468
+"2855","Slovakia",2016,"Dystopia.Residual",2.61065
+"2856","El Salvador",2016,"Dystopia.Residual",3.22134
+"2857","Malaysia",2016,"Dystopia.Residual",2.35384
+"2858","Nicaragua",2016,"Dystopia.Residual",2.82428
+"2859","Uzbekistan",2016,"Dystopia.Residual",2.34638
+"2860","Italy",2016,"Dystopia.Residual",2.34918
+"2861","Ecuador",2016,"Dystopia.Residual",2.77366
+"2862","Japan",2016,"Dystopia.Residual",1.80584
+"2863","Kazakhstan",2016,"Dystopia.Residual",2.49325
+"2864","Moldova",2016,"Dystopia.Residual",3.38007
+"2865","Russia",2016,"Dystopia.Residual",2.59115
+"2866","Poland",2016,"Dystopia.Residual",2.20035
+"2867","South Korea",2016,"Dystopia.Residual",2.35015
+"2868","Bolivia",2016,"Dystopia.Residual",2.91635
+"2869","Lithuania",2016,"Dystopia.Residual",2.60525
+"2870","Belarus",2016,"Dystopia.Residual",2.38582
+"2871","North Cyprus",2016,"Dystopia.Residual",1.93447
+"2872","Slovenia",2016,"Dystopia.Residual",1.79522
+"2873","Peru",2016,"Dystopia.Residual",2.73117
+"2874","Turkmenistan",2016,"Dystopia.Residual",2.21489
+"2875","Mauritius",2016,"Dystopia.Residual",2.20223
+"2876","Libya",2016,"Dystopia.Residual",2.39374
+"2877","Latvia",2016,"Dystopia.Residual",2.20859
+"2878","Cyprus",2016,"Dystopia.Residual",2.04497
+"2879","Paraguay",2016,"Dystopia.Residual",2.16091
+"2880","Romania",2016,"Dystopia.Residual",2.45184
+"2881","Estonia",2016,"Dystopia.Residual",1.81985
+"2882","Jamaica",2016,"Dystopia.Residual",2.35682
+"2883","Croatia",2016,"Dystopia.Residual",2.52462
+"2884","Hong Kong",2016,"Dystopia.Residual",0.92614
+"2885","Kosovo",2016,"Dystopia.Residual",2.80998
+"2886","Turkey",2016,"Dystopia.Residual",2.29074
+"2887","Indonesia",2016,"Dystopia.Residual",2.03171
+"2888","Jordan",2016,"Dystopia.Residual",2.20142
+"2889","Azerbaijan",2016,"Dystopia.Residual",2.2735
+"2890","Philippines",2016,"Dystopia.Residual",2.23484
+"2891","China",2016,"Dystopia.Residual",2.17087
+"2892","Bhutan",2016,"Dystopia.Residual",1.82916
+"2893","Kyrgyzstan",2016,"Dystopia.Residual",2.28136
+"2894","Serbia",2016,"Dystopia.Residual",2.27539
+"2895","Bosnia and Herzegovina",2016,"Dystopia.Residual",2.48406
+"2896","Montenegro",2016,"Dystopia.Residual",2.25531
+"2897","Dominican Republic",2016,"Dystopia.Residual",1.69626
+"2898","Morocco",2016,"Dystopia.Residual",2.94891
+"2899","Hungary",2016,"Dystopia.Residual",1.95473
+"2900","Pakistan",2016,"Dystopia.Residual",3.18286
+"2901","Lebanon",2016,"Dystopia.Residual",2.07339
+"2902","Portugal",2016,"Dystopia.Residual",1.53015
+"2903","Macedonia",2016,"Dystopia.Residual",2.08947
+"2904","Vietnam",2016,"Dystopia.Residual",1.9418
+"2905","Tunisia",2016,"Dystopia.Residual",2.68413
+"2906","Greece",2016,"Dystopia.Residual",2.12944
+"2907","Tajikistan",2016,"Dystopia.Residual",2.39106
+"2908","Mongolia",2016,"Dystopia.Residual",1.53586
+"2909","Nigeria",2016,"Dystopia.Residual",2.88586
+"2910","Honduras",2016,"Dystopia.Residual",2.29551
+"2911","Iran",2016,"Dystopia.Residual",1.99817
+"2912","Zambia",2016,"Dystopia.Residual",2.58991
+"2913","Nepal",2016,"Dystopia.Residual",2.32694
+"2914","Palestinian Territories",2016,"Dystopia.Residual",2.40364
+"2915","Albania",2016,"Dystopia.Residual",1.92816
+"2916","Bangladesh",2016,"Dystopia.Residual",2.60904
+"2917","Sierra Leone",2016,"Dystopia.Residual",3.01402
+"2918","Iraq",2016,"Dystopia.Residual",1.81657
+"2919","Cameroon",2016,"Dystopia.Residual",2.5198
+"2920","Ethiopia",2016,"Dystopia.Residual",2.65614
+"2921","South Africa",2016,"Dystopia.Residual",1.64227
+"2922","Sri Lanka",2016,"Dystopia.Residual",0.91681
+"2923","India",2016,"Dystopia.Residual",2.18032
+"2924","Myanmar",2016,"Dystopia.Residual",1.50655
+"2925","Egypt",2016,"Dystopia.Residual",1.96895
+"2926","Armenia",2016,"Dystopia.Residual",1.97864
+"2927","Kenya",2016,"Dystopia.Residual",1.88326
+"2928","Ukraine",2016,"Dystopia.Residual",1.50066
+"2929","Ghana",2016,"Dystopia.Residual",2.2002
+"2930","Congo (Kinshasa)",2016,"Dystopia.Residual",2.74924
+"2931","Georgia",2016,"Dystopia.Residual",1.87031
+"2932","Congo (Brazzaville)",2016,"Dystopia.Residual",2.10681
+"2933","Senegal",2016,"Dystopia.Residual",1.97861
+"2934","Bulgaria",2016,"Dystopia.Residual",1.15377
+"2935","Mauritania",2016,"Dystopia.Residual",1.9263
+"2936","Zimbabwe",2016,"Dystopia.Residual",2.4427
+"2937","Malawi",2016,"Dystopia.Residual",2.82859
+"2938","Sudan",2016,"Dystopia.Residual",2.10995
+"2939","Gabon",2016,"Dystopia.Residual",1.45332
+"2940","Mali",2016,"Dystopia.Residual",2.11087
+"2941","Haiti",2016,"Dystopia.Residual",2.37116
+"2942","Botswana",2016,"Dystopia.Residual",0.96741
+"2943","Ivory Coast",2016,"Dystopia.Residual",1.97478
+"2944","Cambodia",2016,"Dystopia.Residual",1.31573
+"2945","Angola",2016,"Dystopia.Residual",2.09459
+"2946","Niger",2016,"Dystopia.Residual",2.09469
+"2947","Chad",2016,"Dystopia.Residual",2.30637
+"2948","Burkina Faso",2016,"Dystopia.Residual",1.87319
+"2949","Uganda",2016,"Dystopia.Residual",1.51416
+"2950","Yemen",2016,"Dystopia.Residual",1.97295
+"2951","Madagascar",2016,"Dystopia.Residual",2.15075
+"2952","Tanzania",2016,"Dystopia.Residual",1.37769
+"2953","Liberia",2016,"Dystopia.Residual",2.23284
+"2954","Guinea",2016,"Dystopia.Residual",2.15604
+"2955","Rwanda",2016,"Dystopia.Residual",0.96819
+"2956","Benin",2016,"Dystopia.Residual",2.10812
+"2957","Afghanistan",2016,"Dystopia.Residual",2.14558
+"2958","Togo",2016,"Dystopia.Residual",2.1354
+"2959","Syria",2016,"Dystopia.Residual",0.81789
+"2960","Burundi",2016,"Dystopia.Residual",2.10404
+"2961","Norway",2017,"Dystopia.Residual",2.27702665328979
+"2962","Denmark",2017,"Dystopia.Residual",2.31370735168457
+"2963","Iceland",2017,"Dystopia.Residual",2.32271528244019
+"2964","Switzerland",2017,"Dystopia.Residual",2.2767162322998
+"2965","Finland",2017,"Dystopia.Residual",2.4301815032959
+"2966","Netherlands",2017,"Dystopia.Residual",2.29480409622192
+"2967","Canada",2017,"Dystopia.Residual",2.18726444244385
+"2968","New Zealand",2017,"Dystopia.Residual",2.0464563369751
+"2969","Sweden",2017,"Dystopia.Residual",2.09753799438477
+"2970","Australia",2017,"Dystopia.Residual",2.06521081924438
+"2971","Israel",2017,"Dystopia.Residual",2.80175733566284
+"2972","Costa Rica",2017,"Dystopia.Residual",2.89863920211792
+"2973","Austria",2017,"Dystopia.Residual",2.1385064125061
+"2974","United States",2017,"Dystopia.Residual",2.2181134223938
+"2975","Ireland",2017,"Dystopia.Residual",1.77386903762817
+"2976","Germany",2017,"Dystopia.Residual",2.01576995849609
+"2977","Belgium",2017,"Dystopia.Residual",2.12421035766602
+"2978","Luxembourg",2017,"Dystopia.Residual",1.61951208114624
+"2979","United Kingdom",2017,"Dystopia.Residual",1.70414352416992
+"2980","Chile",2017,"Dystopia.Residual",2.50958585739136
+"2981","United Arab Emirates",2017,"Dystopia.Residual",1.734703540802
+"2982","Brazil",2017,"Dystopia.Residual",2.76926708221436
+"2983","Czech Republic",2017,"Dystopia.Residual",2.45186185836792
+"2984","Argentina",2017,"Dystopia.Residual",2.61400532722473
+"2985","Mexico",2017,"Dystopia.Residual",2.83715486526489
+"2986","Singapore",2017,"Dystopia.Residual",1.21636199951172
+"2987","Malta",2017,"Dystopia.Residual",1.55686283111572
+"2988","Uruguay",2017,"Dystopia.Residual",2.17240953445435
+"2989","Guatemala",2017,"Dystopia.Residual",2.89389109611511
+"2990","Panama",2017,"Dystopia.Residual",2.30719995498657
+"2991","France",2017,"Dystopia.Residual",2.00595474243164
+"2992","Thailand",2017,"Dystopia.Residual",2.03950834274292
+"2993","Taiwan Province of China",2017,"Dystopia.Residual",2.1266074180603
+"2994","Spain",2017,"Dystopia.Residual",1.92775774002075
+"2995","Qatar",2017,"Dystopia.Residual",1.1454644203186
+"2996","Colombia",2017,"Dystopia.Residual",2.61606812477112
+"2997","Saudi Arabia",2017,"Dystopia.Residual",2.0654296875
+"2998","Trinidad and Tobago",2017,"Dystopia.Residual",2.05324745178223
+"2999","Kuwait",2017,"Dystopia.Residual",1.64042520523071
+"3000","Slovakia",2017,"Dystopia.Residual",2.09777665138245
+"3001","Bahrain",2017,"Dystopia.Residual",1.65614938735962
+"3002","Malaysia",2017,"Dystopia.Residual",2.00444889068604
+"3003","Nicaragua",2017,"Dystopia.Residual",2.51393055915833
+"3004","Ecuador",2017,"Dystopia.Residual",2.29035258293152
+"3005","El Salvador",2017,"Dystopia.Residual",2.7145938873291
+"3006","Poland",2017,"Dystopia.Residual",1.79772281646729
+"3007","Uzbekistan",2017,"Dystopia.Residual",1.81691360473633
+"3008","Italy",2017,"Dystopia.Residual",1.81331205368042
+"3009","Russia",2017,"Dystopia.Residual",2.20560741424561
+"3010","Japan",2017,"Dystopia.Residual",1.36322355270386
+"3011","Lithuania",2017,"Dystopia.Residual",2.22844052314758
+"3012","Algeria",2017,"Dystopia.Residual",2.56760382652283
+"3013","Latvia",2017,"Dystopia.Residual",1.99365520477295
+"3014","South Korea",2017,"Dystopia.Residual",1.88037800788879
+"3015","Moldova",2017,"Dystopia.Residual",2.80780839920044
+"3016","Romania",2017,"Dystopia.Residual",2.17683148384094
+"3017","Bolivia",2017,"Dystopia.Residual",2.44327902793884
+"3018","Turkmenistan",2017,"Dystopia.Residual",1.83290982246399
+"3019","Kazakhstan",2017,"Dystopia.Residual",1.78489255905151
+"3020","North Cyprus",2017,"Dystopia.Residual",1.54915761947632
+"3021","Slovenia",2017,"Dystopia.Residual",1.31331729888916
+"3022","Peru",2017,"Dystopia.Residual",2.20726943016052
+"3023","Mauritius",2017,"Dystopia.Residual",1.6975839138031
+"3024","Cyprus",2017,"Dystopia.Residual",1.62124919891357
+"3025","Estonia",2017,"Dystopia.Residual",1.35750865936279
+"3026","Belarus",2017,"Dystopia.Residual",1.72323298454285
+"3027","Libya",2017,"Dystopia.Residual",1.83501124382019
+"3028","Turkey",2017,"Dystopia.Residual",1.87927794456482
+"3029","Paraguay",2017,"Dystopia.Residual",1.6853334903717
+"3030","Hong Kong",2017,"Dystopia.Residual",0.554633140563965
+"3031","Philippines",2017,"Dystopia.Residual",1.97260475158691
+"3032","Serbia",2017,"Dystopia.Residual",1.94708442687988
+"3033","Jordan",2017,"Dystopia.Residual",1.79117655754089
+"3034","Hungary",2017,"Dystopia.Residual",1.71645927429199
+"3035","Jamaica",2017,"Dystopia.Residual",1.61232566833496
+"3036","Croatia",2017,"Dystopia.Residual",1.85449242591858
+"3037","Kosovo",2017,"Dystopia.Residual",2.01054072380066
+"3038","China",2017,"Dystopia.Residual",1.76493859291077
+"3039","Pakistan",2017,"Dystopia.Residual",2.79248929023743
+"3040","Indonesia",2017,"Dystopia.Residual",1.42947697639465
+"3041","Venezuela",2017,"Dystopia.Residual",1.78946375846863
+"3042","Montenegro",2017,"Dystopia.Residual",1.72919154167175
+"3043","Morocco",2017,"Dystopia.Residual",2.45618939399719
+"3044","Azerbaijan",2017,"Dystopia.Residual",1.76248168945312
+"3045","Dominican Republic",2017,"Dystopia.Residual",1.31946516036987
+"3046","Greece",2017,"Dystopia.Residual",1.74922156333923
+"3047","Lebanon",2017,"Dystopia.Residual",1.69507384300232
+"3048","Portugal",2017,"Dystopia.Residual",1.10768270492554
+"3049","Bosnia and Herzegovina",2017,"Dystopia.Residual",1.89217257499695
+"3050","Honduras",2017,"Dystopia.Residual",2.06581115722656
+"3051","Macedonia",2017,"Dystopia.Residual",1.6174693107605
+"3052","Vietnam",2017,"Dystopia.Residual",1.46231865882874
+"3053","Nigeria",2017,"Dystopia.Residual",2.36539053916931
+"3054","Tajikistan",2017,"Dystopia.Residual",1.84904932975769
+"3055","Bhutan",2017,"Dystopia.Residual",1.14018440246582
+"3056","Kyrgyzstan",2017,"Dystopia.Residual",1.53672313690186
+"3057","Nepal",2017,"Dystopia.Residual",1.8912410736084
+"3058","Mongolia",2017,"Dystopia.Residual",1.11129236221313
+"3059","South Africa",2017,"Dystopia.Residual",1.51090860366821
+"3060","Tunisia",2017,"Dystopia.Residual",1.89025115966797
+"3061","Palestinian Territories",2017,"Dystopia.Residual",1.8788902759552
+"3062","Egypt",2017,"Dystopia.Residual",1.70216107368469
+"3063","Bulgaria",2017,"Dystopia.Residual",0.996139287948608
+"3064","Sierra Leone",2017,"Dystopia.Residual",2.66845989227295
+"3065","Cameroon",2017,"Dystopia.Residual",2.3336455821991
+"3066","Iran",2017,"Dystopia.Residual",1.49873495101929
+"3067","Albania",2017,"Dystopia.Residual",1.49044156074524
+"3068","Bangladesh",2017,"Dystopia.Residual",1.97873616218567
+"3069","Kenya",2017,"Dystopia.Residual",1.6519021987915
+"3070","Myanmar",2017,"Dystopia.Residual",1.11529040336609
+"3071","Senegal",2017,"Dystopia.Residual",1.78964614868164
+"3072","Zambia",2017,"Dystopia.Residual",1.82670545578003
+"3073","Iraq",2017,"Dystopia.Residual",1.31890726089478
+"3074","Gabon",2017,"Dystopia.Residual",1.32291626930237
+"3075","Ethiopia",2017,"Dystopia.Residual",2.01574373245239
+"3076","Sri Lanka",2017,"Dystopia.Residual",0.419389247894287
+"3077","Armenia",2017,"Dystopia.Residual",1.5214991569519
+"3078","India",2017,"Dystopia.Residual",1.5191171169281
+"3079","Mauritania",2017,"Dystopia.Residual",1.65163731575012
+"3080","Congo (Brazzaville)",2017,"Dystopia.Residual",1.72413563728333
+"3081","Georgia",2017,"Dystopia.Residual",1.50013780593872
+"3082","Congo (Kinshasa)",2017,"Dystopia.Residual",2.22495865821838
+"3083","Mali",2017,"Dystopia.Residual",1.66819095611572
+"3084","Ivory Coast",2017,"Dystopia.Residual",1.84496426582336
+"3085","Cambodia",2017,"Dystopia.Residual",1.04294109344482
+"3086","Sudan",2017,"Dystopia.Residual",1.68706583976746
+"3087","Ghana",2017,"Dystopia.Residual",1.57786750793457
+"3088","Ukraine",2017,"Dystopia.Residual",0.814382314682007
+"3089","Uganda",2017,"Dystopia.Residual",1.526362657547
+"3090","Burkina Faso",2017,"Dystopia.Residual",1.72721290588379
+"3091","Niger",2017,"Dystopia.Residual",1.87398338317871
+"3092","Malawi",2017,"Dystopia.Residual",2.08178615570068
+"3093","Chad",2017,"Dystopia.Residual",2.07123804092407
+"3094","Zimbabwe",2017,"Dystopia.Residual",1.59797024726868
+"3095","Angola",2017,"Dystopia.Residual",1.61448240280151
+"3096","Afghanistan",2017,"Dystopia.Residual",2.15080118179321
+"3097","Botswana",2017,"Dystopia.Residual",0.3779137134552
+"3098","Benin",2017,"Dystopia.Residual",1.88563096523285
+"3099","Madagascar",2017,"Dystopia.Residual",1.58461260795593
+"3100","Haiti",2017,"Dystopia.Residual",1.69716763496399
+"3101","Yemen",2017,"Dystopia.Residual",1.34560060501099
+"3102","Liberia",2017,"Dystopia.Residual",1.67328596115112
+"3103","Guinea",2017,"Dystopia.Residual",1.55231189727783
+"3104","Togo",2017,"Dystopia.Residual",1.83722925186157
+"3105","Rwanda",2017,"Dystopia.Residual",0.540061235427856
+"3106","Syria",2017,"Dystopia.Residual",1.06157350540161
+"3107","Tanzania",2017,"Dystopia.Residual",0.621130466461182
+"3108","Burundi",2017,"Dystopia.Residual",1.68302416801453
