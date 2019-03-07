@@ -166,21 +166,21 @@ names(tidy_preb)[names(tidy_preb)=="Population(2016)"] <- "Število.prebivalcev(
 names(tidy_prir)[names(tidy_prir)=="Country"] <- "Država"
 names(tidy_prir)[names(tidy_prir)=="Change(2016/2017)"] <- "Prirast(2016/2017)"
 
-# create_empty_table <- function(num_rows, num_cols) {
-#   frame <- data.frame(matrix(NA, nrow = num_rows, ncol = num_cols))
-#   return(frame)
-# }
-# 
-# prazna <- create_empty_table(233,2)
-# tidy_prebivalstvo <- prazna
-# tidy_prebivalstvo$X1 <- tidy_preb$Država
-# tidy_prebivalstvo$X2 <- tidy_preb$`Število.prebivalcev(2016)`
-# names(tidy_prebivalstvo)[names(tidy_prebivalstvo)=="X1"] <- "Država"
-# names(tidy_prebivalstvo)[names(tidy_prebivalstvo)=="X2"] <- "Število.prebivalcev(2016)"
-# 
-# tidy_prirast <- prazna
-# tidy_prirast$X1 <- tidy_prir$Država
-# tidy_prirast$X2 <- tidy_prir$`Prirast(2016/2017)`
-# names(tidy_prirast)[names(tidy_prirast)=="X1"] <- "Država"
-# names(tidy_prirast)[names(tidy_prirast)=="X2"] <- "Prirast(2016/2017"
+create_empty_table <- function(num_rows, num_cols) {
+  frame <- data.frame(matrix(NA, nrow = num_rows, ncol = num_cols))
+  return(frame)
+}
+
+prazna <- create_empty_table(233,2)
+tidy_prebivalstvo <- prazna
+tidy_prebivalstvo$X1 <- tidy_preb$Država
+tidy_prebivalstvo$X2 <- tidy_preb$`Število.prebivalcev(2016)`
+names(tidy_prebivalstvo)[names(tidy_prebivalstvo)=="X1"] <- "Država"
+names(tidy_prebivalstvo)[names(tidy_prebivalstvo)=="X2"] <- "Številoprebivalcev(2016)"
+
+tidy_prirast <- prazna
+tidy_prirast$X1 <- tidy_prir$Država
+tidy_prirast$X2 <- tidy_prir$`Prirast(2016/2017)`
+names(tidy_prirast)[names(tidy_prirast)=="X1"] <- "Država"
+names(tidy_prirast)[names(tidy_prirast)=="X2"] <- "Prirast(2016/2017)"
 ###

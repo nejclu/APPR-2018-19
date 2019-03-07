@@ -39,7 +39,7 @@ Podatke o stopnji sreče ljudi sem uvozil v obliki CSV s spletne strani Kaggle, 
   - `Leto` - spremenljivka: leto, katerega so bile opravljene meritve (celo število)
   - `BDP` - meritev: v kolikšni meri BDP določene države vpliva na izračun stopnje sreče ljudi (število)
 ```{r tidy_economy, echo=FALSE, message=FALSE}
-kable(head(tidy_economy), align="ccc")
+kable(head(tidy_economy), align="lcr")
 ``` 
   
 2.  **Družina** - Podatki o pomenu družine pri stopnji sreče ljudi
@@ -47,7 +47,7 @@ kable(head(tidy_economy), align="ccc")
   - `Leto` - spremenljivka: leto, katerega so bile opravljene meritve (celo število)
   - `Družina` - meritev: v kolikšni meri pomen družine vpliva na izračun stopnje sreče ljudi (število)
 ```{r tidy_family, echo=FALSE, message=FALSE}
-kable(head(tidy_family), align="ccc")
+kable(head(tidy_family), align="lcr")
 ``` 
   
 3. **Pričakovana življenjska doba** - Podatki o pomenu pričakovane življenjske dobe pri stopnji sreče ljudi
@@ -55,7 +55,7 @@ kable(head(tidy_family), align="ccc")
   - `Leto` - spremenljivka: leto, katerega so bile opravljene meritve (celo število)
   - `Pričakovana življenjska doba` - meritev: v kolikšni meri pričakovana življenjska doba vpliva na izračun stopnje sreče ljudi (število)
 ```{r tidy_life.expectancy, echo=FALSE, message=FALSE}
-kable(head(tidy_life.expectancy), align="ccc", col.names = c("Država", "Leto", "Pričakovana življenjska doba"))
+kable(head(tidy_life.expectancy), align="lcr", col.names = c("Država", "Leto", "Pričakovana življenjska doba"))
 ```   
   
 4. **Svoboda** - Podatki o pomenu svobode pri stopnji sreče ljudi
@@ -63,7 +63,7 @@ kable(head(tidy_life.expectancy), align="ccc", col.names = c("Država", "Leto", 
   - `Leto` - spremenljivka: leto, katerega so bile opravljene meritve (celo število)
   - `Svoboda` - meritev: v kolikšni meri svoboda odločanja vpliva na izračun stopnje sreče ljudi (število)
 ```{r tidy_freedom, echo=FALSE, message=FALSE}
-kable(head(tidy_freedom), align="ccc")
+kable(head(tidy_freedom), align="lcr")
 ```   
   
 5. **(Odsotnost) korupcije** - Podatki o pomenu (odsotnosti) korupcije pri stopnji sreče ljudi
@@ -71,7 +71,7 @@ kable(head(tidy_freedom), align="ccc")
   - `Leto` - spremenljivka: leto, katerega so bile opravljene meritve (celo število)
   - `(Odsotnost) korupcije` - meritev: v kolikšni meri korupcija (oziroma njena odsotnost) vpliva na izračun stopnje sreče ljudi (število)
 ```{r tidy_trust, echo=FALSE, message=FALSE}
-kable(head(tidy_trust), align="ccc", col.names = c("Država", "Leto", "(Odsotnost) korupcije"))
+kable(head(tidy_trust), align="lcr", col.names = c("Država", "Leto", "(Odsotnost) korupcije"))
 ```     
   
 6. **Radodarnost** - Podatki o pomenu radodarnosti pri stopnji sreče ljudi
@@ -79,7 +79,7 @@ kable(head(tidy_trust), align="ccc", col.names = c("Država", "Leto", "(Odsotnos
   - `Leto` - spremenljivka: leto, katerega so bile opravljene meritve (celo število)
   - `Radodarnost` - meritev: v kolikšni meri radodarnost ljudi vpliva na izračun stopnje sreče (število)
 ```{r tidy_generosity, echo=FALSE, message=FALSE}
-kable(head(tidy_generosity), align="ccc")
+kable(head(tidy_generosity), align="lcr")
 ```     
   
 7. **Dystopia in preostanek** - Podatki o pomenu dodatne komponente pri stopnji sreče ljudi
@@ -87,17 +87,24 @@ kable(head(tidy_generosity), align="ccc")
   - `Leto` - spremenljivka: leto, katerega so bile opravljene meritve (celo število)
   - `Dystopia in preostanek` - meritev: v kolikšni meri rezultat države »Dystopia« in ocena napake prejšnjih meritev vpliva na izračun stopnje sreče ljudi (število)
 ```{r tidy_residual, echo=FALSE, message=FALSE}
-kable(head(tidy_residual), align="ccc", col.names = c("Država", "Leto", "Dystopia in preostanek"))
+kable(head(tidy_residual), align="lcr", col.names = c("Država", "Leto", "Dystopia in preostanek"))
 ```     
 
 8. **Prebivalstvo** - Podatki o številu prebivalcev po državah (2016)
   - `Država` - spremenljivka: ime države (besedilo)
   - `Prebivalstvo` - spremenljivka: Število ljudi v določeni državi (izmerjeno leta 2016) (celo število)
 
+```{r tidy_prebivalstvo, echo=FALSE, message=FALSE}
+kable(head(tidy_prebivalstvo[1:6,]), align="lr", col.names = c("Država", "Prebivalstvo (2016)"))
+```  
 
 9. **Prirast prebivalstva** - Podatki o prirastu prebivalcev po državah (2016/2017)
   - `Država` - spremenljivka: ime države (besedilo)
   - `Prirast` - spremenljivka: prirast prebivalstva v državi med letoma 2016 in 2017 (izraženo v procentih) (število)
+
+```{r tidy_prirast, echo=FALSE, message=FALSE}
+kable(head(tidy_prirast[1:6,]), align="lr", col.names = c("Država", "Prirast (2016/2017)"))
+```
 
 ***
 
