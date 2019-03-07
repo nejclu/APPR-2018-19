@@ -164,7 +164,7 @@ tidy_prir <- tabela_preb[-2]
 names(tidy_preb)[names(tidy_preb)=="Country"] <- "Država"
 names(tidy_preb)[names(tidy_preb)=="Population(2016)"] <- "Število.prebivalcev(2016)"
 names(tidy_prir)[names(tidy_prir)=="Country"] <- "Država"
-names(tidy_prir)[names(tidy_prir)=="Change(2016/2017)"] <- "Prirast(2016/2017"
+names(tidy_prir)[names(tidy_prir)=="Change(2016/2017)"] <- "Prirast(2016/2017)"
 
 # create_empty_table <- function(num_rows, num_cols) {
 #   frame <- data.frame(matrix(NA, nrow = num_rows, ncol = num_cols))
