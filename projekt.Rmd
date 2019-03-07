@@ -94,7 +94,7 @@ kable(head(tidy_residual), align="ccc")
   - `Država` - spremenljivka: ime države (besedilo)
   - `Prebivalstvo` - spremenljivka: Število ljudi v določeni državi (izmerjeno leta 2016) (celo število)
 ```{r tidy_preb, echo=FALSE, message=FALSE}
-kable(head(tidy_preb), align="cc", col.names=c("Drzava", "Prebivalstvo"))
+kable(head(tidy_preb), align="cc")
 ```     
 
 8. **Prirast prebivalstva** - Podatki o prirastu prebivalcev po državah (2016/2017)
