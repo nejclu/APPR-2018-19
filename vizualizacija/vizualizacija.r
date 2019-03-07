@@ -10,7 +10,7 @@ library(reshape2)
 
 #graf1 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja
 graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent)) + geom_point(show.legend = FALSE) + theme_bw() + 
-  ggtitle("Stopnja sreče po kontinentih") + theme(axis.title = element_text(size = (9)), plot.title = element_text(size = (14))) +
+  ggtitle("Stopnja sreče po celinah") + theme(axis.title = element_text(size = (9)), plot.title = element_text(size = (14))) +
   xlab("Kontinent") + ylab("Stopnja sreče")
 
 #graf2 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja - "violin plot". Avstralija je izločena iz grafa, ker imamo podatke
@@ -22,14 +22,14 @@ graf2 <- ggplot(tabela_2017[!(tabela_2017$Continent=="Australia"),], aes(x=Conti
 #graf3 prikazuje stopnjo korelacije med stopnjo sreče in posameznimi dejavniki
 #Prevod v slovenščino
 tabela_2017_slo <- tabela_2017
-names(tabela_2017_slo)[5] <- "Stopnja.sreče"
-names(tabela_2017_slo)[6] <- "BDP.države"
+names(tabela_2017_slo)[5] <- "Stopnja sreče"
+names(tabela_2017_slo)[6] <- "BDP države"
 names(tabela_2017_slo)[7] <- "Družina"
-names(tabela_2017_slo)[8] <- "Pričak.življ.doba"
+names(tabela_2017_slo)[8] <- "Pričak. živ. doba"
 names(tabela_2017_slo)[9] <- "Svoboda"
 names(tabela_2017_slo)[10] <- "Radodarnost"
-names(tabela_2017_slo)[11] <- "Odsotnost.korupcije"
-names(tabela_2017_slo)[12] <- "Dystopia/Ostanek"
+names(tabela_2017_slo)[11] <- "Odsotnost korupcije"
+names(tabela_2017_slo)[12] <- "Dystopia in ostanek"
 
 data3 = cor(tabela_2017_slo[c(5:12)])
 #corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki")
@@ -44,16 +44,20 @@ tabela_preb[17,1] <- "Congo (Kinshasa)" #Prej "Democratic Republic of the Congo"
 tabela_preb[119,1] <- "Congo (Brazzaville)" #Prej "Congo"
 
 #Dodamo stolpec "Population" k tabeli "tabela_2017"
-tabela_2017$"Population(2016)" <- tabela_preb$`Population(2016)`[match(tabela_2017$Country, tabela_preb$Country)]
+tabela_2017$"Št. prebivalcev (2016)" <- tabela_preb$`Population(2016)`[match(tabela_2017$Country, tabela_preb$Country)]
 
 #Dodan stolpec za prirast prebivalstva k tabeli "tabela_2017"
-tabela_2017$"Change(2016/2017)" <- tabela_preb$`Change(2016/2017)`[match(tabela_2017$Country, tabela_preb$Country)]
+tabela_2017$"Prirast (2016/2017)" <- tabela_preb$`Change(2016/2017)`[match(tabela_2017$Country, tabela_preb$Country)]
 
 #Iz tabele odstranimo 2 državi, za katere nimamo podatkov (Severni Ciper in Kosovo)
 tabela_2017_sprem <- tabela_2017[-c(60,77),]
 
+#Preimenujemo še en stolpec
+tabela_2017_sprem1 <- tabela_2017_sprem
+names(tabela_2017_sprem1)[5] <- "Stopnja sreče"
+
 #Izrišemo graf korelacije med stopnjo sreče in številom prebivalstva ter prirastom ljudi
-data4 = cor(tabela_2017_sprem[c(5,13,14)])
+data4 = cor(tabela_2017_sprem1[c(5,13,14)])
 #corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva ter prirastom ljudi")
 
 #Za naslednjo vizualizacijo nas bo zanimalo pri katerih državah je bilo gibanje stopnje sreče tekom treh let (2015 - 2017) največje, kje pa najmanjše
@@ -83,13 +87,13 @@ hap_change_tb <- melt(hap_change_tb, id.vars = "Country", measure.vars = colname
 hap_change_tb$variable <- as.integer(gsub("\\D", "", hap_change_tb$variable))
 
 #Preimenujemo stolpce
-names(hap_change_tb)[1] <- "Drzava"
+names(hap_change_tb)[1] <- "Država"
 names(hap_change_tb)[2] <- "Leto"
 names(hap_change_tb)[3] <- "Sprememba"
 
-graf3 <- ggplot(hap_change_tb, aes(x=factor(Leto), y=Sprememba)) + geom_line(aes(group = Drzava), colour = "Black") + 
-  geom_point(aes(colour = Drzava), size = 3) + ggtitle("Sprememba stopnje sreče v letih 2015 - 2017 (3 max & 3 min)") + 
-  theme(plot.title = element_text(size = (14))) + xlab("Leto") + ylab("Stopnja sreče [1-10]")
+graf3 <- ggplot(hap_change_tb, aes(x=factor(Leto), y=Sprememba)) + geom_line(aes(group = Država), colour = "Black") + 
+  geom_point(aes(colour = Država), size = 3) + ggtitle("Sprememba stopnje sreče v letih 2015 - 2017 (3 max & 3 min)") + 
+  theme(plot.title = element_text(size = (14))) + xlab("Leto") + ylab("Stopnja sreče [1-10]") + guides(colour = guide_legend("Država"))
 
 # #ZEMLJEVID
 #Uvozi potrebne knjižnice
