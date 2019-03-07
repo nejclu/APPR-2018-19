@@ -135,3 +135,52 @@ tabela_2017$Continent[which(is.na(tabela_2017$Continent))] <- "Africa"
 
 #Premik stolpca "Continent" na drugo mesto v tabeli
 tabela_2017 <- tabela_2017[,c(1,12,2,3,4,5,6,7,8,9,10,11)]
+
+###
+#Tabele v tidydata
+pomozna_tidy <- tabela_skupna[-3:-4]
+names(pomozna_tidy)[names(pomozna_tidy)=="Country"] <- "Država"
+names(pomozna_tidy)[names(pomozna_tidy)=="Year"] <- "Leto"
+
+tidy_economy <- pomozna_tidy[,c(1,2,3)]
+tidy_family <- pomozna_tidy[,c(1,2,4)]
+tidy_life.expectancy <- pomozna_tidy[,c(1,2,5)]
+tidy_freedom <- pomozna_tidy[,c(1,2,6)]
+tidy_trust <- pomozna_tidy[,c(1,2,7)]
+tidy_generosity <- pomozna_tidy[,c(1,2,8)]
+tidy_residual <- pomozna_tidy[,c(1,2,9)]
+
+names(tidy_economy)[names(tidy_economy)=="Economy"] <- "BDP"
+names(tidy_family)[names(tidy_family)=="Family"] <- "Družina"
+names(tidy_life.expectancy)[names(tidy_life.expectancy)=="Life.Expectancy"] <- "Pričakovana.življenjska.doba"
+names(tidy_freedom)[names(tidy_freedom)=="Freedom"] <- "Svoboda"
+names(tidy_trust)[names(tidy_trust)=="Trust"] <- "(Odsotnost).korupcije"
+names(tidy_generosity)[names(tidy_generosity)=="Generosity"] <- "Radodarnost"
+names(tidy_residual)[names(tidy_residual)=="Dystopia.Residual"] <- "Dystopia.Preostanek"
+
+tidy_preb <- tabela_preb[-3]
+tidy_prir <- tabela_preb[-2]
+
+names(tidy_preb)[names(tidy_preb)=="Country"] <- "Država"
+names(tidy_preb)[names(tidy_preb)=="Population(2016)"] <- "Število.prebivalcev(2016)"
+names(tidy_prir)[names(tidy_prir)=="Country"] <- "Država"
+names(tidy_prir)[names(tidy_prir)=="Change(2016/2017)"] <- "Prirast(2016/2017"
+
+# create_empty_table <- function(num_rows, num_cols) {
+#   frame <- data.frame(matrix(NA, nrow = num_rows, ncol = num_cols))
+#   return(frame)
+# }
+# 
+# prazna <- create_empty_table(233,2)
+# tidy_prebivalstvo <- prazna
+# tidy_prebivalstvo$X1 <- tidy_preb$Država
+# tidy_prebivalstvo$X2 <- tidy_preb$`Število.prebivalcev(2016)`
+# names(tidy_prebivalstvo)[names(tidy_prebivalstvo)=="X1"] <- "Država"
+# names(tidy_prebivalstvo)[names(tidy_prebivalstvo)=="X2"] <- "Število.prebivalcev(2016)"
+# 
+# tidy_prirast <- prazna
+# tidy_prirast$X1 <- tidy_prir$Država
+# tidy_prirast$X2 <- tidy_prir$`Prirast(2016/2017)`
+# names(tidy_prirast)[names(tidy_prirast)=="X1"] <- "Država"
+# names(tidy_prirast)[names(tidy_prirast)=="X2"] <- "Prirast(2016/2017"
+###
