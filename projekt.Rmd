@@ -14,6 +14,8 @@ runtime: shiny
 # in sledimo navodilom v programu.
 #source("fontconfig.r", encoding="UTF-8")
 
+Sys.setlocale("LC_ALL","Slovenian")
+
 # Uvoz vseh potrebnih knjižnic
 source("lib/libraries.r", encoding="UTF-8")
 ```
