@@ -10,13 +10,13 @@ library(reshape2)
 
 #graf1 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja
 graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent)) + geom_point(show.legend = FALSE) + theme_bw() + 
-  ggtitle("Stopnja sreče po celinah") + theme(axis.title = element_text(size = (9)), plot.title = element_text(size = (14))) +
+  ggtitle("Stopnja sreče po celinah") + theme(axis.title = element_text(size = (9)), plot.title = element_text(size=14)) +
   xlab("Kontinent") + ylab("Stopnja sreče")
 
 #graf2 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja - "violin plot". Avstralija je izločena iz grafa, ker imamo podatke
 #samo za 2 državi - graf se ne izriše.
 graf2 <- ggplot(tabela_2017[!(tabela_2017$Continent=="Australia"),], aes(x=Continent, y=Happiness.Score)) + geom_violin(aes(fill=Continent), show.legend = FALSE) +
-  theme_bw() + theme(axis.title = element_text(size = (9)), plot.title = element_text(size = (14))) + theme(plot.title = element_text(hjust = 0.5)) +
+  theme_bw() + theme(axis.title = element_text(size = (9)), plot.title = element_text(size=14)) + theme(plot.title = element_text(hjust = 0.5)) +
   ggtitle("Stopnja sreče po kontinentih") + xlab("Kontinent") + ylab("Stopnja sreče [1-10]")
 
 #graf3 prikazuje stopnjo korelacije med stopnjo sreče in posameznimi dejavniki
@@ -93,7 +93,7 @@ names(hap_change_tb)[3] <- "Sprememba"
 
 graf3 <- ggplot(hap_change_tb, aes(x=factor(Leto), y=Sprememba)) + geom_line(aes(group = Država), colour = "Black") + 
   geom_point(aes(colour = Država), size = 3) + ggtitle("Sprememba stopnje sreče v letih 2015 - 2017 (3 max & 3 min)") + 
-  theme(plot.title = element_text(size = (14))) + xlab("Leto") + ylab("Stopnja sreče [1-10]") + guides(colour = guide_legend("Država"))
+  theme(plot.title = element_text(size = 14)) + xlab("Leto") + ylab("Stopnja sreče [1-10]") + guides(colour = guide_legend("Država"))
 
 # #ZEMLJEVID
 #Uvozi potrebne knjižnice
@@ -128,7 +128,7 @@ ujemanje <- left_join(drzave, tabela_evropske, by="Country")
 
 zem <- ggplot() + geom_polygon(data=left_join(zemljevid, ujemanje, by=c("NAME"="Country")), aes(x=long, y=lat, group=group, fill=center)) +
   ggtitle("Stopnja sreče po evropskih državah (2017)") + xlab("") + ylab("") + scale_fill_gradient(low='#66FF66', high='#006600') +
-  guides(fill=guide_colorbar(title="Stopnja sreče [1-10]")) + theme(plot.title = element_text(size=14))
+  guides(fill=guide_colorbar(title="Stopnja sreče [1-10]")) + theme(plot.title = element_text(size=14, hjust=0.5))
 
 #Dodane oznake za državi z najvišjo in najnižjo vrednostjo + vrednost za Slovenijo
 zem1 <- zem + geom_point(aes(x=30, y=50)) + geom_text(aes(x=30, y=49), label = "4.096")
