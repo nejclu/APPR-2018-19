@@ -4,7 +4,7 @@ function(input, output) {
   output$graf_sprem <- renderPlot({
     graf_s <- ggplot(tabela_skupna %>% filter(Country == input$drzava), aes(x = factor(Year), y = Happiness.Score)) +
       geom_line(aes(group=Country)) + geom_point() + labs(title="Sprememba stopnje sreče med leti 2015 in 2017") + 
-      theme(plot.title = element_text(size=18, hjust=0.5)) + ylab("Stopnja sreče [1-10]") + xlab("Čas") + ylim(2.5, 8)
+      theme(plot.title = element_text(size=18, hjust=0.5)) + ylab("Stopnja sreče [1-10]") + xlab("Leto") + ylim(2.5, 8)
     print(graf_s)
     
 #Če pr geom_line nism dodal aes(group=Country), ni telo povezat točk (po tem ko sm dau x=factor(Year)
