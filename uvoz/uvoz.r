@@ -1,8 +1,3 @@
-library(rvest)
-library(gsubfn)
-library(readr)
-library(dplyr)
-
 #Tabela s številom prebivalstva
 link <- "https://en.wikipedia.org/wiki/List_of_countries_by_population_(United_Nations)"
 stran <- html_session(link) %>% read_html()
