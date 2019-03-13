@@ -1,23 +1,22 @@
 library(shiny)
 
 function(input, output) {
+  
   output$graf_sprem <- renderPlot({
     graf_s <- ggplot(tabela_skupna %>% filter(Country == input$drzava), aes(x = factor(Year), y = Happiness.Score)) +
-      geom_line(aes(group=Country)) + geom_point() + labs(title="Sprememba stopnje sreče med leti 2015 in 2017") + 
+      geom_line(aes(group=Country)) + geom_point(size = 3) + labs(title="Sprememba stopnje sreče (2015 - 2017)") + 
       theme(plot.title = element_text(size=18, hjust=0.5)) + ylab("Stopnja sreče [1-10]") + xlab("Leto") + ylim(2.5, 8)
     print(graf_s)
     
+  })    
 #Če pr geom_line nism dodal aes(group=Country), ni telo povezat točk (po tem ko sm dau x=factor(Year)
 #theme(...(hjust=...)) je dal naslov na sredino
-    tabela_shiny_sub <- reactive({
-      a <- tabela_shiny[tabela_shiny$Država == as.character(input$drzava),]
-      return(a[,2:3])
-    })
-#pri a-ju ni potrebno da vrnemo 1. stolpec, ker je ime države razvidna že iz zgornje izbire    
-    output$table1 <- renderTable(tabela_shiny_sub())
     
-  })
-  
+    output$table1 <- renderTable({
+      tab_stranska <- tabela_shiny[tabela_shiny$Država == as.character(input$drzava),]
+      return(tab_stranska[,2:3])
+    })
+    
   {
     output$dejavniki_zem <- renderPlot({
       
