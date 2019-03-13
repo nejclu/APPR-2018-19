@@ -68,7 +68,7 @@ hap_change$Happiness.Score.2015 <- tabela_2015_abc$Happiness.Score
 hap_change$Happiness.Score.2016 <- tabela_2016_abc$Happiness.Score
 hap_change$Happiness.Score.2017 <- tabela_2017_abc$Happiness.Score
 
-#Razvrstimo države naraščajoe glede na velikost spremembe stopnje sreče
+#Razvrstimo države naraščajoče glede na velikost spremembe stopnje sreče
 hap_change <- hap_change[order(hap_change$Happiness.Change),]
 
 #Izberemo samo 3 države z največjim gibanjem in 3 z najmanjšim
