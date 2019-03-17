@@ -1,9 +1,9 @@
 # 3. faza: Vizualizacija podatkov
 
 #graf1 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja
-graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent)) + geom_point(show.legend = FALSE) + theme_bw() + 
-  ggtitle("Stopnja sreče po celinah") + theme(axis.title = element_text(size = (9)), plot.title = element_text(size=14)) +
-  xlab("Kontinent") + ylab("Stopnja sreče")
+# graf1 <- ggplot(tabela_2017, aes(x=Continent, y=Happiness.Score, color=Continent)) + geom_point(show.legend = FALSE) + theme_bw() + 
+#   ggtitle("Stopnja sreče po celinah") + theme(axis.title = element_text(size = (9)), plot.title = element_text(size=14)) +
+#   xlab("Kontinent") + ylab("Stopnja sreče")
 
 #graf2 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja - "violin plot". Avstralija je izločena iz grafa, ker imamo podatke
 #samo za 2 državi - graf se ne izriše.
