@@ -8,7 +8,7 @@
 #graf2 prikazuje države, ločene po kontinentih, in njihovo stopnjo veselja - "violin plot". Avstralija je izločena iz grafa, ker imamo podatke
 #samo za 2 državi - graf se ne izriše.
 graf2 <- ggplot(tabela_2017[!(tabela_2017$Continent=="Australia"),], aes(x=Continent, y=Happiness.Score)) + geom_violin(aes(fill=Continent), show.legend = FALSE) +
-  theme_bw() + theme(axis.title = element_text(size = (9)), plot.title = element_text(size=14)) + theme(plot.title = element_text(hjust = 0.5)) +
+  theme_bw() + theme(axis.title = element_text(size = (9)), plot.title = element_text(size=14, hjust = 0.5)) +
   ggtitle("Stopnja sreče po kontinentih") + xlab("Kontinent") + ylab("Stopnja sreče [1-10]")
 
 #graf3 prikazuje stopnjo korelacije med stopnjo sreče in posameznimi dejavniki
