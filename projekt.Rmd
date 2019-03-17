@@ -25,7 +25,7 @@ source("lib/libraries.r", encoding="UTF-8")
 source("lib/rstudio.r", encoding="UTF-8")
 ```
 
-V projektu bom analiziral stopnjo sreče ljudi po posameznih državah v svetu med letoma 2015 in 2017.Za vsako izmed 148 držav je podano število na lestvici od 1 do 10, ki predstavlja mero sreče ljudi v državi, ta pa je seštevek sedmih komponent – šestih glavnih (BDP države, pričakovana življenjska doba, svoboda, radodarnost, korupcija, pomen družine) in dodatne komponente, ki je seštevek rezultata izmišljene države z najmanj srečnimi državljani (»Dystopia«) in ocene napake pri končnem rezultatu vsake države, ki jo da prvih 6 spremenljivk. Pri tem bom skušal ugotoviti kateri izmed faktorjev so najpomembnejši za srečnejše življenje, koliko se stopnja sreče ljudi po državah spreminja tekom treh let (2015 – 2017) in če je katera izmed držav doživela velik skok ali padec v stopnji sreče v tem obdobju. Podatke bom primerjal tudi po celinah. Kot dodatni spremenljivki sem si izbral število in prirast prebivalcev določene države, zanimalo pa me bo ali obstaja kakšna korelacija med stopnjo sreče ljudi in številom ljudi, ki živi v določeni državi oziroma njegovim prirastom.
+V projektu bom analiziral stopnjo sreče ljudi po posameznih državah v svetu med letoma 2015 in 2017.Za vsako izmed 148 držav je podano število na lestvici od 1 do 10, ki predstavlja mero sreče ljudi v državi, ta pa je seštevek sedmih komponent – šestih glavnih (BDP države, pričakovana življenjska doba, svoboda, radodarnost, korupcija (oziroma njena odsotnost), pomen družine) in dodatne komponente, ki je seštevek rezultata izmišljene države z najmanj srečnimi državljani (*»Dystopia«*) in ocene napake pri končnem rezultatu vsake države, ki jo da prvih 6 spremenljivk. Pri tem bom skušal ugotoviti, kateri izmed faktorjev so najpomembnejši za srečnejše življenje, koliko se stopnja sreče ljudi po državah spreminja tekom treh let (2015 – 2017) in če je katera izmed držav doživela velik skok ali padec v stopnji sreče v tem obdobju. Podatke bom primerjal tudi po celinah. Kot dodatni spremenljivki sem si izbral število in prirast prebivalcev določene države, zanimalo pa me bo ali obstaja kakšna korelacija med stopnjo sreče ljudi in številom ljudi, ki živi v določeni državi oziroma njegovim prirastom.
 
 
 # Obdelava, uvoz in čiščenje podatkov
@@ -34,7 +34,7 @@ V projektu bom analiziral stopnjo sreče ljudi po posameznih državah v svetu me
 source("uvoz/uvoz.r", encoding="UTF-8")
 ```
 
-Podatke o stopnji sreče ljudi sem uvozil v obliki CSV s spletne strani Kaggle, podatke o številu prebivalcev in prirastu držav pa v obliki HTML z Wikipedije. Podatke imam v dveh razpredelnicah v obliki *tidy data*.
+Podatke o stopnji sreče ljudi sem uvozil v obliki CSV s spletne strani Kaggle, podatke o številu prebivalcev in prirastu držav pa v obliki HTML z Wikipedije. Podatke imam v devetih razpredelnicah v obliki *tidy data*.
 
 1. **BDP** - Podatki o pomenu BDP-ja države pri stopnji sreče ljudi
   - `Država` - spremenljivka: ime države (besedilo)
@@ -94,7 +94,7 @@ kable(head(tidy_residual), align="lcr", col.names = c("Država", "Leto", "Dystop
 
 8. **Prebivalstvo** - Podatki o številu prebivalcev po državah (2016)
   - `Država` - spremenljivka: ime države (besedilo)
-  - `Prebivalstvo` - spremenljivka: Število ljudi v določeni državi (izmerjeno leta 2016) (celo število)
+  - `Prebivalstvo` - meritev: število ljudi v določeni državi (izmerjeno leta 2016) (celo število)
 
 ```{r tidy_prebivalstvo, echo=FALSE, message=FALSE}
 kable(head(tidy_prebivalstvo[1:6,]), align="lr", col.names = c("Država", "Prebivalstvo (2016)"))
@@ -102,7 +102,7 @@ kable(head(tidy_prebivalstvo[1:6,]), align="lr", col.names = c("Država", "Prebi
 
 9. **Prirast prebivalstva** - Podatki o prirastu prebivalcev po državah (2016/2017)
   - `Država` - spremenljivka: ime države (besedilo)
-  - `Prirast` - spremenljivka: prirast prebivalstva v državi med letoma 2016 in 2017 (izraženo v procentih) (število)
+  - `Prirast` - meritev: prirast prebivalstva v državi med letoma 2016 in 2017 (izraženo v procentih) (število)
 
 ```{r tidy_prirast, echo=FALSE, message=FALSE}
 kable(head(tidy_prirast[1:6,]), align="lr", col.names = c("Država", "Prirast (2016/2017)"))
@@ -116,23 +116,23 @@ kable(head(tidy_prirast[1:6,]), align="lr", col.names = c("Država", "Prirast (2
 source("vizualizacija/vizualizacija.r", encoding="UTF-8")
 ```
 
-Prvi graf predstavlja stopnjo sreče po državah, ki so razdeljene po celinah. Vidimo, da so ljudje v Afriki večinoma manj srečni od ostalih. Prebivalci nekaterih evropskih držav so najsrečnejši ljudje na svetu, ne velja pa to za celotno celino, saj je veliko evropskih držav postavljenih precej nižje. Najmanjše nihanje v rezultati med državami posameznega kontinenta je v Južni Ameriki, pri ostalih pa so dosežki precej razpršeni.
+Prvi graf predstavlja stopnjo sreče po državah, ki so razdeljene po celinah. Vidimo, da so ljudje v Afriki večinoma manj srečni od ostalih. Prebivalci nekaterih evropskih držav so najsrečnejši ljudje na svetu, ne velja pa to za celotno celino, saj je veliko evropskih držav postavljenih precej nižje. Najmanjše nihanje v rezultati med državami posameznega kontinenta je v Južni Ameriki, pri ostalih pa so dosežki precej razpršeni. Podatkov za Avstralijo s tem grafom nisem predstavil, ker je bilo premalo držav te celine vključenih v raziskavo.
 
 ```{r graf2, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 print(graf2)
 ```
 
-Pri drugem grafu sem iskal kolikšna je korelacija med stopnjo sreče v državi in posameznimi dejavniki. Iz grafa vidimo, da je stopnja sreče najbolj povezana z gospodarstvom, pričakovano življenjsko dobo in družino, najmanj pa z radodarnostjo. Višji pomen prvih treh dejavnikov praviloma pomeni višjo stopnjo, višji pomen radodarnosti pa v splošnem nima takega vpliva.
+Pri drugem grafu sem iskal kolikšna je korelacija med stopnjo sreče v državi in posameznimi dejavniki. Iz grafa vidimo, da je stopnja sreče najbolj povezana z gospodarstvom, pričakovano življenjsko dobo in družino, najmanj pa z radodarnostjo. Višji pomen prvih treh dejavnikov praviloma pomeni višjo stopnjo, višji pomen radodarnosti pa v splošnem nima takega vpliva. Nobena komponenta ni obratno korelirana s stopnjo sreče, kar je pričakovano.
 
 
 ```{r data3, echo=FALSE, message=FALSE, warning=FALSE}
-corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki", mar = c(0,0,1,0))
+corrplot(data3, method = "number", title = "Korelacija med stopnjo srečo in dejavniki", mar = c(0,0,2,0))
 ```
 
-Z naslednjim grafom sem hotel ugotoviti ali obstaja kakšna povezava med stopnjo sreče in številom prebivalcev države. Iz grafa vidimo, da obstaja šibko (zanemarljivo) obratno soodvisje teh dveh vrednosti. Prebivalci države so srečnejši, če v njej živi manj ljudi. Podobno sm naredil tudi s podatkom za prirast prebivalstva. Tu je obratna soodvisnost izrazitejša kot prej, torej obstaja povezava med nižjim prirastom prebivalstva in višjo stopnjo sreče ljudi.
+Z naslednjim grafom sem hotel ugotoviti ali obstaja kakšna povezava med stopnjo sreče in številom prebivalcev države. Iz grafa vidimo, da obstaja šibko (zanemarljivo) obratno soodvisje teh dveh vrednosti. Prebivalci države so srečnejši, če v njej živi manj ljudi. Podobno sm naredil tudi s podatkom za prirast prebivalstva. Tu je obratna soodvisnost izrazitejša kot prej, torej obstaja povezava med nižjim prirastom prebivalstva in višjo stopnjo sreče ljudi. To ni pretirano presenetljiv podatek, saj je višji prirast prebivalstva pogosto v manj razvitih državah (predvsem v Afriki), kjer je stopnja sreče nižja.
 
 ```{r data4, echo=FALSE, message=FALSE, warning=FALSE}
-corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva", mar = c(0,0,1,0))
+corrplot(data4, method = "number", title = "Korelacija med stopnjo sreče in številom prebivalstva", mar = c(0,0,2,0))
 ```
 
 V spodnjem grafu so prikazane tri države, v katerih se je med leti 2015 - 2017 stopnja sreče najbolj spreminjala in tri, kjer se je najmanj. Največje spremembe so bile pri Venezueli, Alžiriji in Liberiji, najmanjše pa na Danskem, v Trinidadu in Tobagu ter Burundiju.
@@ -148,6 +148,9 @@ Dodane so tudi oznake za stopnjo sreče v državi z najmanj srečnimi prebivalci
 ```{r zem, fig.align='center', echo=FALSE, message=FALSE, warning=FALSE}
 print(zem1)
 ```
+
+Spodaj je prikazano gibanje stopnje sreče ljudi 148 držav med leti 2015 in 2017. Pri vsaki državi je izpisano tudi mesto na lestvici, kjer so države razvrščene glede na stopnjo sreče v posameznem letu.  
+Na zemljevidu je za evropske države prikazano, kolikšen delež stopnje sreče predstavlja posamezna komponenta. Pri večini je opaziti podobnosti med državami, ki ležijo blizu skupaj.
 
 ```{r shiny, echo = FALSE, message=FALSE, warning=FALSE}
 shinyAppDir("shiny2", options=list(width="100%", height=900))
