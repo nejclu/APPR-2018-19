@@ -97,7 +97,7 @@ tabela_skupna$`Happiness Score` <- NULL
 
 #v tabelo s podatki za leto 2017 bomo dodali stolpec "Continent"
 tabela_2017$Continent <- NA
-tabela_2017$Continent[which(tabela_2017$Country %in% c("Israel", "United Arab Emirates", "Singapore", "Thailand", "Taiwan", "Qatar", 
+tabela_2017$Continent[(tabela_2017$Country %in% c("Israel", "United Arab Emirates", "Singapore", "Thailand", "Taiwan", "Qatar", 
                                                        "Saudi Arabia", "Kuwait", "Bahrain", "Malaysia", "Uzbekistan", "Japan", "South Korea", "Turkmenistan", 
                                                        "Kazakhstan", "Turkey", "Hong Kong", "Philippines",
                                                        "Jordan", "China", "Pakistan", "Indonesia", "Azerbaijan", "Lebanon", "Vietnam",
@@ -105,7 +105,7 @@ tabela_2017$Continent[which(tabela_2017$Country %in% c("Israel", "United Arab Em
                                                        "Iran", "Bangladesh", "Myanmar", "Iraq", "Sri Lanka", "Armenia", "India", "Georgia",
                                                        "Cambodia", "Afghanistan", "Yemen", "Syria"))] <- "Asia"
 
-tabela_2017$Continent[which(tabela_2017$Country %in% c("Norway", "Denmark", "Iceland", "Switzerland", "Finland",
+tabela_2017$Continent[(tabela_2017$Country %in% c("Norway", "Denmark", "Iceland", "Switzerland", "Finland",
                                                          "Netherlands", "Sweden", "Austria", "Ireland", "Germany",
                                                          "Belgium", "Luxembourg", "United Kingdom", "Czech Republic",
                                                          "Malta", "France", "Spain", "Slovakia", "Poland", "Italy",
@@ -115,18 +115,18 @@ tabela_2017$Continent[which(tabela_2017$Country %in% c("Norway", "Denmark", "Ice
                                                          "Greece", "Portugal", "Bosnia and Herzegovina", "Macedonia",
                                                          "Bulgaria", "Albania", "Ukraine"))] <- "Europe"
 
-tabela_2017$Continent[which(tabela_2017$Country %in% c("Canada", "Costa Rica", "United States", "Mexico",  
+tabela_2017$Continent[(tabela_2017$Country %in% c("Canada", "Costa Rica", "United States", "Mexico",  
                                                        "Panama","Trinidad and Tobago", "El Salvador", "Belize", "Guatemala",
                                                        "Jamaica", "Nicaragua", "Dominican Republic", "Honduras",
                                                        "Haiti"))] <- "North America"
 
-tabela_2017$Continent[which(tabela_2017$Country %in% c("Chile", "Brazil", "Argentina", "Uruguay",
+tabela_2017$Continent[(tabela_2017$Country %in% c("Chile", "Brazil", "Argentina", "Uruguay",
                                                        "Colombia", "Ecuador", "Bolivia", "Peru",
                                                        "Paraguay", "Venezuela"))] <- "South America"
 
-tabela_2017$Continent[which(tabela_2017$Country %in% c("Australia", "New Zealand"))] <- "Australia"
+tabela_2017$Continent[(tabela_2017$Country %in% c("Australia", "New Zealand"))] <- "Australia"
 
-tabela_2017$Continent[which(is.na(tabela_2017$Continent))] <- "Africa"
+tabela_2017$Continent[(is.na(tabela_2017$Continent))] <- "Africa"
 
 #Premik stolpca "Continent" na drugo mesto v tabeli
 tabela_2017 <- tabela_2017[,c(1,12,2,3,4,5,6,7,8,9,10,11)]
